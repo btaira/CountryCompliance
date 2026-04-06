@@ -131,7 +131,7 @@ function renderCards(countries) {
       field.textContent = emptyDisplay(country.nemko[field.dataset.field]);
     }
 
-    link.href = `./country.html?country=${encodeURIComponent(country.slug)}`;
+    link.href = `./country.html?v=20260406c&country=${encodeURIComponent(country.slug)}`;
     fragment.append(node);
   }
 
