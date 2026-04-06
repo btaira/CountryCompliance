@@ -538,12 +538,11 @@ function openDetails(country) {
   elements.detailsContent.append(hero, grid, assets);
 
   elements.detailsDialog.hidden = false;
-  document.body.style.overflow = "hidden";
+  elements.detailsDialog.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 function closeDetails() {
   elements.detailsDialog.hidden = true;
-  document.body.style.overflow = "";
 }
 
 function attachEvents() {
@@ -563,17 +562,6 @@ function attachEvents() {
   });
 
   elements.closeDialog.addEventListener("click", closeDetails);
-  elements.detailsDialog.addEventListener("click", (event) => {
-    const box = elements.detailsShell.getBoundingClientRect();
-    const inside =
-      event.clientX >= box.left &&
-      event.clientX <= box.right &&
-      event.clientY >= box.top &&
-      event.clientY <= box.bottom;
-    if (!inside) {
-      closeDetails();
-    }
-  });
 }
 
 async function init() {

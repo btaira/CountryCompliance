@@ -418,26 +418,17 @@ select:focus,
   text-align: center;
 }
 
-.details-dialog {
-  position: fixed;
-  inset: 0;
-  z-index: 50;
-  display: grid;
-  place-items: center;
-  padding: 1rem;
-  background: rgba(18, 24, 20, 0.42);
-  backdrop-filter: blur(6px);
+.inline-details {
+  margin-top: 1rem;
 }
 
-.details-dialog[hidden] {
+.inline-details[hidden] {
   display: none;
 }
 
 .details-shell {
-  width: min(980px, calc(100% - 1.5rem));
-  max-height: calc(100vh - 2rem);
+  width: 100%;
   padding: 1.2rem;
-  overflow: auto;
 }
 
 .close-button {

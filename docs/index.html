@@ -129,17 +129,16 @@
           </div>
 
           <div class="card-grid" id="card-grid"></div>
+          <section id="details-dialog" class="inline-details" hidden>
+            <article class="details-shell" role="region" aria-label="Country details">
+              <button class="close-button" id="close-dialog" type="button" aria-label="Close details">
+                Close
+              </button>
+              <div id="details-content"></div>
+            </article>
+          </section>
         </section>
       </main>
-    </div>
-
-    <div id="details-dialog" class="details-dialog" hidden>
-      <article class="details-shell" role="dialog" aria-modal="true" aria-label="Country details">
-        <button class="close-button" id="close-dialog" type="button" aria-label="Close details">
-          Close
-        </button>
-        <div id="details-content"></div>
-      </article>
     </div>
 
     <template id="country-card-template">
