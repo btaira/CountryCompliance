@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Country Compliance Detail</title>
+    <meta name="description" content="Country compliance detail page.">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Country Compliance Detail</p>
+          <h1 id="country-title">Loading country...</h1>
+          <p class="lede" id="country-subtitle">Pulling merged compliance detail.</p>
+          <p><a class="asset-link" href="./index.html">Back to directory</a></p>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-card">
+            <span class="stat-label">Workbook Entries</span>
+            <strong class="stat-value" id="stat-entries">0</strong>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Handbook Units</span>
+            <strong class="stat-value" id="stat-units">0</strong>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Country JSON</span>
+            <strong class="stat-value stat-value-small"><a id="country-json-link" href="#">Open</a></strong>
+          </div>
+        </div>
+      </header>
+
+      <main class="content-panel">
+        <div id="country-content"></div>
+      </main>
+    </div>
+
+    <script src="./country.js" defer></script>
+  </body>
+</html>
