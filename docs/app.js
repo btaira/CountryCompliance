@@ -18,6 +18,7 @@ const elements = {
   statAuthorities: document.getElementById("stat-authorities"),
   statRefresh: document.getElementById("stat-refresh"),
   detailsDialog: document.getElementById("details-dialog"),
+  detailsShell: document.querySelector(".details-shell"),
   detailsContent: document.getElementById("details-content"),
   closeDialog: document.getElementById("close-dialog"),
   cardTemplate: document.getElementById("country-card-template"),
@@ -535,7 +536,24 @@ function openDetails(country) {
   }
 
   elements.detailsContent.append(hero, grid, assets);
-  elements.detailsDialog.showModal();
+
+  if (elements.detailsDialog.hasAttribute("open") && typeof elements.detailsDialog.close === "function") {
+    elements.detailsDialog.close();
+  }
+
+  if (typeof elements.detailsDialog.showModal === "function") {
+    elements.detailsDialog.showModal();
+  } else {
+    elements.detailsDialog.setAttribute("open", "open");
+  }
+}
+
+function closeDetails() {
+  if (typeof elements.detailsDialog.close === "function" && elements.detailsDialog.hasAttribute("open")) {
+    elements.detailsDialog.close();
+    return;
+  }
+  elements.detailsDialog.removeAttribute("open");
 }
 
 function attachEvents() {
@@ -554,16 +572,16 @@ function attachEvents() {
     applyFilters();
   });
 
-  elements.closeDialog.addEventListener("click", () => elements.detailsDialog.close());
+  elements.closeDialog.addEventListener("click", closeDetails);
   elements.detailsDialog.addEventListener("click", (event) => {
-    const box = elements.detailsContent.getBoundingClientRect();
+    const box = elements.detailsShell.getBoundingClientRect();
     const inside =
       event.clientX >= box.left &&
       event.clientX <= box.right &&
       event.clientY >= box.top &&
       event.clientY <= box.bottom;
     if (!inside) {
-      elements.detailsDialog.close();
+      closeDetails();
     }
   });
 }
