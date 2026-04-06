@@ -19,7 +19,8 @@ const elements = {
 };
 
 function normalizeText(value) {
-  return (value || "").trim();
+  if (value === null || value === undefined) return "";
+  return String(value).trim();
 }
 
 function emptyDisplay(value) {

@@ -50,8 +50,13 @@ const ASSET_FIELDS = [
   ["Energy Efficiency Mark", "energy_efficiency_mark_artwork_url"],
 ];
 
+function normalizeText(value) {
+  if (value === null || value === undefined) return "";
+  return String(value).trim();
+}
+
 function emptyDisplay(value) {
-  return (value || "").trim() || "Not listed";
+  return normalizeText(value) || "Not listed";
 }
 
 function createDetailItem(label, value) {
@@ -188,7 +193,7 @@ async function init() {
     const assetLinks = document.createElement("div");
     assetLinks.className = "asset-links";
     for (const [label, key] of ASSET_FIELDS) {
-      const url = (nemko[key] || "").trim();
+      const url = normalizeText(nemko[key]);
       if (!url) continue;
       const link = document.createElement("a");
       link.className = "asset-link";
