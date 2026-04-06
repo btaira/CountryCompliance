@@ -419,19 +419,23 @@ select:focus,
 }
 
 .details-dialog {
-  border: 0;
-  padding: 0;
-  width: min(980px, calc(100% - 1.5rem));
-  max-height: calc(100vh - 2rem);
-  background: transparent;
-}
-
-.details-dialog::backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
   background: rgba(18, 24, 20, 0.42);
   backdrop-filter: blur(6px);
 }
 
+.details-dialog[hidden] {
+  display: none;
+}
+
 .details-shell {
+  width: min(980px, calc(100% - 1.5rem));
+  max-height: calc(100vh - 2rem);
   padding: 1.2rem;
   overflow: auto;
 }

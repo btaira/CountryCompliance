@@ -133,14 +133,14 @@
       </main>
     </div>
 
-    <dialog id="details-dialog" class="details-dialog">
-      <article class="details-shell">
+    <div id="details-dialog" class="details-dialog" hidden>
+      <article class="details-shell" role="dialog" aria-modal="true" aria-label="Country details">
         <button class="close-button" id="close-dialog" type="button" aria-label="Close details">
           Close
         </button>
         <div id="details-content"></div>
       </article>
-    </dialog>
+    </div>
 
     <template id="country-card-template">
       <article class="country-card">

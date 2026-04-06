@@ -537,23 +537,13 @@ function openDetails(country) {
 
   elements.detailsContent.append(hero, grid, assets);
 
-  if (elements.detailsDialog.hasAttribute("open") && typeof elements.detailsDialog.close === "function") {
-    elements.detailsDialog.close();
-  }
-
-  if (typeof elements.detailsDialog.showModal === "function") {
-    elements.detailsDialog.showModal();
-  } else {
-    elements.detailsDialog.setAttribute("open", "open");
-  }
+  elements.detailsDialog.hidden = false;
+  document.body.style.overflow = "hidden";
 }
 
 function closeDetails() {
-  if (typeof elements.detailsDialog.close === "function" && elements.detailsDialog.hasAttribute("open")) {
-    elements.detailsDialog.close();
-    return;
-  }
-  elements.detailsDialog.removeAttribute("open");
+  elements.detailsDialog.hidden = true;
+  document.body.style.overflow = "";
 }
 
 function attachEvents() {
