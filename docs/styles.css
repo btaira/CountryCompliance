@@ -218,6 +218,62 @@ select:focus,
   padding: 1.3rem;
 }
 
+.downloads-panel {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background:
+    linear-gradient(135deg, rgba(215, 111, 48, 0.1), rgba(255, 255, 255, 0.72)),
+    linear-gradient(180deg, rgba(255, 251, 245, 0.92), rgba(247, 242, 233, 0.82));
+}
+
+.downloads-panel h2 {
+  margin: 0;
+  font-size: 1.35rem;
+}
+
+.downloads-panel p:last-child {
+  margin-bottom: 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.download-actions {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.download-card {
+  display: grid;
+  gap: 0.2rem;
+  padding: 1rem;
+  border: 1px solid rgba(215, 111, 48, 0.22);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.82);
+  color: var(--ink);
+  text-decoration: none;
+  transition: transform 140ms ease, border-color 140ms ease, box-shadow 140ms ease;
+}
+
+.download-card strong {
+  font-size: 1rem;
+}
+
+.download-card span {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.download-card:hover {
+  transform: translateY(-1px);
+  border-color: rgba(215, 111, 48, 0.5);
+  box-shadow: 0 10px 24px rgba(34, 33, 27, 0.08);
+}
+
 .toolbar {
   display: flex;
   justify-content: space-between;
@@ -448,7 +504,8 @@ select:focus,
 @media (max-width: 980px) {
   .hero,
   .layout,
-  .detail-grid {
+  .detail-grid,
+  .downloads-panel {
     grid-template-columns: 1fr;
   }
 

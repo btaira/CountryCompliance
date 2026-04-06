@@ -1,6 +1,10 @@
 # Country Compliance Atlas
 
-Static GitHub Pages site for browsing country-by-country market access requirements exported from Nemko's Global Market Compliance guide.
+Static GitHub Pages site for browsing a single merged country database built from:
+
+- Nemko's Global Market Compliance guide
+- `Country Compliance Requirements.xlsx`
+- `Compliance Requirements for Hardware.docx`
 
 ## Publish on GitHub Pages
 
@@ -24,7 +28,13 @@ That updates:
 
 - `exports/nemko_country_regulations.csv`
 - `exports/nemko_country_regulations.json`
-- `docs/data/nemko_country_regulations.json`
+- `exports/country_compliance_database.json`
+- `docs/data/country_compliance_database.json`
+
+If you want those compiled deliverables available on GitHub Pages too, keep these copies current:
+
+- `docs/downloads/Country Compliance Requirements.xlsx`
+- `docs/downloads/Compliance Requirements for Hardware.docx`
 
 ## Local preview
 

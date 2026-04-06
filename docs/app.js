@@ -295,7 +295,7 @@ function applyFilters() {
 function renderStats(dataset) {
   const authorities = new Set(
     dataset.countries
-      .map((country) => normalizeText(country.regulatory_authority))
+      .map((country) => normalizeText(country.nemko?.regulatory_authority))
       .filter(Boolean)
   );
 
@@ -309,6 +309,7 @@ function renderStats(dataset) {
 }
 
 function openDetails(country) {
+  const unified = country.unified;
   elements.detailsContent.innerHTML = "";
 
   const hero = document.createElement("section");
@@ -381,6 +382,61 @@ function openDetails(country) {
     assets.append(assetLinks);
   }
 
+  const workbookSection = document.createElement("article");
+  workbookSection.className = "detail-section";
+  workbookSection.innerHTML = "<h4>Workbook Entries</h4>";
+
+  const workbookList = document.createElement("dl");
+  workbookList.className = "detail-list";
+  workbookList.innerHTML = `
+    <div class="detail-item"><dt>Entry Count</dt><dd>${unified.workbook.summary.entry_count}</dd></div>
+    <div class="detail-item"><dt>Product Types</dt><dd>${emptyDisplay(unified.workbook.summary.product_types.join(", "))}</dd></div>
+    <div class="detail-item"><dt>Agencies</dt><dd>${emptyDisplay(unified.workbook.summary.agencies.join(", "))}</dd></div>
+    <div class="detail-item"><dt>Support Contacts</dt><dd>${emptyDisplay(unified.workbook.summary.support_contacts.join(", "))}</dd></div>
+  `;
+  workbookSection.append(workbookList);
+
+  for (const entry of unified.workbook.entries.slice(0, 8)) {
+    const item = document.createElement("div");
+    item.className = "detail-item";
+    item.innerHTML = `<dt>${emptyDisplay(entry.product_type)}</dt><dd>${emptyDisplay(entry.comment || entry.sample_needed_for_certification || entry.agency)}</dd>`;
+    workbookList.append(item);
+  }
+
+  grid.append(workbookSection);
+
+  if (unified.workbook.comments.length) {
+    const commentSection = document.createElement("article");
+    commentSection.className = "detail-section";
+    commentSection.innerHTML = "<h4>Workbook Comments</h4>";
+    const commentList = document.createElement("dl");
+    commentList.className = "detail-list";
+    for (const comment of unified.workbook.comments.slice(0, 6)) {
+      const item = document.createElement("div");
+      item.className = "detail-item";
+      item.innerHTML = `<dt>${emptyDisplay(comment.row_reference)} · ${emptyDisplay(comment.author)}</dt><dd>${emptyDisplay(comment.comment)}</dd>`;
+      commentList.append(item);
+    }
+    commentSection.append(commentList);
+    grid.append(commentSection);
+  }
+
+  if (unified.hardware_handbook.approvals.length) {
+    const handbookSection = document.createElement("article");
+    handbookSection.className = "detail-section";
+    handbookSection.innerHTML = "<h4>Hardware Handbook</h4>";
+    const handbookList = document.createElement("dl");
+    handbookList.className = "detail-list";
+    for (const approval of unified.hardware_handbook.approvals) {
+      const item = document.createElement("div");
+      item.className = "detail-item";
+      item.innerHTML = `<dt>${emptyDisplay(approval.business_unit)} · ${emptyDisplay(approval.timeline || "No timeline listed")}</dt><dd>${emptyDisplay(approval.comments || approval.country_group)}</dd>`;
+      handbookList.append(item);
+    }
+    handbookSection.append(handbookList);
+    grid.append(handbookSection);
+  }
+
   elements.detailsContent.append(hero, grid, assets);
   elements.detailsDialog.showModal();
 }
@@ -419,14 +475,16 @@ async function init() {
   attachEvents();
 
   try {
-    const response = await fetch("./data/nemko_country_regulations.json");
+    const response = await fetch("./data/country_compliance_database.json");
     if (!response.ok) {
       throw new Error(`Failed to load data: ${response.status}`);
     }
 
     const dataset = await response.json();
     state.dataset = dataset;
-    state.countries = dataset.countries.map(enrichCountry);
+    state.countries = dataset.countries
+      .filter((country) => country.nemko)
+      .map((country) => enrichCountry({ ...country.nemko, unified: country }));
     renderStats(dataset);
     applyFilters();
   } catch (error) {
