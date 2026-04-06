@@ -1,0 +1,60 @@
+{
+  "country": "India /comsec",
+  "slug": "india-comsec",
+  "country_file": "countries/india-comsec.json",
+  "nemko": null,
+  "workbook": {
+    "summary": {
+      "entry_count": 0,
+      "product_types": [],
+      "agencies": [],
+      "support_contacts": []
+    },
+    "entries": [],
+    "comments": []
+  },
+  "hardware_handbook": {
+    "approvals": [
+      {
+        "business_unit": "SP Core (Routing)",
+        "timeline": "FCS + 9 months",
+        "comments": "For system level 2 Samples required",
+        "country_group": "India (TEC) /ComSec",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS (Per request)",
+            "standard_specification": "GR-63-CORE GR-1089-CORE"
+          }
+        ]
+      },
+      {
+        "business_unit": "SP Access",
+        "timeline": "FCS + 9 months",
+        "comments": "2 Samples required.",
+        "country_group": "India (TEC) /ComSec",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS",
+            "standard_specification": "GR-63-CORE, GR-1089-CORE GR-3108 Class-X (per request)"
+          },
+          {
+            "category": "Smart Grid (per request)",
+            "standard_specification": "IEEE 1613 EN/IEC 61850-3"
+          },
+          {
+            "category": "Railway",
+            "standard_specification": "EN50121-4"
+          }
+        ]
+      }
+    ]
+  }
+}

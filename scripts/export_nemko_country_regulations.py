@@ -16,6 +16,8 @@ SOURCE_URL = "https://www.nemko.com/services/global-market-access/select-by-coun
 ROOT_DIR = Path(__file__).resolve().parents[1]
 OUTPUT_DIR = ROOT_DIR / "exports"
 DOCS_DATA_DIR = ROOT_DIR / "docs" / "data"
+OUTPUT_COUNTRIES_DIR = OUTPUT_DIR / "countries"
+DOCS_COUNTRIES_DIR = DOCS_DATA_DIR / "countries"
 RAW_HTML_PATH = ROOT_DIR / "nemko_select_by_country.html"
 WORKBOOK_PATH = ROOT_DIR / "Country Compliance Requirements.xlsx"
 HANDBOOK_PATH = ROOT_DIR / "Compliance Requirements for Hardware.docx"
@@ -423,6 +425,9 @@ def build_unified_database(
         workbook_by_country[row["country"]].append(row)
 
     handbook_by_country = handbook["country_index"]
+    handbook_units = {
+        item["business_unit"]: item["standards"] for item in handbook["business_units"]
+    }
     all_countries = sorted(
         {
             *nemko_by_country.keys(),
@@ -455,10 +460,17 @@ def build_unified_database(
             ),
         }
 
+        handbook_approvals = []
+        for approval in handbook_by_country.get(country, []):
+            enriched = dict(approval)
+            enriched["standards"] = handbook_units.get(approval["business_unit"], [])
+            handbook_approvals.append(enriched)
+
         unified_countries.append(
             {
                 "country": country,
                 "slug": slugify(country),
+                "country_file": f"countries/{slugify(country)}.json",
                 "nemko": nemko_by_country.get(country),
                 "workbook": {
                     "summary": workbook_summary,
@@ -466,7 +478,7 @@ def build_unified_database(
                     "comments": country_comments,
                 },
                 "hardware_handbook": {
-                    "approvals": handbook_by_country.get(country, []),
+                    "approvals": handbook_approvals,
                 },
             }
         )
@@ -502,9 +514,17 @@ def write_json(path: Path, payload: dict[str, object] | list[dict[str, str]]) ->
     path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
+def write_country_files(path: Path, countries: list[dict[str, object]]) -> None:
+    path.mkdir(parents=True, exist_ok=True)
+    for country in countries:
+        write_json(path / f"{country['slug']}.json", country)
+
+
 def main() -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     DOCS_DATA_DIR.mkdir(parents=True, exist_ok=True)
+    OUTPUT_COUNTRIES_DIR.mkdir(parents=True, exist_ok=True)
+    DOCS_COUNTRIES_DIR.mkdir(parents=True, exist_ok=True)
 
     html = fetch_html(SOURCE_URL)
     RAW_HTML_PATH.write_text(html, encoding="utf-8")
@@ -534,6 +554,8 @@ def main() -> None:
     )
     write_json(OUTPUT_DIR / "country_compliance_database.json", unified_database)
     write_json(DOCS_DATA_DIR / "country_compliance_database.json", unified_database)
+    write_country_files(OUTPUT_COUNTRIES_DIR, unified_database["countries"])
+    write_country_files(DOCS_COUNTRIES_DIR, unified_database["countries"])
 
     print(f"Parsed {len(nemko_rows)} Nemko countries.")
     print(f"Unified countries: {unified_database['country_count']}")

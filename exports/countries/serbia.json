@@ -1,0 +1,53 @@
+{
+  "country": "Serbia",
+  "slug": "serbia",
+  "country_file": "countries/serbia.json",
+  "nemko": {
+    "country": "SERBIA",
+    "national_language": "Serbian",
+    "population": "6.9 million",
+    "flag_image_url": "https://www.nemko.com/hs-fs/hubfs/rs.jpg?width=98&quality=high",
+    "compliance_requirement_for_telecom_radio": "Yes",
+    "regulatory_authority": "Republic Telecom Agency RATEL",
+    "mandatory_requirements_telecom_radio_safety_emc": "TelecomRadioSafetyEMC",
+    "in_country_test": "No",
+    "language_requirements_application_manual_report": "Manual, declarations, and warnings in Serbian",
+    "local_representation_required_for_approval": "No",
+    "country_specific_labelling": "Yes",
+    "approval_validity": "5 Years",
+    "factory_inspection": "No",
+    "other_requirements": "Other requirements for EMC, safety and ROHS might apply. Please check the Nemko Direct key info for more information.",
+    "radio_telecom_certificate_example_url": "",
+    "radio_telecom_mark_artwork_url": "",
+    "emc_certification_and_test_report_required_for_it_products": "Until 31 Dec. 2021: For all products that fall under EU EMC directive",
+    "emission_and_immunity": "E and I",
+    "safety_certification_required_for_it_products": "Until 31 Dec. 2021: for all products that fall under the EU Low Voltage Directive",
+    "safety_test_report_requirement": "IEC 62368-1",
+    "rohs_certification_required_for_it_products": "No",
+    "rohs_requirements": "Yes (6 substances)",
+    "sample_required_in_country": "No",
+    "language_requirements_user_manual_product_safety_markings": "Yes, in Serbian",
+    "local_representative_applicant_required": "Yes, for telecom/RF No, for safety/EMC",
+    "mandatory_factory_inspection_requirement": "None",
+    "remarks": "Other requirements for radio might apply.",
+    "safety_emc_certificate_example_url": "",
+    "safety_emc_mark_artwork_url": "",
+    "energy_efficiency_requirements": "Unknown",
+    "energy_efficiency_certificate_example_url": "",
+    "energy_efficiency_mark_artwork_url": "",
+    "country_css_class": "serbia"
+  },
+  "workbook": {
+    "summary": {
+      "entry_count": 0,
+      "product_types": [],
+      "agencies": [],
+      "support_contacts": []
+    },
+    "entries": [],
+    "comments": []
+  },
+  "hardware_handbook": {
+    "approvals": []
+  }
+}

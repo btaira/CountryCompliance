@@ -1,0 +1,491 @@
+{
+  "country": "USA/Canada",
+  "slug": "usa-canada",
+  "country_file": "countries/usa-canada.json",
+  "nemko": null,
+  "workbook": {
+    "summary": {
+      "entry_count": 11,
+      "product_types": [
+        "Collab Technology",
+        "Optical",
+        "Radio - LTE",
+        "Radio - WiFi",
+        "Router - Ethernet",
+        "Security - Firepower",
+        "Server - Ethernet",
+        "Switch - Ethernet",
+        "TBD",
+        "Telecom"
+      ],
+      "agencies": [
+        "CSA NRTL",
+        "Canada: ISED",
+        "USA: TIA",
+        "n/a"
+      ],
+      "support_contacts": [
+        "Brent Taira",
+        "Leonid Rabinovich",
+        "Samuel Kim"
+      ]
+    },
+    "entries": [
+      {
+        "comment": "Large systems - add $3K for BSMI CTF Stage 2 testing and $2K for UL60950-1 NRTL for Mexico.",
+        "region": "Americas",
+        "country": "USA/Canada",
+        "blank": "",
+        "support_contact": "Brent Taira",
+        "agency": "CSA NRTL",
+        "product_type": "Router - Ethernet",
+        "cost_per_certificate": "7500",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "No",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "2",
+        "certificate_validity_years": "Permanent",
+        "recertification_cost": "N/A",
+        "lead_time_for_recertification_months": "N/A",
+        "budget_lt_needed_months": "NA",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "N/A",
+        "row_number": "301",
+        "comments": []
+      },
+      {
+        "comment": "",
+        "region": "Americas",
+        "country": "USA/Canada",
+        "blank": "",
+        "support_contact": "Brent Taira",
+        "agency": "CSA NRTL",
+        "product_type": "Switch - Ethernet",
+        "cost_per_certificate": "7500",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "No",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "2",
+        "certificate_validity_years": "Permanent",
+        "recertification_cost": "N/A",
+        "lead_time_for_recertification_months": "N/A",
+        "budget_lt_needed_months": "NA",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "N/A",
+        "row_number": "302",
+        "comments": []
+      },
+      {
+        "comment": "",
+        "region": "Americas",
+        "country": "USA/Canada",
+        "blank": "",
+        "support_contact": "Brent Taira",
+        "agency": "CSA NRTL",
+        "product_type": "Server - Ethernet",
+        "cost_per_certificate": "7500",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "No",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "2",
+        "certificate_validity_years": "Permanent",
+        "recertification_cost": "N/A",
+        "lead_time_for_recertification_months": "N/A",
+        "budget_lt_needed_months": "NA",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "N/A",
+        "row_number": "303",
+        "comments": []
+      },
+      {
+        "comment": "",
+        "region": "Americas",
+        "country": "USA/Canada",
+        "blank": "",
+        "support_contact": "Brent Taira",
+        "agency": "CSA NRTL",
+        "product_type": "TBD",
+        "cost_per_certificate": "TBD",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "TBD",
+        "family_approval_accepted_incremental_cost": "TBD",
+        "lead_time_for_certification_months": "TBD",
+        "certificate_validity_years": "TBD",
+        "recertification_cost": "TBD",
+        "lead_time_for_recertification_months": "TBD",
+        "budget_lt_needed_months": "TBD",
+        "sample_needed_for_recertification": "TBD",
+        "lead_time_for_sample_months": "TBD",
+        "row_number": "304",
+        "comments": []
+      },
+      {
+        "comment": "",
+        "region": "Americas",
+        "country": "USA/Canada",
+        "blank": "",
+        "support_contact": "Leonid Rabinovich",
+        "agency": "USA: TIA",
+        "product_type": "Telecom",
+        "cost_per_certificate": "650",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "1",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "1",
+        "certificate_validity_years": "Permanent",
+        "recertification_cost": "N/A",
+        "lead_time_for_recertification_months": "N/A",
+        "budget_lt_needed_months": "NA",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "N/A",
+        "row_number": "305",
+        "comments": []
+      },
+      {
+        "comment": "",
+        "region": "Americas",
+        "country": "USA/Canada",
+        "blank": "",
+        "support_contact": "Leonid Rabinovich",
+        "agency": "Canada: ISED",
+        "product_type": "Telecom",
+        "cost_per_certificate": "750",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "1",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "1",
+        "certificate_validity_years": "Permanent",
+        "recertification_cost": "N/A",
+        "lead_time_for_recertification_months": "N/A",
+        "budget_lt_needed_months": "NA",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "N/A",
+        "row_number": "306",
+        "comments": []
+      },
+      {
+        "comment": "Main Model: WiFi Access Point fees vary per model; it all depends on the bands, radios and antennas supported. The average fee for a 4x4 AP Dual Band, Vancouver Model has been added in this row as based line. Second SKU from product family: 60-80% of the Main model cost Third SKU from product family: 10-60% of the main model cost",
+        "region": "Americas",
+        "country": "USA/Canada",
+        "blank": "",
+        "support_contact": "Samuel Kim",
+        "agency": "",
+        "product_type": "Radio - WiFi",
+        "cost_per_certificate": "I SKU: Main Model: $330,000 E SKU: Second Model: 198-264,000 P SKU: Third Mode: 33-198,000",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "6",
+        "family_approval_accepted_incremental_cost": "Yes",
+        "lead_time_for_certification_months": "3-6",
+        "certificate_validity_years": "Permanent",
+        "recertification_cost": "N/A",
+        "lead_time_for_recertification_months": "N/A",
+        "budget_lt_needed_months": "NA",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "N/A",
+        "row_number": "307",
+        "comments": [
+          {
+            "row_reference": "Row 307",
+            "row_number": "307",
+            "comment": "No telecom cert required for optical in the Americas",
+            "author": "Judith Tumbokon",
+            "created_at": "04/28/20 11:19 PM"
+          }
+        ]
+      },
+      {
+        "comment": "Costs for cellular depend significantly on the type of technology used and the number of bands utilized. Tests costs comprise of RSE, OTA, field trial as well as carrier specific tests. Costs vary between modular and fixed system approvals also",
+        "region": "Americas",
+        "country": "USA/Canada",
+        "blank": "",
+        "support_contact": "Samuel Kim",
+        "agency": "",
+        "product_type": "Radio - LTE",
+        "cost_per_certificate": "$380,000 - $520,000",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "No",
+        "family_approval_accepted_incremental_cost": "Yes",
+        "lead_time_for_certification_months": "4-6",
+        "certificate_validity_years": "Permanent",
+        "recertification_cost": "N/A",
+        "lead_time_for_recertification_months": "N/A",
+        "budget_lt_needed_months": "NA",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "N/A",
+        "row_number": "308",
+        "comments": []
+      },
+      {
+        "comment": "",
+        "region": "Americas",
+        "country": "USA/Canada",
+        "blank": "",
+        "support_contact": "Leonid Rabinovich",
+        "agency": "n/a",
+        "product_type": "Optical",
+        "cost_per_certificate": "0",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "No",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "2",
+        "certificate_validity_years": "Permanent",
+        "recertification_cost": "N/A",
+        "lead_time_for_recertification_months": "N/A",
+        "budget_lt_needed_months": "NA",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "N/A",
+        "row_number": "309",
+        "comments": []
+      },
+      {
+        "comment": "",
+        "region": "Americas",
+        "country": "USA/Canada",
+        "blank": "",
+        "support_contact": "Brent Taira",
+        "agency": "CSA NRTL",
+        "product_type": "Security - Firepower",
+        "cost_per_certificate": "7500",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "No",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "2",
+        "certificate_validity_years": "Permanent",
+        "recertification_cost": "N/A",
+        "lead_time_for_recertification_months": "N/A",
+        "budget_lt_needed_months": "NA",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "N/A",
+        "row_number": "310",
+        "comments": []
+      },
+      {
+        "comment": "",
+        "region": "Americas",
+        "country": "USA/Canada",
+        "blank": "",
+        "support_contact": "Samuel Kim",
+        "agency": "",
+        "product_type": "Collab Technology",
+        "cost_per_certificate": "14000",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "No",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "2",
+        "certificate_validity_years": "Permanent",
+        "recertification_cost": "N/A",
+        "lead_time_for_recertification_months": "N/A",
+        "budget_lt_needed_months": "NA",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "N/A",
+        "row_number": "311",
+        "comments": []
+      }
+    ],
+    "comments": [
+      {
+        "row_reference": "Row 307",
+        "row_number": "307",
+        "comment": "No telecom cert required for optical in the Americas",
+        "author": "Judith Tumbokon",
+        "created_at": "04/28/20 11:19 PM"
+      }
+    ]
+  },
+  "hardware_handbook": {
+    "approvals": [
+      {
+        "business_unit": "Ent Routing",
+        "timeline": "",
+        "comments": "",
+        "country_group": "USA/Canada",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS (C8300, C8400, C8500)",
+            "standard_specification": "GR-63-CORE GR-1089-CORE"
+          },
+          {
+            "category": "OSHPD",
+            "standard_specification": "ICC-ES AC156"
+          }
+        ]
+      },
+      {
+        "business_unit": "Ent DC Servers",
+        "timeline": "",
+        "comments": "All UCS",
+        "country_group": "USA/Canada",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS (per customer request)",
+            "standard_specification": "GR-63-CORE GR-1089-CORE"
+          },
+          {
+            "category": "OSHPD (UCSC)",
+            "standard_specification": "ICC-ES AC156"
+          }
+        ]
+      },
+      {
+        "business_unit": "Ent DC Switching",
+        "timeline": "",
+        "comments": "",
+        "country_group": "USA/Canada",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS (N9300, N9500)",
+            "standard_specification": "GR-63-CORE GR-1089-CORE"
+          },
+          {
+            "category": "OSHPD (N9500)",
+            "standard_specification": "ICC-ES AC156"
+          }
+        ]
+      },
+      {
+        "business_unit": "SP Core (Routing)",
+        "timeline": "",
+        "comments": "",
+        "country_group": "USA/Canada",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS (Per request)",
+            "standard_specification": "GR-63-CORE GR-1089-CORE"
+          }
+        ]
+      },
+      {
+        "business_unit": "SP Access",
+        "timeline": "",
+        "comments": "",
+        "country_group": "USA/Canada",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS",
+            "standard_specification": "GR-63-CORE, GR-1089-CORE GR-3108 Class-X (per request)"
+          },
+          {
+            "category": "Smart Grid (per request)",
+            "standard_specification": "IEEE 1613 EN/IEC 61850-3"
+          },
+          {
+            "category": "Railway",
+            "standard_specification": "EN50121-4"
+          }
+        ]
+      },
+      {
+        "business_unit": "Security",
+        "timeline": "",
+        "comments": "",
+        "country_group": "USA/Canada",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS",
+            "standard_specification": "GR-63-CORE, GR-1089-CORE"
+          },
+          {
+            "category": "OSHPD",
+            "standard_specification": "ICC-ES AC156"
+          }
+        ]
+      },
+      {
+        "business_unit": "Optical",
+        "timeline": "",
+        "comments": "",
+        "country_group": "USA/Canada",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS",
+            "standard_specification": "GR-63-CORE, GR-1089-CORE"
+          }
+        ]
+      },
+      {
+        "business_unit": "TMG",
+        "timeline": "",
+        "comments": "",
+        "country_group": "USA/Canada",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS",
+            "standard_specification": "GR-63-CORE, GR-1089-CORE"
+          }
+        ]
+      },
+      {
+        "business_unit": "IOT",
+        "timeline": "",
+        "comments": "",
+        "country_group": "USA/Canada",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "ITE UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety UL/CSA 62368-1, AS/NZS 62368.1, CB to IEC 62368-1 CB with all country deviations and differences IEC 60529 (for IP66, IP67 systems) UL50E Type 4x (on IP66 and IP67 models) ICE UL61010-2-201 CB to IEC 61010-2-201 Hazloc Class 1, Div2/zone2 evaluations UL121201 CSA 22.2 213 UL60079-0, UL60079-7,UL60079-15 EN IEC 60079-0, EN IEC 60079-7, EN IEC 60079-15, EN IEC 60079-28 ATEX certification IECEx certification"
+          },
+          {
+            "category": "Railway Rolling stock and wayside",
+            "standard_specification": "EN 50121-3-2 EN 50121-4 EN50155 EN50153 EN45545-2 EN61373 EN50125-1 EN50125-3 EN50124-1"
+          },
+          {
+            "category": "Smart Grid",
+            "standard_specification": "IEC61850-3 IEEE1613:2025"
+          },
+          {
+            "category": "Traffic controllers",
+            "standard_specification": "NEMA TS2"
+          },
+          {
+            "category": "Marine",
+            "standard_specification": "DNV CG-0339, IACS UR E10"
+          },
+          {
+            "category": "Automotive",
+            "standard_specification": "CISPR25 UN ECE R10, R118 E-Mark certification"
+          },
+          {
+            "category": "MIL",
+            "standard_specification": "MIL-STD-461 (specific products only upon request) MIL-STD-810 (S&V)"
+          },
+          {
+            "category": "Corrosion",
+            "standard_specification": "IEC60068-2-52 IEC60068-2-60"
+          }
+        ]
+      }
+    ]
+  }
+}

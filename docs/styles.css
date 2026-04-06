@@ -478,6 +478,11 @@ select:focus,
   color: var(--accent-deep);
 }
 
+.detail-section h5 {
+  margin: 0;
+  font-size: 1rem;
+}
+
 .detail-list {
   display: grid;
   gap: 0.8rem;
@@ -499,6 +504,74 @@ select:focus,
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem;
+}
+
+.data-table-wrap {
+  margin-top: 1rem;
+  overflow-x: auto;
+}
+
+.detail-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 820px;
+}
+
+.detail-table th,
+.detail-table td {
+  padding: 0.8rem 0.7rem;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid var(--line);
+}
+
+.detail-table th {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  background: rgba(20, 40, 29, 0.03);
+}
+
+.table-subline,
+.table-note {
+  color: var(--muted);
+  font-size: 0.85rem;
+  line-height: 1.45;
+}
+
+.table-subline {
+  margin-top: 0.25rem;
+}
+
+.handbook-stack {
+  display: grid;
+  gap: 1rem;
+}
+
+.handbook-unit {
+  padding: 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.58);
+}
+
+.handbook-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.8rem;
+  align-items: center;
+}
+
+.timeline-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  background: rgba(215, 111, 48, 0.12);
+  color: var(--accent-deep);
+  font-weight: 700;
+  font-size: 0.82rem;
 }
 
 @media (max-width: 980px) {

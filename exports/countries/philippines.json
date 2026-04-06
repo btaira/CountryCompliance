@@ -1,0 +1,94 @@
+{
+  "country": "Philippines",
+  "slug": "philippines",
+  "country_file": "countries/philippines.json",
+  "nemko": {
+    "country": "PHILIPPINES",
+    "national_language": "Filipino/English",
+    "population": "109.6 million",
+    "flag_image_url": "https://www.nemko.com/hubfs/Global%20Marketing%20flags/ph.png",
+    "compliance_requirement_for_telecom_radio": "Yes",
+    "regulatory_authority": "National Telecommunications Commission (NTC)",
+    "mandatory_requirements_telecom_radio_safety_emc": "TelecomRadioEMCSafety",
+    "in_country_test": "No",
+    "language_requirements_application_manual_report": "English",
+    "local_representation_required_for_approval": "No",
+    "country_specific_labelling": "Yes",
+    "approval_validity": "Life of product",
+    "factory_inspection": "No",
+    "other_requirements": "",
+    "radio_telecom_certificate_example_url": "",
+    "radio_telecom_mark_artwork_url": "",
+    "emc_certification_and_test_report_required_for_it_products": "",
+    "emission_and_immunity": "",
+    "safety_certification_required_for_it_products": "",
+    "safety_test_report_requirement": "",
+    "rohs_certification_required_for_it_products": "",
+    "rohs_requirements": "Unknown",
+    "sample_required_in_country": "",
+    "language_requirements_user_manual_product_safety_markings": "",
+    "local_representative_applicant_required": "",
+    "mandatory_factory_inspection_requirement": "",
+    "remarks": "",
+    "safety_emc_certificate_example_url": "",
+    "safety_emc_mark_artwork_url": "",
+    "energy_efficiency_requirements": "Yes",
+    "energy_efficiency_certificate_example_url": "",
+    "energy_efficiency_mark_artwork_url": "",
+    "country_css_class": "philippines"
+  },
+  "workbook": {
+    "summary": {
+      "entry_count": 0,
+      "product_types": [],
+      "agencies": [],
+      "support_contacts": []
+    },
+    "entries": [],
+    "comments": []
+  },
+  "hardware_handbook": {
+    "approvals": [
+      {
+        "business_unit": "Ent Access",
+        "timeline": "",
+        "comments": "",
+        "country_group": "Argentina, Chile, Colombia, Costa Rica, Hong Kong, Philippines, Singapore",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS (C9300, C9350, C9400)",
+            "standard_specification": "GR-63-CORE, GR-1089-CORE"
+          },
+          {
+            "category": "OSHPD",
+            "standard_specification": "ICC-ES AC156"
+          }
+        ]
+      },
+      {
+        "business_unit": "Ent Routing",
+        "timeline": "",
+        "comments": "",
+        "country_group": "Singapore, Mexico, Hong Kong, Philippines, Thailand, Malaysia, Greece, VietNam, Cyprus",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS (C8300, C8400, C8500)",
+            "standard_specification": "GR-63-CORE GR-1089-CORE"
+          },
+          {
+            "category": "OSHPD",
+            "standard_specification": "ICC-ES AC156"
+          }
+        ]
+      }
+    ]
+  }
+}

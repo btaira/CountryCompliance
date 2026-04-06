@@ -1,0 +1,53 @@
+{
+  "country": "Russia",
+  "slug": "russia",
+  "country_file": "countries/russia.json",
+  "nemko": {
+    "country": "RUSSIA",
+    "national_language": "Russian",
+    "population": "144.1 million",
+    "flag_image_url": "https://www.nemko.com/hubfs/Flag-of-Russia.jpg",
+    "compliance_requirement_for_telecom_radio": "Yes",
+    "regulatory_authority": "Federal Agency of Communications (FAC)",
+    "mandatory_requirements_telecom_radio_safety_emc": "TelecomRadioSafetyEMC",
+    "in_country_test": "Depends on the product/technology",
+    "language_requirements_application_manual_report": "Manual in Russian",
+    "local_representation_required_for_approval": "Yes",
+    "country_specific_labelling": "None",
+    "approval_validity": "5 years",
+    "factory_inspection": "Yes",
+    "other_requirements": "",
+    "radio_telecom_certificate_example_url": "",
+    "radio_telecom_mark_artwork_url": "",
+    "emc_certification_and_test_report_required_for_it_products": "COC or DoC scheme",
+    "emission_and_immunity": "E and I",
+    "safety_certification_required_for_it_products": "COC or DoC scheme (note the certification validity)",
+    "safety_test_report_requirement": "Yes, CB scheme only (IEC 62368-1, IEC 60950)",
+    "rohs_certification_required_for_it_products": "CoC or DoC Scheme (note the certification validity)",
+    "rohs_requirements": "Yes (6 substances)",
+    "sample_required_in_country": "Yes, for CoC",
+    "language_requirements_user_manual_product_safety_markings": "Yes, Russian",
+    "local_representative_applicant_required": "Yes",
+    "mandatory_factory_inspection_requirement": "Yes",
+    "remarks": "HS code required List all other product exemptions and note and assumption info.",
+    "safety_emc_certificate_example_url": "",
+    "safety_emc_mark_artwork_url": "",
+    "energy_efficiency_requirements": "Yes, will be in 2022",
+    "energy_efficiency_certificate_example_url": "",
+    "energy_efficiency_mark_artwork_url": "",
+    "country_css_class": "russia central-east-europe"
+  },
+  "workbook": {
+    "summary": {
+      "entry_count": 0,
+      "product_types": [],
+      "agencies": [],
+      "support_contacts": []
+    },
+    "entries": [],
+    "comments": []
+  },
+  "hardware_handbook": {
+    "approvals": []
+  }
+}

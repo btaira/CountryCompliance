@@ -1,0 +1,527 @@
+{
+  "country": "Brazil",
+  "slug": "brazil",
+  "country_file": "countries/brazil.json",
+  "nemko": {
+    "country": "BRAZIL",
+    "national_language": "Spanish",
+    "population": "212.6 million",
+    "flag_image_url": "https://www.nemko.com/hubfs/Global%20Marketing%20flags/br.png",
+    "compliance_requirement_for_telecom_radio": "Yes",
+    "regulatory_authority": "Agencia Nacional de Telecomunicac oes (ANATEL)",
+    "mandatory_requirements_telecom_radio_safety_emc": "TelecomRadioSafetyEMC",
+    "in_country_test": "Yes depending on technology",
+    "language_requirements_application_manual_report": "Portuguese manual",
+    "local_representation_required_for_approval": "Yes",
+    "country_specific_labelling": "Yes",
+    "approval_validity": "2 year or 3 years depending on category of equipment",
+    "factory_inspection": "No",
+    "other_requirements": "",
+    "radio_telecom_certificate_example_url": "",
+    "radio_telecom_mark_artwork_url": "",
+    "emc_certification_and_test_report_required_for_it_products": "Voluntary",
+    "emission_and_immunity": "Voluntary",
+    "safety_certification_required_for_it_products": "Voluntary",
+    "safety_test_report_requirement": "Voluntary",
+    "rohs_certification_required_for_it_products": "No",
+    "rohs_requirements": "Unknown",
+    "sample_required_in_country": "No",
+    "language_requirements_user_manual_product_safety_markings": "Portuguese",
+    "local_representative_applicant_required": "Yes",
+    "mandatory_factory_inspection_requirement": "Yes",
+    "remarks": "",
+    "safety_emc_certificate_example_url": "",
+    "safety_emc_mark_artwork_url": "",
+    "energy_efficiency_requirements": "Yes",
+    "energy_efficiency_certificate_example_url": "",
+    "energy_efficiency_mark_artwork_url": "",
+    "country_css_class": "brazil"
+  },
+  "workbook": {
+    "summary": {
+      "entry_count": 10,
+      "product_types": [
+        "Collab Technology",
+        "Optical",
+        "Radio - LTE",
+        "Radio - WiFi",
+        "Router - Ethernet",
+        "Security - Firepower",
+        "Server - Ethernet",
+        "Switch - Ethernet",
+        "TBD",
+        "Telecom - T1/DSL"
+      ],
+      "agencies": [
+        "ANATEL"
+      ],
+      "support_contacts": [
+        "Gimenes Coelho"
+      ]
+    },
+    "entries": [
+      {
+        "comment": "",
+        "region": "Americas",
+        "country": "Brazil",
+        "blank": "",
+        "support_contact": "Gimenes Coelho",
+        "agency": "ANATEL",
+        "product_type": "Router - Ethernet",
+        "cost_per_certificate": "1200",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "1",
+        "family_approval_accepted_incremental_cost": "$320 ( per model similar",
+        "lead_time_for_certification_months": "1",
+        "certificate_validity_years": "Permanent",
+        "recertification_cost": "N/A",
+        "lead_time_for_recertification_months": "N/A",
+        "budget_lt_needed_months": "N/A",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "1-2 ( shipping)",
+        "row_number": "61",
+        "comments": []
+      },
+      {
+        "comment": "",
+        "region": "Americas",
+        "country": "Brazil",
+        "blank": "",
+        "support_contact": "Gimenes Coelho",
+        "agency": "ANATEL",
+        "product_type": "Switch - Ethernet",
+        "cost_per_certificate": "- $1,200 (also for PoE) - For CR, if different EMC results, need to re-test. $550/model to update report, documents (including internal photos)",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "1",
+        "family_approval_accepted_incremental_cost": "$320 (per additional similar model)",
+        "lead_time_for_certification_months": "1",
+        "certificate_validity_years": "permanent",
+        "recertification_cost": "N/A",
+        "lead_time_for_recertification_months": "2 - 3 weeks",
+        "budget_lt_needed_months": "N/A",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "1-2 (includes shipping time)",
+        "row_number": "62",
+        "comments": [
+          {
+            "row_reference": "Row 62",
+            "row_number": "62",
+            "comment": "( 8x8, 2.4GH, 5GH, XOR and BLE)",
+            "author": "Brent Taira",
+            "created_at": "04/20/20 7:32 AM"
+          }
+        ]
+      },
+      {
+        "comment": "",
+        "region": "Americas",
+        "country": "Brazil",
+        "blank": "",
+        "support_contact": "Gimenes Coelho",
+        "agency": "ANATEL",
+        "product_type": "Server - Ethernet",
+        "cost_per_certificate": "1200",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "1",
+        "family_approval_accepted_incremental_cost": "$320 ( per model similar",
+        "lead_time_for_certification_months": "1",
+        "certificate_validity_years": "permanent",
+        "recertification_cost": "N/A",
+        "lead_time_for_recertification_months": "N/A",
+        "budget_lt_needed_months": "N/A",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "1-2 ( shipping)",
+        "row_number": "63",
+        "comments": [
+          {
+            "row_reference": "Row 63",
+            "row_number": "63",
+            "comment": "(LTE modem already approved) $12k (new LTE module)",
+            "author": "Brent Taira",
+            "created_at": "04/20/20 7:32 AM"
+          }
+        ]
+      },
+      {
+        "comment": "",
+        "region": "Americas",
+        "country": "Brazil",
+        "blank": "",
+        "support_contact": "Gimenes Coelho",
+        "agency": "ANATEL",
+        "product_type": "Radio - WiFi",
+        "cost_per_certificate": "12000",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "2",
+        "family_approval_accepted_incremental_cost": "$320 ( per model similar",
+        "lead_time_for_certification_months": "2",
+        "certificate_validity_years": "2",
+        "recertification_cost": "600",
+        "lead_time_for_recertification_months": "",
+        "budget_lt_needed_months": "-2",
+        "sample_needed_for_recertification": "1",
+        "lead_time_for_sample_months": "1-2 ( shipping)",
+        "row_number": "64",
+        "comments": []
+      },
+      {
+        "comment": "",
+        "region": "Americas",
+        "country": "Brazil",
+        "blank": "",
+        "support_contact": "Gimenes Coelho",
+        "agency": "ANATEL",
+        "product_type": "Radio - LTE",
+        "cost_per_certificate": "5000",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "2",
+        "family_approval_accepted_incremental_cost": "$320 ( per model similar",
+        "lead_time_for_certification_months": "2",
+        "certificate_validity_years": "1",
+        "recertification_cost": "600",
+        "lead_time_for_recertification_months": "",
+        "budget_lt_needed_months": "-2",
+        "sample_needed_for_recertification": "1",
+        "lead_time_for_sample_months": "1-2 ( shipping)",
+        "row_number": "65",
+        "comments": []
+      },
+      {
+        "comment": "",
+        "region": "Americas",
+        "country": "Brazil",
+        "blank": "",
+        "support_contact": "Gimenes Coelho",
+        "agency": "ANATEL",
+        "product_type": "Optical",
+        "cost_per_certificate": "2500 Per model",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "1",
+        "family_approval_accepted_incremental_cost": "$320 ( per model similar",
+        "lead_time_for_certification_months": "2",
+        "certificate_validity_years": "permanent",
+        "recertification_cost": "N/A",
+        "lead_time_for_recertification_months": "N/A",
+        "budget_lt_needed_months": "N/A",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "1-2 ( shipping)",
+        "row_number": "66",
+        "comments": [
+          {
+            "row_reference": "Row 66",
+            "row_number": "66",
+            "comment": "( WIFI and BLE)",
+            "author": "Brent Taira",
+            "created_at": "04/20/20 7:33 AM"
+          }
+        ]
+      },
+      {
+        "comment": "",
+        "region": "Americas",
+        "country": "Brazil",
+        "blank": "",
+        "support_contact": "Gimenes Coelho",
+        "agency": "ANATEL",
+        "product_type": "Security - Firepower",
+        "cost_per_certificate": "1200",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "1",
+        "family_approval_accepted_incremental_cost": "$320 ( per model similar",
+        "lead_time_for_certification_months": "1",
+        "certificate_validity_years": "permanent",
+        "recertification_cost": "N/A",
+        "lead_time_for_recertification_months": "N/A",
+        "budget_lt_needed_months": "N/A",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "1-2 ( shipping)",
+        "row_number": "67",
+        "comments": []
+      },
+      {
+        "comment": "",
+        "region": "Americas",
+        "country": "Brazil",
+        "blank": "",
+        "support_contact": "Gimenes Coelho",
+        "agency": "ANATEL",
+        "product_type": "Collab Technology",
+        "cost_per_certificate": "4500",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "1",
+        "family_approval_accepted_incremental_cost": "$320 ( per model similar",
+        "lead_time_for_certification_months": "1",
+        "certificate_validity_years": "permanent",
+        "recertification_cost": "N/A",
+        "lead_time_for_recertification_months": "N/A",
+        "budget_lt_needed_months": "N/A",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "1-2 ( shipping)",
+        "row_number": "68",
+        "comments": [
+          {
+            "row_reference": "Row 68",
+            "row_number": "68",
+            "comment": "( ADSL/VDSL/IPv6)",
+            "author": "Brent Taira",
+            "created_at": "04/20/20 7:32 AM"
+          }
+        ]
+      },
+      {
+        "comment": "",
+        "region": "Americas",
+        "country": "Brazil",
+        "blank": "",
+        "support_contact": "Gimenes Coelho",
+        "agency": "",
+        "product_type": "Telecom - T1/DSL",
+        "cost_per_certificate": "5200",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "1",
+        "family_approval_accepted_incremental_cost": "$320 ( per model similar",
+        "lead_time_for_certification_months": "2",
+        "certificate_validity_years": "1",
+        "recertification_cost": "800",
+        "lead_time_for_recertification_months": "",
+        "budget_lt_needed_months": "-2",
+        "sample_needed_for_recertification": "1",
+        "lead_time_for_sample_months": "1-2 ( shipping)",
+        "row_number": "69",
+        "comments": []
+      },
+      {
+        "comment": "",
+        "region": "Americas",
+        "country": "Brazil",
+        "blank": "",
+        "support_contact": "Gimenes Coelho",
+        "agency": "",
+        "product_type": "TBD",
+        "cost_per_certificate": "TBD",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "TBD",
+        "family_approval_accepted_incremental_cost": "TBD",
+        "lead_time_for_certification_months": "TBD",
+        "certificate_validity_years": "TBD",
+        "recertification_cost": "TBD",
+        "lead_time_for_recertification_months": "TBD",
+        "budget_lt_needed_months": "TBD",
+        "sample_needed_for_recertification": "TBD",
+        "lead_time_for_sample_months": "TBD",
+        "row_number": "70",
+        "comments": []
+      }
+    ],
+    "comments": [
+      {
+        "row_reference": "Row 62",
+        "row_number": "62",
+        "comment": "( 8x8, 2.4GH, 5GH, XOR and BLE)",
+        "author": "Brent Taira",
+        "created_at": "04/20/20 7:32 AM"
+      },
+      {
+        "row_reference": "Row 63",
+        "row_number": "63",
+        "comment": "(LTE modem already approved) $12k (new LTE module)",
+        "author": "Brent Taira",
+        "created_at": "04/20/20 7:32 AM"
+      },
+      {
+        "row_reference": "Row 66",
+        "row_number": "66",
+        "comment": "( WIFI and BLE)",
+        "author": "Brent Taira",
+        "created_at": "04/20/20 7:33 AM"
+      },
+      {
+        "row_reference": "Row 68",
+        "row_number": "68",
+        "comment": "( ADSL/VDSL/IPv6)",
+        "author": "Brent Taira",
+        "created_at": "04/20/20 7:32 AM"
+      }
+    ]
+  },
+  "hardware_handbook": {
+    "approvals": [
+      {
+        "business_unit": "Ent Access",
+        "timeline": "FCS + 3 months",
+        "comments": "",
+        "country_group": "Brazil",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS (C9300, C9350, C9400)",
+            "standard_specification": "GR-63-CORE, GR-1089-CORE"
+          },
+          {
+            "category": "OSHPD",
+            "standard_specification": "ICC-ES AC156"
+          }
+        ]
+      },
+      {
+        "business_unit": "Ent Routing",
+        "timeline": "FCS + 3 months",
+        "comments": "",
+        "country_group": "Brazil",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS (C8300, C8400, C8500)",
+            "standard_specification": "GR-63-CORE GR-1089-CORE"
+          },
+          {
+            "category": "OSHPD",
+            "standard_specification": "ICC-ES AC156"
+          }
+        ]
+      },
+      {
+        "business_unit": "Ent DC Servers",
+        "timeline": "FCS + 3 months",
+        "comments": "Only for UCS-FI",
+        "country_group": "Brazil",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS (per customer request)",
+            "standard_specification": "GR-63-CORE GR-1089-CORE"
+          },
+          {
+            "category": "OSHPD (UCSC)",
+            "standard_specification": "ICC-ES AC156"
+          }
+        ]
+      },
+      {
+        "business_unit": "Ent DC Switching",
+        "timeline": "FCS + 3 months",
+        "comments": "",
+        "country_group": "Brazil (Anatel)",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS (N9300, N9500)",
+            "standard_specification": "GR-63-CORE GR-1089-CORE"
+          },
+          {
+            "category": "OSHPD (N9500)",
+            "standard_specification": "ICC-ES AC156"
+          }
+        ]
+      },
+      {
+        "business_unit": "SP Core (Routing)",
+        "timeline": "FCS + 3 months",
+        "comments": "",
+        "country_group": "Brazil",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS (Per request)",
+            "standard_specification": "GR-63-CORE GR-1089-CORE"
+          }
+        ]
+      },
+      {
+        "business_unit": "SP Access",
+        "timeline": "FCS + 3 months",
+        "comments": "",
+        "country_group": "Brazil (Anatel)",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS",
+            "standard_specification": "GR-63-CORE, GR-1089-CORE GR-3108 Class-X (per request)"
+          },
+          {
+            "category": "Smart Grid (per request)",
+            "standard_specification": "IEEE 1613 EN/IEC 61850-3"
+          },
+          {
+            "category": "Railway",
+            "standard_specification": "EN50121-4"
+          }
+        ]
+      },
+      {
+        "business_unit": "Optical",
+        "timeline": "FCS + 3 months",
+        "comments": "",
+        "country_group": "Brazil",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS",
+            "standard_specification": "GR-63-CORE, GR-1089-CORE"
+          }
+        ]
+      },
+      {
+        "business_unit": "IOT",
+        "timeline": "FCS + 3 months",
+        "comments": "",
+        "country_group": "Brazil",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "ITE UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety UL/CSA 62368-1, AS/NZS 62368.1, CB to IEC 62368-1 CB with all country deviations and differences IEC 60529 (for IP66, IP67 systems) UL50E Type 4x (on IP66 and IP67 models) ICE UL61010-2-201 CB to IEC 61010-2-201 Hazloc Class 1, Div2/zone2 evaluations UL121201 CSA 22.2 213 UL60079-0, UL60079-7,UL60079-15 EN IEC 60079-0, EN IEC 60079-7, EN IEC 60079-15, EN IEC 60079-28 ATEX certification IECEx certification"
+          },
+          {
+            "category": "Railway Rolling stock and wayside",
+            "standard_specification": "EN 50121-3-2 EN 50121-4 EN50155 EN50153 EN45545-2 EN61373 EN50125-1 EN50125-3 EN50124-1"
+          },
+          {
+            "category": "Smart Grid",
+            "standard_specification": "IEC61850-3 IEEE1613:2025"
+          },
+          {
+            "category": "Traffic controllers",
+            "standard_specification": "NEMA TS2"
+          },
+          {
+            "category": "Marine",
+            "standard_specification": "DNV CG-0339, IACS UR E10"
+          },
+          {
+            "category": "Automotive",
+            "standard_specification": "CISPR25 UN ECE R10, R118 E-Mark certification"
+          },
+          {
+            "category": "MIL",
+            "standard_specification": "MIL-STD-461 (specific products only upon request) MIL-STD-810 (S&V)"
+          },
+          {
+            "category": "Corrosion",
+            "standard_specification": "IEC60068-2-52 IEC60068-2-60"
+          }
+        ]
+      }
+    ]
+  }
+}

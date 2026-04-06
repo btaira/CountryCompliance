@@ -1,0 +1,40 @@
+{
+  "country": "Greece",
+  "slug": "greece",
+  "country_file": "countries/greece.json",
+  "nemko": null,
+  "workbook": {
+    "summary": {
+      "entry_count": 0,
+      "product_types": [],
+      "agencies": [],
+      "support_contacts": []
+    },
+    "entries": [],
+    "comments": []
+  },
+  "hardware_handbook": {
+    "approvals": [
+      {
+        "business_unit": "Ent Routing",
+        "timeline": "",
+        "comments": "",
+        "country_group": "Singapore, Mexico, Hong Kong, Philippines, Thailand, Malaysia, Greece, VietNam, Cyprus",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS (C8300, C8400, C8500)",
+            "standard_specification": "GR-63-CORE GR-1089-CORE"
+          },
+          {
+            "category": "OSHPD",
+            "standard_specification": "ICC-ES AC156"
+          }
+        ]
+      }
+    ]
+  }
+}

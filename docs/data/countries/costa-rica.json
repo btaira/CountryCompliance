@@ -1,0 +1,40 @@
+{
+  "country": "Costa Rica",
+  "slug": "costa-rica",
+  "country_file": "countries/costa-rica.json",
+  "nemko": null,
+  "workbook": {
+    "summary": {
+      "entry_count": 0,
+      "product_types": [],
+      "agencies": [],
+      "support_contacts": []
+    },
+    "entries": [],
+    "comments": []
+  },
+  "hardware_handbook": {
+    "approvals": [
+      {
+        "business_unit": "Ent Access",
+        "timeline": "",
+        "comments": "",
+        "country_group": "Argentina, Chile, Colombia, Costa Rica, Hong Kong, Philippines, Singapore",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS (C9300, C9350, C9400)",
+            "standard_specification": "GR-63-CORE, GR-1089-CORE"
+          },
+          {
+            "category": "OSHPD",
+            "standard_specification": "ICC-ES AC156"
+          }
+        ]
+      }
+    ]
+  }
+}

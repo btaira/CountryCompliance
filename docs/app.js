@@ -187,6 +187,124 @@ function emptyDisplay(value) {
   return normalizeText(value) || "Not listed";
 }
 
+function createDetailItem(label, value) {
+  const item = document.createElement("div");
+  item.className = "detail-item";
+  item.innerHTML = `<dt>${label}</dt><dd>${emptyDisplay(value)}</dd>`;
+  return item;
+}
+
+function renderWorkbookTable(entries) {
+  const wrap = document.createElement("div");
+  wrap.className = "data-table-wrap";
+
+  if (!entries.length) {
+    wrap.innerHTML = '<p class="table-note">No country-specific workbook rows were listed.</p>';
+    return wrap;
+  }
+
+  const table = document.createElement("table");
+  table.className = "detail-table";
+  table.innerHTML = `
+    <thead>
+      <tr>
+        <th>Product</th>
+        <th>Agency</th>
+        <th>Approval Need</th>
+        <th>Cost</th>
+        <th>Samples</th>
+        <th>Lead Time</th>
+        <th>Validity</th>
+        <th>Recert</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  `;
+
+  const tbody = table.querySelector("tbody");
+  for (const entry of entries) {
+    const row = document.createElement("tr");
+    row.innerHTML = `
+      <td>
+        <strong>${emptyDisplay(entry.product_type)}</strong>
+        <div class="table-subline">${emptyDisplay(entry.support_contact)}</div>
+      </td>
+      <td>${emptyDisplay(entry.agency)}</td>
+      <td>${emptyDisplay(entry.comment)}</td>
+      <td>
+        <div>${emptyDisplay(entry.cost_per_certificate)}</div>
+        <div class="table-subline">Add'l COO: ${emptyDisplay(entry.cost_for_additional_country_of_origin)}</div>
+      </td>
+      <td>
+        <div>${emptyDisplay(entry.sample_needed_for_certification)}</div>
+        <div class="table-subline">Recert: ${emptyDisplay(entry.sample_needed_for_recertification)}</div>
+      </td>
+      <td>
+        <div>Cert: ${emptyDisplay(entry.lead_time_for_certification_months)}</div>
+        <div class="table-subline">Sample: ${emptyDisplay(entry.lead_time_for_sample_months)}</div>
+      </td>
+      <td>${emptyDisplay(entry.certificate_validity_years)}</td>
+      <td>
+        <div>${emptyDisplay(entry.recertification_cost)}</div>
+        <div class="table-subline">LT: ${emptyDisplay(entry.lead_time_for_recertification_months)}</div>
+      </td>
+    `;
+    tbody.append(row);
+  }
+
+  wrap.append(table);
+  return wrap;
+}
+
+function renderCommentList(comments) {
+  const list = document.createElement("dl");
+  list.className = "detail-list";
+  for (const comment of comments) {
+    const item = document.createElement("div");
+    item.className = "detail-item";
+    item.innerHTML = `<dt>${emptyDisplay(comment.row_reference)} · ${emptyDisplay(comment.author)} · ${emptyDisplay(comment.created_at)}</dt><dd>${emptyDisplay(comment.comment)}</dd>`;
+    list.append(item);
+  }
+  return list;
+}
+
+function renderHandbookApprovals(approvals) {
+  const wrap = document.createElement("div");
+  wrap.className = "handbook-stack";
+
+  if (!approvals.length) {
+    wrap.innerHTML = '<p class="table-note">No hardware handbook approvals were listed for this country.</p>';
+    return wrap;
+  }
+
+  for (const approval of approvals) {
+    const block = document.createElement("section");
+    block.className = "handbook-unit";
+
+    const standards = (approval.standards || [])
+      .map(
+        (item) =>
+          `<div class="detail-item"><dt>${emptyDisplay(item.category)}</dt><dd>${emptyDisplay(item.standard_specification)}</dd></div>`
+      )
+      .join("");
+
+    block.innerHTML = `
+      <div class="handbook-header">
+        <h5>${emptyDisplay(approval.business_unit)}</h5>
+        <span class="timeline-pill">${emptyDisplay(approval.timeline || "No timeline listed")}</span>
+      </div>
+      <p class="table-note">${emptyDisplay(approval.comments || approval.country_group)}</p>
+      <dl class="detail-list">
+        <div class="detail-item"><dt>Country Group</dt><dd>${emptyDisplay(approval.country_group)}</dd></div>
+        ${standards}
+      </dl>
+    `;
+    wrap.append(block);
+  }
+
+  return wrap;
+}
+
 function renderCards(countries) {
   elements.cardGrid.innerHTML = "";
 
@@ -319,6 +437,7 @@ function openDetails(country) {
       <p class="eyebrow">Requirement Detail</p>
       <h3>${country.country}</h3>
       <p class="lede">${emptyDisplay(country.regulatory_authority)}</p>
+      <p><a class="asset-link" href="./data/${unified.country_file}" target="_blank" rel="noreferrer">Open country JSON</a></p>
     </div>
     ${country.flag_image_url ? `<img class="flag-image" src="${country.flag_image_url}" alt="${country.country} flag">` : ""}
   `;
@@ -384,24 +503,18 @@ function openDetails(country) {
 
   const workbookSection = document.createElement("article");
   workbookSection.className = "detail-section";
-  workbookSection.innerHTML = "<h4>Workbook Entries</h4>";
+  workbookSection.innerHTML = "<h4>Country Compliance Requirements</h4>";
 
   const workbookList = document.createElement("dl");
   workbookList.className = "detail-list";
-  workbookList.innerHTML = `
-    <div class="detail-item"><dt>Entry Count</dt><dd>${unified.workbook.summary.entry_count}</dd></div>
-    <div class="detail-item"><dt>Product Types</dt><dd>${emptyDisplay(unified.workbook.summary.product_types.join(", "))}</dd></div>
-    <div class="detail-item"><dt>Agencies</dt><dd>${emptyDisplay(unified.workbook.summary.agencies.join(", "))}</dd></div>
-    <div class="detail-item"><dt>Support Contacts</dt><dd>${emptyDisplay(unified.workbook.summary.support_contacts.join(", "))}</dd></div>
-  `;
+  workbookList.append(
+    createDetailItem("Entry Count", unified.workbook.summary.entry_count),
+    createDetailItem("Product Types", unified.workbook.summary.product_types.join(", ")),
+    createDetailItem("Agencies", unified.workbook.summary.agencies.join(", ")),
+    createDetailItem("Support Contacts", unified.workbook.summary.support_contacts.join(", "))
+  );
   workbookSection.append(workbookList);
-
-  for (const entry of unified.workbook.entries.slice(0, 8)) {
-    const item = document.createElement("div");
-    item.className = "detail-item";
-    item.innerHTML = `<dt>${emptyDisplay(entry.product_type)}</dt><dd>${emptyDisplay(entry.comment || entry.sample_needed_for_certification || entry.agency)}</dd>`;
-    workbookList.append(item);
-  }
+  workbookSection.append(renderWorkbookTable(unified.workbook.entries));
 
   grid.append(workbookSection);
 
@@ -409,31 +522,15 @@ function openDetails(country) {
     const commentSection = document.createElement("article");
     commentSection.className = "detail-section";
     commentSection.innerHTML = "<h4>Workbook Comments</h4>";
-    const commentList = document.createElement("dl");
-    commentList.className = "detail-list";
-    for (const comment of unified.workbook.comments.slice(0, 6)) {
-      const item = document.createElement("div");
-      item.className = "detail-item";
-      item.innerHTML = `<dt>${emptyDisplay(comment.row_reference)} · ${emptyDisplay(comment.author)}</dt><dd>${emptyDisplay(comment.comment)}</dd>`;
-      commentList.append(item);
-    }
-    commentSection.append(commentList);
+    commentSection.append(renderCommentList(unified.workbook.comments));
     grid.append(commentSection);
   }
 
   if (unified.hardware_handbook.approvals.length) {
     const handbookSection = document.createElement("article");
     handbookSection.className = "detail-section";
-    handbookSection.innerHTML = "<h4>Hardware Handbook</h4>";
-    const handbookList = document.createElement("dl");
-    handbookList.className = "detail-list";
-    for (const approval of unified.hardware_handbook.approvals) {
-      const item = document.createElement("div");
-      item.className = "detail-item";
-      item.innerHTML = `<dt>${emptyDisplay(approval.business_unit)} · ${emptyDisplay(approval.timeline || "No timeline listed")}</dt><dd>${emptyDisplay(approval.comments || approval.country_group)}</dd>`;
-      handbookList.append(item);
-    }
-    handbookSection.append(handbookList);
+    handbookSection.innerHTML = "<h4>Compliance Requirements for Hardware</h4>";
+    handbookSection.append(renderHandbookApprovals(unified.hardware_handbook.approvals));
     grid.append(handbookSection);
   }
 

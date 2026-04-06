@@ -1,0 +1,707 @@
+{
+  "country": "China",
+  "slug": "china",
+  "country_file": "countries/china.json",
+  "nemko": null,
+  "workbook": {
+    "summary": {
+      "entry_count": 20,
+      "product_types": [
+        "Collab Technology",
+        "Optical",
+        "Radio - LTE",
+        "Radio - WiFi",
+        "Router - Ethernet",
+        "Security - Firepower",
+        "Server - Ethernet",
+        "Switch - Ethernet",
+        "TBD",
+        "Telecom - T1/DSL",
+        "Telecom - T1/DSL CCC"
+      ],
+      "agencies": [
+        "CCC",
+        "MIIT (NAL)",
+        "SRRC"
+      ],
+      "support_contacts": [
+        "Jie Jane Huang",
+        "Michael Jing Hua Zhang"
+      ]
+    },
+    "entries": [
+      {
+        "comment": "CCC only EMC and Safety",
+        "region": "APAC",
+        "country": "China",
+        "blank": "",
+        "support_contact": "Jie Jane Huang",
+        "agency": "CCC",
+        "product_type": "Router - Ethernet",
+        "cost_per_certificate": "6000",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "Yes - 1x sample for each PID",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "1.5",
+        "certificate_validity_years": "5",
+        "recertification_cost": "2000",
+        "lead_time_for_recertification_months": "1",
+        "budget_lt_needed_months": "-3",
+        "sample_needed_for_recertification": "no unless critical components change",
+        "lead_time_for_sample_months": "1.5",
+        "row_number": "71",
+        "comments": []
+      },
+      {
+        "comment": "CCC only EMC and Safety",
+        "region": "APAC",
+        "country": "China",
+        "blank": "",
+        "support_contact": "Jie Jane Huang",
+        "agency": "CCC",
+        "product_type": "Switch - Ethernet",
+        "cost_per_certificate": "$6000 for first site.$2K per additional site",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "Yes - 1x sample for each PID",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "1.5",
+        "certificate_validity_years": "5",
+        "recertification_cost": "2000",
+        "lead_time_for_recertification_months": "1",
+        "budget_lt_needed_months": "-3",
+        "sample_needed_for_recertification": "no unless critical components change",
+        "lead_time_for_sample_months": "1.5",
+        "row_number": "72",
+        "comments": [
+          {
+            "row_reference": "Row 72",
+            "row_number": "72",
+            "comment": "Recertification - 60% for first DF, 40% for additional DF.",
+            "author": "Brent Taira",
+            "created_at": "07/14/20 10:01 AM"
+          }
+        ]
+      },
+      {
+        "comment": "CCC only EMC and Safety",
+        "region": "APAC",
+        "country": "China",
+        "blank": "",
+        "support_contact": "Jie Jane Huang",
+        "agency": "CCC",
+        "product_type": "Server - Ethernet",
+        "cost_per_certificate": "6000",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "Yes - 1x sample for each PID",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "1.5",
+        "certificate_validity_years": "5",
+        "recertification_cost": "2000",
+        "lead_time_for_recertification_months": "1",
+        "budget_lt_needed_months": "-3",
+        "sample_needed_for_recertification": "no unless critical components change",
+        "lead_time_for_sample_months": "1.5",
+        "row_number": "73",
+        "comments": []
+      },
+      {
+        "comment": "",
+        "region": "APAC",
+        "country": "China",
+        "blank": "",
+        "support_contact": "Michael Jing Hua Zhang",
+        "agency": "MIIT (NAL)",
+        "product_type": "Router - Ethernet",
+        "cost_per_certificate": "$3000 Layer 2 switch $11,200 Up to 1Tbps, quotation updated by MIIT lab from July 1st, 2022 as cybersecurity test items added. $16,400 Greater than 1Tbps, quotation updated by MIIT lab from July 1st, 2022 as cybersecurity test items added. $17900，Cybersecurity test for the whole system's throughput (Bidirectional(inbound + outbound)) ≥ 12Tbps and the whole system's routing table capacity ≥ 550,000 pieces",
+        "cost_for_additional_country_of_origin": "0",
+        "sample_needed_for_certification": "1",
+        "family_approval_accepted_incremental_cost": "Not accepted",
+        "lead_time_for_certification_months": "3 additional testing for Cybersecurity test for 4-6 weeks",
+        "certificate_validity_years": "3",
+        "recertification_cost": "$3000 Layer 2 switch $11,200 Up to 1Tbps, quotation updated by MIIT lab from July 1st, 2022 as cybersecurity test items added. $16,400 Greater than 1Tbps, quotation updated by MIIT lab from July 1st, 2022 as cybersecurity test items added. $17900，Cybersecurity test for the whole system's throughput (Bidirectional(inbound + outbound)) ≥ 12Tbps and the whole system's routing table capacity ≥ 550,000 pieces",
+        "lead_time_for_recertification_months": "3",
+        "budget_lt_needed_months": "-3",
+        "sample_needed_for_recertification": "1",
+        "lead_time_for_sample_months": "1.5",
+        "row_number": "74",
+        "comments": [
+          {
+            "row_reference": "Row 74",
+            "row_number": "74",
+            "comment": "Layer 2 switch $3K, Layer 3 switch or router with Max. switching capacity less than 1T bps $9.4K, Layer 3 switch or router with Max. switching capacity greater than 1T bps $14.4K,",
+            "author": "Brent Taira",
+            "created_at": "04/07/20 6:28 AM"
+          }
+        ]
+      },
+      {
+        "comment": "",
+        "region": "APAC",
+        "country": "China",
+        "blank": "",
+        "support_contact": "Michael Jing Hua Zhang",
+        "agency": "MIIT (NAL)",
+        "product_type": "Switch - Ethernet",
+        "cost_per_certificate": "$3000 Layer 2 switch $11,200 Up to 1Tbps, quotation updated by MIIT lab from July 1st, 2022 as cybersecurity test items added. $16,400 Greater than 1Tbps, quotation updated by MIIT lab from July 1st, 2022 as cybersecurity test items added. $17900，Cybersecurity test for the whole system's throughput ((Bidirectional(inbound + outbound)) ≥ 30Tbps and the whole system's packet per second ≥ 10Gpps,",
+        "cost_for_additional_country_of_origin": "0",
+        "sample_needed_for_certification": "1",
+        "family_approval_accepted_incremental_cost": "Not accepted",
+        "lead_time_for_certification_months": "3 additional testing for Cybersecurity test for 4-6 weeks",
+        "certificate_validity_years": "3",
+        "recertification_cost": "$3000 Layer 2 switch $11,200 Up to 1Tbps, quotation updated by MIIT lab from July 1st, 2022 as cybersecurity test items added. $16,400 Greater than 1Tbps, quotation updated by MIIT lab from July 1st, 2022 as cybersecurity test items added. $17900，Cybersecurity test for the whole system's throughput ((Bidirectional(inbound + outbound)) ≥ 30Tbps and the whole system's packet per second ≥ 10Gpps,",
+        "lead_time_for_recertification_months": "3",
+        "budget_lt_needed_months": "-3",
+        "sample_needed_for_recertification": "1",
+        "lead_time_for_sample_months": "1.5",
+        "row_number": "75",
+        "comments": []
+      },
+      {
+        "comment": "",
+        "region": "APAC",
+        "country": "China",
+        "blank": "",
+        "support_contact": "Michael Jing Hua Zhang",
+        "agency": "MIIT (NAL)",
+        "product_type": "Server - Ethernet",
+        "cost_per_certificate": "$3000 Layer 2 switch $11,200 Up to 1Tbps, quotation updated by MIIT lab from July 1st, 2022 as cybersecurity test items added. $16,400 Greater than 1Tbps, quotation updated by MIIT lab from July 1st, 2022 as cybersecurity test items added. $17900，Cybersecurity test for Number of CPU ≥8 and Number of cores per CPU ≥14 and Memory capacity ≥256GB",
+        "cost_for_additional_country_of_origin": "0",
+        "sample_needed_for_certification": "1",
+        "family_approval_accepted_incremental_cost": "Not accepted",
+        "lead_time_for_certification_months": "3 additional testing for Cybersecurity test for 4-6 weeks",
+        "certificate_validity_years": "3",
+        "recertification_cost": "$3000 Layer 2 switch $11,200 Up to 1Tbps, quotation updated by MIIT lab from July 1st, 2022 as cybersecurity test items added. $16,400 Greater than 1Tbps, quotation updated by MIIT lab from July 1st, 2022 as cybersecurity test items added. $17900，Cybersecurity test for Number of CPU ≥8 and Number of cores per CPU ≥14 and Memory capacity ≥256GB",
+        "lead_time_for_recertification_months": "3",
+        "budget_lt_needed_months": "-3",
+        "sample_needed_for_recertification": "1",
+        "lead_time_for_sample_months": "1.5",
+        "row_number": "76",
+        "comments": []
+      },
+      {
+        "comment": "CCC only EMC and Safety",
+        "region": "APAC",
+        "country": "China",
+        "blank": "",
+        "support_contact": "Jie Jane Huang",
+        "agency": "CCC",
+        "product_type": "Radio - WiFi",
+        "cost_per_certificate": "6000",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "Yes - 1x sample for each PID",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "1.5",
+        "certificate_validity_years": "5",
+        "recertification_cost": "2000",
+        "lead_time_for_recertification_months": "1",
+        "budget_lt_needed_months": "-3",
+        "sample_needed_for_recertification": "no unless critical components change",
+        "lead_time_for_sample_months": "1.5",
+        "row_number": "77",
+        "comments": []
+      },
+      {
+        "comment": "",
+        "region": "APAC",
+        "country": "China",
+        "blank": "",
+        "support_contact": "Michael Jing Hua Zhang",
+        "agency": "SRRC",
+        "product_type": "Radio - WiFi",
+        "cost_per_certificate": "$30K",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "5",
+        "family_approval_accepted_incremental_cost": "Not accepted",
+        "lead_time_for_certification_months": "3",
+        "certificate_validity_years": "5",
+        "recertification_cost": "30000",
+        "lead_time_for_recertification_months": "3",
+        "budget_lt_needed_months": "-3",
+        "sample_needed_for_recertification": "5",
+        "lead_time_for_sample_months": "1.5",
+        "row_number": "78",
+        "comments": []
+      },
+      {
+        "comment": "CCC EMC and Safety",
+        "region": "APAC",
+        "country": "China",
+        "blank": "",
+        "support_contact": "Jie Jane Huang",
+        "agency": "CCC",
+        "product_type": "Radio - LTE",
+        "cost_per_certificate": "12000",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "Yes - 1x sample for each PID",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "1.5",
+        "certificate_validity_years": "5",
+        "recertification_cost": "2000",
+        "lead_time_for_recertification_months": "1",
+        "budget_lt_needed_months": "-3",
+        "sample_needed_for_recertification": "no unless critical components change",
+        "lead_time_for_sample_months": "1.5",
+        "row_number": "79",
+        "comments": []
+      },
+      {
+        "comment": "",
+        "region": "APAC",
+        "country": "China",
+        "blank": "",
+        "support_contact": "Michael Jing Hua Zhang",
+        "agency": "SRRC",
+        "product_type": "Radio - LTE",
+        "cost_per_certificate": "8500",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "5",
+        "family_approval_accepted_incremental_cost": "Not accepted",
+        "lead_time_for_certification_months": "3",
+        "certificate_validity_years": "5",
+        "recertification_cost": "8500",
+        "lead_time_for_recertification_months": "3",
+        "budget_lt_needed_months": "-3",
+        "sample_needed_for_recertification": "5",
+        "lead_time_for_sample_months": "1.5",
+        "row_number": "80",
+        "comments": []
+      },
+      {
+        "comment": "",
+        "region": "APAC",
+        "country": "China",
+        "blank": "",
+        "support_contact": "Jie Jane Huang",
+        "agency": "CCC",
+        "product_type": "Optical",
+        "cost_per_certificate": "0",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "N/A",
+        "family_approval_accepted_incremental_cost": "N/A",
+        "lead_time_for_certification_months": "N/A",
+        "certificate_validity_years": "N/A",
+        "recertification_cost": "N/A",
+        "lead_time_for_recertification_months": "N/A",
+        "budget_lt_needed_months": "NA",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "N/A",
+        "row_number": "81",
+        "comments": []
+      },
+      {
+        "comment": "",
+        "region": "APAC",
+        "country": "China",
+        "blank": "",
+        "support_contact": "Michael Jing Hua Zhang",
+        "agency": "MIIT (NAL)",
+        "product_type": "Optical",
+        "cost_per_certificate": "NAL cost for WDM, DWDM is $28K",
+        "cost_for_additional_country_of_origin": "0",
+        "sample_needed_for_certification": "1",
+        "family_approval_accepted_incremental_cost": "Not accepted",
+        "lead_time_for_certification_months": "4",
+        "certificate_validity_years": "3",
+        "recertification_cost": "NAL cost for WDM, DWDM is $28K",
+        "lead_time_for_recertification_months": "4",
+        "budget_lt_needed_months": "-3",
+        "sample_needed_for_recertification": "1",
+        "lead_time_for_sample_months": "2",
+        "row_number": "82",
+        "comments": []
+      },
+      {
+        "comment": "CCC EMC and safety",
+        "region": "APAC",
+        "country": "China",
+        "blank": "",
+        "support_contact": "Jie Jane Huang",
+        "agency": "CCC",
+        "product_type": "Security - Firepower",
+        "cost_per_certificate": "6000",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "Yes - 1x sample for each PID",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "1.5",
+        "certificate_validity_years": "5",
+        "recertification_cost": "2000",
+        "lead_time_for_recertification_months": "1",
+        "budget_lt_needed_months": "-3",
+        "sample_needed_for_recertification": "no unless critical components change",
+        "lead_time_for_sample_months": "1.5",
+        "row_number": "83",
+        "comments": []
+      },
+      {
+        "comment": "",
+        "region": "APAC",
+        "country": "China",
+        "blank": "",
+        "support_contact": "Michael Jing Hua Zhang",
+        "agency": "MIIT (NAL)",
+        "product_type": "Security - Firepower",
+        "cost_per_certificate": "Not in NAL scope yet",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "Not Applicable",
+        "family_approval_accepted_incremental_cost": "Not Applicable",
+        "lead_time_for_certification_months": "Not Applicable",
+        "certificate_validity_years": "Not Applicable",
+        "recertification_cost": "N/A",
+        "lead_time_for_recertification_months": "N/A",
+        "budget_lt_needed_months": "NA",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "N/A",
+        "row_number": "84",
+        "comments": []
+      },
+      {
+        "comment": "",
+        "region": "APAC",
+        "country": "China",
+        "blank": "",
+        "support_contact": "Jie Jane Huang",
+        "agency": "CCC",
+        "product_type": "Collab Technology",
+        "cost_per_certificate": "6000",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "Yes - 1x sample for each PID",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "1.5",
+        "certificate_validity_years": "5",
+        "recertification_cost": "2000",
+        "lead_time_for_recertification_months": "1",
+        "budget_lt_needed_months": "-3",
+        "sample_needed_for_recertification": "no unless critical components change",
+        "lead_time_for_sample_months": "1.5",
+        "row_number": "85",
+        "comments": []
+      },
+      {
+        "comment": "",
+        "region": "APAC",
+        "country": "China",
+        "blank": "",
+        "support_contact": "Michael Jing Hua Zhang",
+        "agency": "MIIT (NAL)",
+        "product_type": "Collab Technology",
+        "cost_per_certificate": "Not in NAL scope yet",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "Not Applicable",
+        "family_approval_accepted_incremental_cost": "Not Applicable",
+        "lead_time_for_certification_months": "Not Applicable",
+        "certificate_validity_years": "Not Applicable",
+        "recertification_cost": "N/A",
+        "lead_time_for_recertification_months": "N/A",
+        "budget_lt_needed_months": "NA",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "N/A",
+        "row_number": "86",
+        "comments": []
+      },
+      {
+        "comment": "CCC only EMC and Safety",
+        "region": "APAC",
+        "country": "China",
+        "blank": "",
+        "support_contact": "Jie Jane Huang",
+        "agency": "CCC",
+        "product_type": "Telecom - T1/DSL CCC",
+        "cost_per_certificate": "0",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "N/A",
+        "family_approval_accepted_incremental_cost": "N/A",
+        "lead_time_for_certification_months": "N/A",
+        "certificate_validity_years": "N/A",
+        "recertification_cost": "N/A",
+        "lead_time_for_recertification_months": "N/A",
+        "budget_lt_needed_months": "NA",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "N/A",
+        "row_number": "87",
+        "comments": []
+      },
+      {
+        "comment": "CCC only EMC and Safety",
+        "region": "APAC",
+        "country": "China",
+        "blank": "",
+        "support_contact": "Jie Jane Huang",
+        "agency": "CCC",
+        "product_type": "TBD",
+        "cost_per_certificate": "TBD",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "TBD",
+        "family_approval_accepted_incremental_cost": "TBD",
+        "lead_time_for_certification_months": "TBD",
+        "certificate_validity_years": "TBD",
+        "recertification_cost": "TBD",
+        "lead_time_for_recertification_months": "TBD",
+        "budget_lt_needed_months": "TBD",
+        "sample_needed_for_recertification": "TBD",
+        "lead_time_for_sample_months": "TBD",
+        "row_number": "88",
+        "comments": []
+      },
+      {
+        "comment": "",
+        "region": "APAC",
+        "country": "China",
+        "blank": "",
+        "support_contact": "Michael Jing Hua Zhang",
+        "agency": "MIIT (NAL)",
+        "product_type": "Telecom - T1/DSL",
+        "cost_per_certificate": "$11,200 Up to 1Tbps, quotation updated by MIIT lab from July 1st, 2022 as cybersecurity test items added. $16,400 Greater than 1Tbps, quotation updated by MIIT lab from July 1st, 2022 as cybersecurity test items added.",
+        "cost_for_additional_country_of_origin": "0",
+        "sample_needed_for_certification": "1",
+        "family_approval_accepted_incremental_cost": "Not accepted",
+        "lead_time_for_certification_months": "3",
+        "certificate_validity_years": "3",
+        "recertification_cost": "$11,200 Up to 1Tbps, quotation updated by MIIT lab from July 1st, 2022 as cybersecurity test items added. $16,400 Greater than 1Tbps, quotation updated by MIIT lab from July 1st, 2022 as cybersecurity test items added.",
+        "lead_time_for_recertification_months": "3",
+        "budget_lt_needed_months": "-3",
+        "sample_needed_for_recertification": "1",
+        "lead_time_for_sample_months": "1.5",
+        "row_number": "89",
+        "comments": []
+      },
+      {
+        "comment": "",
+        "region": "APAC",
+        "country": "China",
+        "blank": "",
+        "support_contact": "Michael Jing Hua Zhang",
+        "agency": "MIIT (NAL)",
+        "product_type": "TBD",
+        "cost_per_certificate": "TBD",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "TBD",
+        "family_approval_accepted_incremental_cost": "TBD",
+        "lead_time_for_certification_months": "TBD",
+        "certificate_validity_years": "TBD",
+        "recertification_cost": "TBD",
+        "lead_time_for_recertification_months": "TBD",
+        "budget_lt_needed_months": "TBD",
+        "sample_needed_for_recertification": "TBD",
+        "lead_time_for_sample_months": "TBD",
+        "row_number": "90",
+        "comments": []
+      }
+    ],
+    "comments": [
+      {
+        "row_reference": "Row 72",
+        "row_number": "72",
+        "comment": "Recertification - 60% for first DF, 40% for additional DF.",
+        "author": "Brent Taira",
+        "created_at": "07/14/20 10:01 AM"
+      },
+      {
+        "row_reference": "Row 74",
+        "row_number": "74",
+        "comment": "Layer 2 switch $3K, Layer 3 switch or router with Max. switching capacity less than 1T bps $9.4K, Layer 3 switch or router with Max. switching capacity greater than 1T bps $14.4K,",
+        "author": "Brent Taira",
+        "created_at": "04/07/20 6:28 AM"
+      }
+    ]
+  },
+  "hardware_handbook": {
+    "approvals": [
+      {
+        "business_unit": "Ent Access",
+        "timeline": "FCS + 6 months",
+        "comments": "at chassis level",
+        "country_group": "China (NAL)",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS (C9300, C9350, C9400)",
+            "standard_specification": "GR-63-CORE, GR-1089-CORE"
+          },
+          {
+            "category": "OSHPD",
+            "standard_specification": "ICC-ES AC156"
+          }
+        ]
+      },
+      {
+        "business_unit": "Ent Routing",
+        "timeline": "FCS + 6 months",
+        "comments": "",
+        "country_group": "China (NAL)",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS (C8300, C8400, C8500)",
+            "standard_specification": "GR-63-CORE GR-1089-CORE"
+          },
+          {
+            "category": "OSHPD",
+            "standard_specification": "ICC-ES AC156"
+          }
+        ]
+      },
+      {
+        "business_unit": "Ent DC Servers",
+        "timeline": "FCS + 6 months",
+        "comments": "Only for UCSC",
+        "country_group": "China (CCC)",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS (per customer request)",
+            "standard_specification": "GR-63-CORE GR-1089-CORE"
+          },
+          {
+            "category": "OSHPD (UCSC)",
+            "standard_specification": "ICC-ES AC156"
+          }
+        ]
+      },
+      {
+        "business_unit": "Ent DC Servers",
+        "timeline": "FCS + 6 months",
+        "comments": "UCS-FI",
+        "country_group": "China (NAL)",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS (per customer request)",
+            "standard_specification": "GR-63-CORE GR-1089-CORE"
+          },
+          {
+            "category": "OSHPD (UCSC)",
+            "standard_specification": "ICC-ES AC156"
+          }
+        ]
+      },
+      {
+        "business_unit": "Ent DC Switching",
+        "timeline": "FCS + 3 months",
+        "comments": "Not applicable for HF6XXX",
+        "country_group": "China (NAL)",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS (N9300, N9500)",
+            "standard_specification": "GR-63-CORE GR-1089-CORE"
+          },
+          {
+            "category": "OSHPD (N9500)",
+            "standard_specification": "ICC-ES AC156"
+          }
+        ]
+      },
+      {
+        "business_unit": "SP Core (Routing)",
+        "timeline": "FCS + 6 months",
+        "comments": "For system level",
+        "country_group": "China (NAL)",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS (Per request)",
+            "standard_specification": "GR-63-CORE GR-1089-CORE"
+          }
+        ]
+      },
+      {
+        "business_unit": "SP Access",
+        "timeline": "FCS + 6 months",
+        "comments": "",
+        "country_group": "China (NAL)",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS",
+            "standard_specification": "GR-63-CORE, GR-1089-CORE GR-3108 Class-X (per request)"
+          },
+          {
+            "category": "Smart Grid (per request)",
+            "standard_specification": "IEEE 1613 EN/IEC 61850-3"
+          },
+          {
+            "category": "Railway",
+            "standard_specification": "EN50121-4"
+          }
+        ]
+      },
+      {
+        "business_unit": "Optical",
+        "timeline": "FCS + 6 months",
+        "comments": "",
+        "country_group": "China (NAL)",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS",
+            "standard_specification": "GR-63-CORE, GR-1089-CORE"
+          }
+        ]
+      },
+      {
+        "business_unit": "IOT",
+        "timeline": "FCS + 3 months",
+        "comments": "",
+        "country_group": "China (NAL)",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "ITE UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety UL/CSA 62368-1, AS/NZS 62368.1, CB to IEC 62368-1 CB with all country deviations and differences IEC 60529 (for IP66, IP67 systems) UL50E Type 4x (on IP66 and IP67 models) ICE UL61010-2-201 CB to IEC 61010-2-201 Hazloc Class 1, Div2/zone2 evaluations UL121201 CSA 22.2 213 UL60079-0, UL60079-7,UL60079-15 EN IEC 60079-0, EN IEC 60079-7, EN IEC 60079-15, EN IEC 60079-28 ATEX certification IECEx certification"
+          },
+          {
+            "category": "Railway Rolling stock and wayside",
+            "standard_specification": "EN 50121-3-2 EN 50121-4 EN50155 EN50153 EN45545-2 EN61373 EN50125-1 EN50125-3 EN50124-1"
+          },
+          {
+            "category": "Smart Grid",
+            "standard_specification": "IEC61850-3 IEEE1613:2025"
+          },
+          {
+            "category": "Traffic controllers",
+            "standard_specification": "NEMA TS2"
+          },
+          {
+            "category": "Marine",
+            "standard_specification": "DNV CG-0339, IACS UR E10"
+          },
+          {
+            "category": "Automotive",
+            "standard_specification": "CISPR25 UN ECE R10, R118 E-Mark certification"
+          },
+          {
+            "category": "MIL",
+            "standard_specification": "MIL-STD-461 (specific products only upon request) MIL-STD-810 (S&V)"
+          },
+          {
+            "category": "Corrosion",
+            "standard_specification": "IEC60068-2-52 IEC60068-2-60"
+          }
+        ]
+      }
+    ]
+  }
+}

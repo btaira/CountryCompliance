@@ -1,0 +1,48 @@
+{
+  "country": "CORE",
+  "slug": "core",
+  "country_file": "countries/core.json",
+  "nemko": null,
+  "workbook": {
+    "summary": {
+      "entry_count": 1,
+      "product_types": [
+        "Switch - Ethernet"
+      ],
+      "agencies": [
+        "US/CAN/CE/JP"
+      ],
+      "support_contacts": [
+        "Gen Andres"
+      ]
+    },
+    "entries": [
+      {
+        "comment": "",
+        "region": "",
+        "country": "CORE",
+        "blank": "",
+        "support_contact": "Gen Andres",
+        "agency": "US/CAN/CE/JP",
+        "product_type": "Switch - Ethernet",
+        "cost_per_certificate": "Requires Global EMC report , safety cert/reports (CB and NTRL)",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "",
+        "family_approval_accepted_incremental_cost": "",
+        "lead_time_for_certification_months": "",
+        "certificate_validity_years": "",
+        "recertification_cost": "",
+        "lead_time_for_recertification_months": "",
+        "budget_lt_needed_months": "",
+        "sample_needed_for_recertification": "",
+        "lead_time_for_sample_months": "",
+        "row_number": "371",
+        "comments": []
+      }
+    ],
+    "comments": []
+  },
+  "hardware_handbook": {
+    "approvals": []
+  }
+}

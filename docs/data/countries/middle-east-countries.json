@@ -1,0 +1,60 @@
+{
+  "country": "Middle East Countries",
+  "slug": "middle-east-countries",
+  "country_file": "countries/middle-east-countries.json",
+  "nemko": null,
+  "workbook": {
+    "summary": {
+      "entry_count": 0,
+      "product_types": [],
+      "agencies": [],
+      "support_contacts": []
+    },
+    "entries": [],
+    "comments": []
+  },
+  "hardware_handbook": {
+    "approvals": [
+      {
+        "business_unit": "IOT",
+        "timeline": "FCS",
+        "comments": "",
+        "country_group": "Middle east countries",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "ITE UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety UL/CSA 62368-1, AS/NZS 62368.1, CB to IEC 62368-1 CB with all country deviations and differences IEC 60529 (for IP66, IP67 systems) UL50E Type 4x (on IP66 and IP67 models) ICE UL61010-2-201 CB to IEC 61010-2-201 Hazloc Class 1, Div2/zone2 evaluations UL121201 CSA 22.2 213 UL60079-0, UL60079-7,UL60079-15 EN IEC 60079-0, EN IEC 60079-7, EN IEC 60079-15, EN IEC 60079-28 ATEX certification IECEx certification"
+          },
+          {
+            "category": "Railway Rolling stock and wayside",
+            "standard_specification": "EN 50121-3-2 EN 50121-4 EN50155 EN50153 EN45545-2 EN61373 EN50125-1 EN50125-3 EN50124-1"
+          },
+          {
+            "category": "Smart Grid",
+            "standard_specification": "IEC61850-3 IEEE1613:2025"
+          },
+          {
+            "category": "Traffic controllers",
+            "standard_specification": "NEMA TS2"
+          },
+          {
+            "category": "Marine",
+            "standard_specification": "DNV CG-0339, IACS UR E10"
+          },
+          {
+            "category": "Automotive",
+            "standard_specification": "CISPR25 UN ECE R10, R118 E-Mark certification"
+          },
+          {
+            "category": "MIL",
+            "standard_specification": "MIL-STD-461 (specific products only upon request) MIL-STD-810 (S&V)"
+          },
+          {
+            "category": "Corrosion",
+            "standard_specification": "IEC60068-2-52 IEC60068-2-60"
+          }
+        ]
+      }
+    ]
+  }
+}

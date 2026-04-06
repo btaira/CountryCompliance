@@ -1,0 +1,90 @@
+{
+  "country": "Chile",
+  "slug": "chile",
+  "country_file": "countries/chile.json",
+  "nemko": {
+    "country": "CHILE",
+    "national_language": "Spanish",
+    "population": "19.1 million",
+    "flag_image_url": "https://www.nemko.com/hubfs/Global%20Marketing%20flags/cl.png",
+    "compliance_requirement_for_telecom_radio": "Yes",
+    "regulatory_authority": "Subsecretaria de Telecomunicaciones (SUBTEL)",
+    "mandatory_requirements_telecom_radio_safety_emc": "Telecom Radio",
+    "in_country_test": "No",
+    "language_requirements_application_manual_report": "Spanish manual",
+    "local_representation_required_for_approval": "No",
+    "country_specific_labelling": "None",
+    "approval_validity": "Life of product",
+    "factory_inspection": "No",
+    "other_requirements": "Other requirements for EMC, safety and ROHS might apply. Please check the Nemko Direct key info for more information.",
+    "radio_telecom_certificate_example_url": "",
+    "radio_telecom_mark_artwork_url": "",
+    "emc_certification_and_test_report_required_for_it_products": "No",
+    "emission_and_immunity": "No",
+    "safety_certification_required_for_it_products": "Yes",
+    "safety_test_report_requirement": "Yes",
+    "rohs_certification_required_for_it_products": "No",
+    "rohs_requirements": "Unknown",
+    "sample_required_in_country": "Nemko report accepted",
+    "language_requirements_user_manual_product_safety_markings": "Spanish",
+    "local_representative_applicant_required": "Yes, need actual importer",
+    "mandatory_factory_inspection_requirement": "Yes, for scheme II approval",
+    "remarks": "",
+    "safety_emc_certificate_example_url": "",
+    "safety_emc_mark_artwork_url": "",
+    "energy_efficiency_requirements": "Yes",
+    "energy_efficiency_certificate_example_url": "",
+    "energy_efficiency_mark_artwork_url": "",
+    "country_css_class": "chile"
+  },
+  "workbook": {
+    "summary": {
+      "entry_count": 0,
+      "product_types": [],
+      "agencies": [],
+      "support_contacts": []
+    },
+    "entries": [],
+    "comments": []
+  },
+  "hardware_handbook": {
+    "approvals": [
+      {
+        "business_unit": "Ent Access",
+        "timeline": "",
+        "comments": "",
+        "country_group": "Argentina, Chile, Colombia, Costa Rica, Hong Kong, Philippines, Singapore",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS (C9300, C9350, C9400)",
+            "standard_specification": "GR-63-CORE, GR-1089-CORE"
+          },
+          {
+            "category": "OSHPD",
+            "standard_specification": "ICC-ES AC156"
+          }
+        ]
+      },
+      {
+        "business_unit": "Optical",
+        "timeline": "",
+        "comments": "",
+        "country_group": "Argentina, Chile, Hong Kong, and Singapore",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS",
+            "standard_specification": "GR-63-CORE, GR-1089-CORE"
+          }
+        ]
+      }
+    ]
+  }
+}

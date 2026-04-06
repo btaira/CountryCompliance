@@ -1,0 +1,53 @@
+{
+  "country": "Qatar",
+  "slug": "qatar",
+  "country_file": "countries/qatar.json",
+  "nemko": {
+    "country": "QATAR",
+    "national_language": "Arabic",
+    "population": "2.9 million",
+    "flag_image_url": "https://www.nemko.com/hubfs/Global%20Marketing%20flags/qa.png",
+    "compliance_requirement_for_telecom_radio": "Yes",
+    "regulatory_authority": "Supreme Council of Information and Communication Technology (ICT Qatar)",
+    "mandatory_requirements_telecom_radio_safety_emc": "TelecomRadioEMCSafety",
+    "in_country_test": "No",
+    "language_requirements_application_manual_report": "No",
+    "local_representation_required_for_approval": "Yes",
+    "country_specific_labelling": "None",
+    "approval_validity": "Life of product",
+    "factory_inspection": "No",
+    "other_requirements": "",
+    "radio_telecom_certificate_example_url": "",
+    "radio_telecom_mark_artwork_url": "",
+    "emc_certification_and_test_report_required_for_it_products": "No",
+    "emission_and_immunity": "No",
+    "safety_certification_required_for_it_products": "No",
+    "safety_test_report_requirement": "No",
+    "rohs_certification_required_for_it_products": "No",
+    "rohs_requirements": "No",
+    "sample_required_in_country": "No",
+    "language_requirements_user_manual_product_safety_markings": "Not applicable",
+    "local_representative_applicant_required": "Not applicable",
+    "mandatory_factory_inspection_requirement": "Not applicable",
+    "remarks": "GSO is only for HOUS equipment",
+    "safety_emc_certificate_example_url": "",
+    "safety_emc_mark_artwork_url": "",
+    "energy_efficiency_requirements": "Unknown",
+    "energy_efficiency_certificate_example_url": "",
+    "energy_efficiency_mark_artwork_url": "",
+    "country_css_class": "qatar"
+  },
+  "workbook": {
+    "summary": {
+      "entry_count": 0,
+      "product_types": [],
+      "agencies": [],
+      "support_contacts": []
+    },
+    "entries": [],
+    "comments": []
+  },
+  "hardware_handbook": {
+    "approvals": []
+  }
+}

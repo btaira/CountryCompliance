@@ -1,6 +1,6 @@
 {
   "source_url": "https://www.nemko.com/services/global-market-access/select-by-country",
-  "fetched_at_utc": "2026-04-06T20:51:18.100087+00:00",
+  "fetched_at_utc": "2026-04-06T21:07:56.186873+00:00",
   "country_count": 73,
   "sources": {
     "nemko_html": "nemko_select_by_country.html",
@@ -1336,6 +1336,7 @@
     {
       "country": "Argentina",
       "slug": "argentina",
+      "country_file": "countries/argentina.json",
       "nemko": {
         "country": "ARGENTINA",
         "national_language": "Spanish",
@@ -1663,13 +1664,37 @@
             "business_unit": "Ent Access",
             "timeline": "",
             "comments": "",
-            "country_group": "Argentina, Chile, Colombia, Costa Rica, Hong Kong, Philippines, Singapore"
+            "country_group": "Argentina, Chile, Colombia, Costa Rica, Hong Kong, Philippines, Singapore",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C9300, C9350, C9400)",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Optical",
             "timeline": "",
             "comments": "",
-            "country_group": "Argentina, Chile, Hong Kong, and Singapore"
+            "country_group": "Argentina, Chile, Hong Kong, and Singapore",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              }
+            ]
           }
         ]
       }
@@ -1677,6 +1702,7 @@
     {
       "country": "Armenia",
       "slug": "armenia",
+      "country_file": "countries/armenia.json",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -1907,55 +1933,197 @@
             "business_unit": "Ent Access",
             "timeline": "FCS + 6 months",
             "comments": "at chassis level",
-            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)"
+            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C9300, C9350, C9400)",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent Routing",
             "timeline": "FCS + 6 months",
             "comments": "",
-            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)"
+            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C8300, C8400, C8500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Servers",
             "timeline": "FCS + 6 months",
             "comments": "All UCS",
-            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)"
+            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (per customer request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (UCSC)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Switching",
             "timeline": "FCS + 6 months",
             "comments": "",
-            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)"
+            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (N9300, N9500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (N9500)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "SP Core (Routing)",
             "timeline": "FCS + 6 months",
             "comments": "For system level",
-            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)"
+            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (Per request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "SP Access",
             "timeline": "FCS + 6 months",
             "comments": "",
-            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)"
+            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE GR-3108 Class-X (per request)"
+              },
+              {
+                "category": "Smart Grid (per request)",
+                "standard_specification": "IEEE 1613 EN/IEC 61850-3"
+              },
+              {
+                "category": "Railway",
+                "standard_specification": "EN50121-4"
+              }
+            ]
           },
           {
             "business_unit": "Security",
             "timeline": "FCS + 6 months",
             "comments": "",
-            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)"
+            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Optical",
             "timeline": "FCS + 6 months",
             "comments": "",
-            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)"
+            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "IOT",
             "timeline": "FCS + 6 months",
             "comments": "",
-            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)"
+            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "ITE UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety UL/CSA 62368-1, AS/NZS 62368.1, CB to IEC 62368-1 CB with all country deviations and differences IEC 60529 (for IP66, IP67 systems) UL50E Type 4x (on IP66 and IP67 models) ICE UL61010-2-201 CB to IEC 61010-2-201 Hazloc Class 1, Div2/zone2 evaluations UL121201 CSA 22.2 213 UL60079-0, UL60079-7,UL60079-15 EN IEC 60079-0, EN IEC 60079-7, EN IEC 60079-15, EN IEC 60079-28 ATEX certification IECEx certification"
+              },
+              {
+                "category": "Railway Rolling stock and wayside",
+                "standard_specification": "EN 50121-3-2 EN 50121-4 EN50155 EN50153 EN45545-2 EN61373 EN50125-1 EN50125-3 EN50124-1"
+              },
+              {
+                "category": "Smart Grid",
+                "standard_specification": "IEC61850-3 IEEE1613:2025"
+              },
+              {
+                "category": "Traffic controllers",
+                "standard_specification": "NEMA TS2"
+              },
+              {
+                "category": "Marine",
+                "standard_specification": "DNV CG-0339, IACS UR E10"
+              },
+              {
+                "category": "Automotive",
+                "standard_specification": "CISPR25 UN ECE R10, R118 E-Mark certification"
+              },
+              {
+                "category": "MIL",
+                "standard_specification": "MIL-STD-461 (specific products only upon request) MIL-STD-810 (S&V)"
+              },
+              {
+                "category": "Corrosion",
+                "standard_specification": "IEC60068-2-52 IEC60068-2-60"
+              }
+            ]
           }
         ]
       }
@@ -1963,6 +2131,7 @@
     {
       "country": "Australia",
       "slug": "australia",
+      "country_file": "countries/australia.json",
       "nemko": {
         "country": "AUSTRALIA",
         "national_language": "no official, English",
@@ -2266,61 +2435,213 @@
             "business_unit": "Ent Access",
             "timeline": "FCS",
             "comments": "",
-            "country_group": "Australia, New Zealand"
+            "country_group": "Australia, New Zealand",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C9300, C9350, C9400)",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent Routing",
             "timeline": "FCS",
             "comments": "",
-            "country_group": "Australia, New Zealand"
+            "country_group": "Australia, New Zealand",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C8300, C8400, C8500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Servers",
             "timeline": "FCS",
             "comments": "All UCS",
-            "country_group": "Australia, New Zealand"
+            "country_group": "Australia, New Zealand",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (per customer request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (UCSC)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Switching",
             "timeline": "FCS",
             "comments": "",
-            "country_group": "Australia, New Zealand"
+            "country_group": "Australia, New Zealand",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (N9300, N9500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (N9500)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "SP Core (Routing)",
             "timeline": "FCS",
             "comments": "",
-            "country_group": "Australia, New Zealand"
+            "country_group": "Australia, New Zealand",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (Per request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "SP Access",
             "timeline": "FCS",
             "comments": "",
-            "country_group": "Australia, New Zealand"
+            "country_group": "Australia, New Zealand",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE GR-3108 Class-X (per request)"
+              },
+              {
+                "category": "Smart Grid (per request)",
+                "standard_specification": "IEEE 1613 EN/IEC 61850-3"
+              },
+              {
+                "category": "Railway",
+                "standard_specification": "EN50121-4"
+              }
+            ]
           },
           {
             "business_unit": "Security",
             "timeline": "FCS",
             "comments": "",
-            "country_group": "Australia, New Zealand"
+            "country_group": "Australia, New Zealand",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Optical",
             "timeline": "FCS",
             "comments": "",
-            "country_group": "Australia, New Zealand"
+            "country_group": "Australia, New Zealand",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "TMG",
             "timeline": "FCS",
             "comments": "",
-            "country_group": "Australia, New Zealand"
+            "country_group": "Australia, New Zealand",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "IOT",
             "timeline": "FCS",
             "comments": "",
-            "country_group": "Australia, New Zealand"
+            "country_group": "Australia, New Zealand",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "ITE UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety UL/CSA 62368-1, AS/NZS 62368.1, CB to IEC 62368-1 CB with all country deviations and differences IEC 60529 (for IP66, IP67 systems) UL50E Type 4x (on IP66 and IP67 models) ICE UL61010-2-201 CB to IEC 61010-2-201 Hazloc Class 1, Div2/zone2 evaluations UL121201 CSA 22.2 213 UL60079-0, UL60079-7,UL60079-15 EN IEC 60079-0, EN IEC 60079-7, EN IEC 60079-15, EN IEC 60079-28 ATEX certification IECEx certification"
+              },
+              {
+                "category": "Railway Rolling stock and wayside",
+                "standard_specification": "EN 50121-3-2 EN 50121-4 EN50155 EN50153 EN45545-2 EN61373 EN50125-1 EN50125-3 EN50124-1"
+              },
+              {
+                "category": "Smart Grid",
+                "standard_specification": "IEC61850-3 IEEE1613:2025"
+              },
+              {
+                "category": "Traffic controllers",
+                "standard_specification": "NEMA TS2"
+              },
+              {
+                "category": "Marine",
+                "standard_specification": "DNV CG-0339, IACS UR E10"
+              },
+              {
+                "category": "Automotive",
+                "standard_specification": "CISPR25 UN ECE R10, R118 E-Mark certification"
+              },
+              {
+                "category": "MIL",
+                "standard_specification": "MIL-STD-461 (specific products only upon request) MIL-STD-810 (S&V)"
+              },
+              {
+                "category": "Corrosion",
+                "standard_specification": "IEC60068-2-52 IEC60068-2-60"
+              }
+            ]
           }
         ]
       }
@@ -2328,6 +2649,7 @@
     {
       "country": "Azerbaijan",
       "slug": "azerbaijan",
+      "country_file": "countries/azerbaijan.json",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -2582,6 +2904,7 @@
     {
       "country": "Bahrain",
       "slug": "bahrain",
+      "country_file": "countries/bahrain.json",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -2834,6 +3157,7 @@
     {
       "country": "Belarus",
       "slug": "belarus",
+      "country_file": "countries/belarus.json",
       "nemko": {
         "country": "BELARUS",
         "national_language": "Belarusian/Russian",
@@ -3301,6 +3625,7 @@
     {
       "country": "Bolivia",
       "slug": "bolivia",
+      "country_file": "countries/bolivia.json",
       "nemko": {
         "country": "BOLIVIA",
         "national_language": "Spanish and 36 indigenous",
@@ -3353,6 +3678,7 @@
     {
       "country": "Botswana",
       "slug": "botswana",
+      "country_file": "countries/botswana.json",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -3608,6 +3934,7 @@
     {
       "country": "Brazil",
       "slug": "brazil",
+      "country_file": "countries/brazil.json",
       "nemko": {
         "country": "BRAZIL",
         "national_language": "Spanish",
@@ -3956,49 +4283,177 @@
             "business_unit": "Ent Access",
             "timeline": "FCS + 3 months",
             "comments": "",
-            "country_group": "Brazil"
+            "country_group": "Brazil",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C9300, C9350, C9400)",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent Routing",
             "timeline": "FCS + 3 months",
             "comments": "",
-            "country_group": "Brazil"
+            "country_group": "Brazil",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C8300, C8400, C8500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Servers",
             "timeline": "FCS + 3 months",
             "comments": "Only for UCS-FI",
-            "country_group": "Brazil"
+            "country_group": "Brazil",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (per customer request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (UCSC)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Switching",
             "timeline": "FCS + 3 months",
             "comments": "",
-            "country_group": "Brazil (Anatel)"
+            "country_group": "Brazil (Anatel)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (N9300, N9500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (N9500)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "SP Core (Routing)",
             "timeline": "FCS + 3 months",
             "comments": "",
-            "country_group": "Brazil"
+            "country_group": "Brazil",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (Per request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "SP Access",
             "timeline": "FCS + 3 months",
             "comments": "",
-            "country_group": "Brazil (Anatel)"
+            "country_group": "Brazil (Anatel)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE GR-3108 Class-X (per request)"
+              },
+              {
+                "category": "Smart Grid (per request)",
+                "standard_specification": "IEEE 1613 EN/IEC 61850-3"
+              },
+              {
+                "category": "Railway",
+                "standard_specification": "EN50121-4"
+              }
+            ]
           },
           {
             "business_unit": "Optical",
             "timeline": "FCS + 3 months",
             "comments": "",
-            "country_group": "Brazil"
+            "country_group": "Brazil",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "IOT",
             "timeline": "FCS + 3 months",
             "comments": "",
-            "country_group": "Brazil"
+            "country_group": "Brazil",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "ITE UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety UL/CSA 62368-1, AS/NZS 62368.1, CB to IEC 62368-1 CB with all country deviations and differences IEC 60529 (for IP66, IP67 systems) UL50E Type 4x (on IP66 and IP67 models) ICE UL61010-2-201 CB to IEC 61010-2-201 Hazloc Class 1, Div2/zone2 evaluations UL121201 CSA 22.2 213 UL60079-0, UL60079-7,UL60079-15 EN IEC 60079-0, EN IEC 60079-7, EN IEC 60079-15, EN IEC 60079-28 ATEX certification IECEx certification"
+              },
+              {
+                "category": "Railway Rolling stock and wayside",
+                "standard_specification": "EN 50121-3-2 EN 50121-4 EN50155 EN50153 EN45545-2 EN61373 EN50125-1 EN50125-3 EN50124-1"
+              },
+              {
+                "category": "Smart Grid",
+                "standard_specification": "IEC61850-3 IEEE1613:2025"
+              },
+              {
+                "category": "Traffic controllers",
+                "standard_specification": "NEMA TS2"
+              },
+              {
+                "category": "Marine",
+                "standard_specification": "DNV CG-0339, IACS UR E10"
+              },
+              {
+                "category": "Automotive",
+                "standard_specification": "CISPR25 UN ECE R10, R118 E-Mark certification"
+              },
+              {
+                "category": "MIL",
+                "standard_specification": "MIL-STD-461 (specific products only upon request) MIL-STD-810 (S&V)"
+              },
+              {
+                "category": "Corrosion",
+                "standard_specification": "IEC60068-2-52 IEC60068-2-60"
+              }
+            ]
           }
         ]
       }
@@ -4006,6 +4461,7 @@
     {
       "country": "CORE",
       "slug": "core",
+      "country_file": "countries/core.json",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -4053,6 +4509,7 @@
     {
       "country": "Canada",
       "slug": "canada",
+      "country_file": "countries/canada.json",
       "nemko": {
         "country": "CANADA",
         "national_language": "English/French",
@@ -4104,7 +4561,21 @@
             "business_unit": "Ent Access",
             "timeline": "",
             "comments": "",
-            "country_group": "USA, Canada"
+            "country_group": "USA, Canada",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C9300, C9350, C9400)",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           }
         ]
       }
@@ -4112,6 +4583,7 @@
     {
       "country": "Chile",
       "slug": "chile",
+      "country_file": "countries/chile.json",
       "nemko": {
         "country": "CHILE",
         "national_language": "Spanish",
@@ -4163,13 +4635,37 @@
             "business_unit": "Ent Access",
             "timeline": "",
             "comments": "",
-            "country_group": "Argentina, Chile, Colombia, Costa Rica, Hong Kong, Philippines, Singapore"
+            "country_group": "Argentina, Chile, Colombia, Costa Rica, Hong Kong, Philippines, Singapore",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C9300, C9350, C9400)",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Optical",
             "timeline": "",
             "comments": "",
-            "country_group": "Argentina, Chile, Hong Kong, and Singapore"
+            "country_group": "Argentina, Chile, Hong Kong, and Singapore",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              }
+            ]
           }
         ]
       }
@@ -4177,6 +4673,7 @@
     {
       "country": "China",
       "slug": "china",
+      "country_file": "countries/china.json",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -4685,55 +5182,197 @@
             "business_unit": "Ent Access",
             "timeline": "FCS + 6 months",
             "comments": "at chassis level",
-            "country_group": "China (NAL)"
+            "country_group": "China (NAL)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C9300, C9350, C9400)",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent Routing",
             "timeline": "FCS + 6 months",
             "comments": "",
-            "country_group": "China (NAL)"
+            "country_group": "China (NAL)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C8300, C8400, C8500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Servers",
             "timeline": "FCS + 6 months",
             "comments": "Only for UCSC",
-            "country_group": "China (CCC)"
+            "country_group": "China (CCC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (per customer request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (UCSC)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Servers",
             "timeline": "FCS + 6 months",
             "comments": "UCS-FI",
-            "country_group": "China (NAL)"
+            "country_group": "China (NAL)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (per customer request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (UCSC)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Switching",
             "timeline": "FCS + 3 months",
             "comments": "Not applicable for HF6XXX",
-            "country_group": "China (NAL)"
+            "country_group": "China (NAL)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (N9300, N9500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (N9500)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "SP Core (Routing)",
             "timeline": "FCS + 6 months",
             "comments": "For system level",
-            "country_group": "China (NAL)"
+            "country_group": "China (NAL)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (Per request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "SP Access",
             "timeline": "FCS + 6 months",
             "comments": "",
-            "country_group": "China (NAL)"
+            "country_group": "China (NAL)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE GR-3108 Class-X (per request)"
+              },
+              {
+                "category": "Smart Grid (per request)",
+                "standard_specification": "IEEE 1613 EN/IEC 61850-3"
+              },
+              {
+                "category": "Railway",
+                "standard_specification": "EN50121-4"
+              }
+            ]
           },
           {
             "business_unit": "Optical",
             "timeline": "FCS + 6 months",
             "comments": "",
-            "country_group": "China (NAL)"
+            "country_group": "China (NAL)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "IOT",
             "timeline": "FCS + 3 months",
             "comments": "",
-            "country_group": "China (NAL)"
+            "country_group": "China (NAL)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "ITE UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety UL/CSA 62368-1, AS/NZS 62368.1, CB to IEC 62368-1 CB with all country deviations and differences IEC 60529 (for IP66, IP67 systems) UL50E Type 4x (on IP66 and IP67 models) ICE UL61010-2-201 CB to IEC 61010-2-201 Hazloc Class 1, Div2/zone2 evaluations UL121201 CSA 22.2 213 UL60079-0, UL60079-7,UL60079-15 EN IEC 60079-0, EN IEC 60079-7, EN IEC 60079-15, EN IEC 60079-28 ATEX certification IECEx certification"
+              },
+              {
+                "category": "Railway Rolling stock and wayside",
+                "standard_specification": "EN 50121-3-2 EN 50121-4 EN50155 EN50153 EN45545-2 EN61373 EN50125-1 EN50125-3 EN50124-1"
+              },
+              {
+                "category": "Smart Grid",
+                "standard_specification": "IEC61850-3 IEEE1613:2025"
+              },
+              {
+                "category": "Traffic controllers",
+                "standard_specification": "NEMA TS2"
+              },
+              {
+                "category": "Marine",
+                "standard_specification": "DNV CG-0339, IACS UR E10"
+              },
+              {
+                "category": "Automotive",
+                "standard_specification": "CISPR25 UN ECE R10, R118 E-Mark certification"
+              },
+              {
+                "category": "MIL",
+                "standard_specification": "MIL-STD-461 (specific products only upon request) MIL-STD-810 (S&V)"
+              },
+              {
+                "category": "Corrosion",
+                "standard_specification": "IEC60068-2-52 IEC60068-2-60"
+              }
+            ]
           }
         ]
       }
@@ -4741,6 +5380,7 @@
     {
       "country": "China CCC Ex",
       "slug": "china-ccc-ex",
+      "country_file": "countries/china-ccc-ex.json",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -4758,7 +5398,41 @@
             "business_unit": "IOT",
             "timeline": "FCS + 6 months",
             "comments": "",
-            "country_group": "China CCC Ex"
+            "country_group": "China CCC Ex",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "ITE UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety UL/CSA 62368-1, AS/NZS 62368.1, CB to IEC 62368-1 CB with all country deviations and differences IEC 60529 (for IP66, IP67 systems) UL50E Type 4x (on IP66 and IP67 models) ICE UL61010-2-201 CB to IEC 61010-2-201 Hazloc Class 1, Div2/zone2 evaluations UL121201 CSA 22.2 213 UL60079-0, UL60079-7,UL60079-15 EN IEC 60079-0, EN IEC 60079-7, EN IEC 60079-15, EN IEC 60079-28 ATEX certification IECEx certification"
+              },
+              {
+                "category": "Railway Rolling stock and wayside",
+                "standard_specification": "EN 50121-3-2 EN 50121-4 EN50155 EN50153 EN45545-2 EN61373 EN50125-1 EN50125-3 EN50124-1"
+              },
+              {
+                "category": "Smart Grid",
+                "standard_specification": "IEC61850-3 IEEE1613:2025"
+              },
+              {
+                "category": "Traffic controllers",
+                "standard_specification": "NEMA TS2"
+              },
+              {
+                "category": "Marine",
+                "standard_specification": "DNV CG-0339, IACS UR E10"
+              },
+              {
+                "category": "Automotive",
+                "standard_specification": "CISPR25 UN ECE R10, R118 E-Mark certification"
+              },
+              {
+                "category": "MIL",
+                "standard_specification": "MIL-STD-461 (specific products only upon request) MIL-STD-810 (S&V)"
+              },
+              {
+                "category": "Corrosion",
+                "standard_specification": "IEC60068-2-52 IEC60068-2-60"
+              }
+            ]
           }
         ]
       }
@@ -4766,6 +5440,7 @@
     {
       "country": "China Mainland",
       "slug": "china-mainland",
+      "country_file": "countries/china-mainland.json",
       "nemko": {
         "country": "CHINA MAINLAND",
         "national_language": "Mandarin",
@@ -4818,6 +5493,7 @@
     {
       "country": "Colombia",
       "slug": "colombia",
+      "country_file": "countries/colombia.json",
       "nemko": {
         "country": "COLOMBIA",
         "national_language": "Spanish",
@@ -4869,7 +5545,21 @@
             "business_unit": "Ent Access",
             "timeline": "",
             "comments": "",
-            "country_group": "Argentina, Chile, Colombia, Costa Rica, Hong Kong, Philippines, Singapore"
+            "country_group": "Argentina, Chile, Colombia, Costa Rica, Hong Kong, Philippines, Singapore",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C9300, C9350, C9400)",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           }
         ]
       }
@@ -4877,6 +5567,7 @@
     {
       "country": "Costa Rica",
       "slug": "costa-rica",
+      "country_file": "countries/costa-rica.json",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -4894,7 +5585,21 @@
             "business_unit": "Ent Access",
             "timeline": "",
             "comments": "",
-            "country_group": "Argentina, Chile, Colombia, Costa Rica, Hong Kong, Philippines, Singapore"
+            "country_group": "Argentina, Chile, Colombia, Costa Rica, Hong Kong, Philippines, Singapore",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C9300, C9350, C9400)",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           }
         ]
       }
@@ -4902,6 +5607,7 @@
     {
       "country": "Cyprus",
       "slug": "cyprus",
+      "country_file": "countries/cyprus.json",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -4919,7 +5625,21 @@
             "business_unit": "Ent Routing",
             "timeline": "",
             "comments": "",
-            "country_group": "Singapore, Mexico, Hong Kong, Philippines, Thailand, Malaysia, Greece, VietNam, Cyprus"
+            "country_group": "Singapore, Mexico, Hong Kong, Philippines, Thailand, Malaysia, Greece, VietNam, Cyprus",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C8300, C8400, C8500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           }
         ]
       }
@@ -4927,6 +5647,7 @@
     {
       "country": "Dominican Republic",
       "slug": "dominican-republic",
+      "country_file": "countries/dominican-republic.json",
       "nemko": {
         "country": "DOMINICAN REPUBLIC",
         "national_language": "Spanish",
@@ -4979,6 +5700,7 @@
     {
       "country": "EU/EEA",
       "slug": "eu-eea",
+      "country_file": "countries/eu-eea.json",
       "nemko": {
         "country": "EU/EEA",
         "national_language": "N/A",
@@ -5031,6 +5753,7 @@
     {
       "country": "Ethiopia",
       "slug": "ethiopia",
+      "country_file": "countries/ethiopia.json",
       "nemko": {
         "country": "ETHIOPIA",
         "national_language": "Amharic",
@@ -5083,6 +5806,7 @@
     {
       "country": "Europe",
       "slug": "europe",
+      "country_file": "countries/europe.json",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -5391,6 +6115,7 @@
     {
       "country": "Europe (CE Countries)",
       "slug": "europe-ce-countries",
+      "country_file": "countries/europe-ce-countries.json",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -5408,67 +6133,233 @@
             "business_unit": "Ent Access",
             "timeline": "",
             "comments": "",
-            "country_group": "Europe (CE Countries)"
+            "country_group": "Europe (CE Countries)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C9300, C9350, C9400)",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent Routing",
             "timeline": "",
             "comments": "",
-            "country_group": "Europe (CE Countries)"
+            "country_group": "Europe (CE Countries)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C8300, C8400, C8500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Servers",
             "timeline": "",
             "comments": "All UCS",
-            "country_group": "Europe (CE Countries)"
+            "country_group": "Europe (CE Countries)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (per customer request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (UCSC)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Servers",
             "timeline": "",
             "comments": "Only for UCSC, UCSB, and UCSX",
-            "country_group": "Europe (Lot 9)"
+            "country_group": "Europe (Lot 9)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (per customer request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (UCSC)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Switching",
             "timeline": "",
             "comments": "",
-            "country_group": "Europe (CE Countries)"
+            "country_group": "Europe (CE Countries)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (N9300, N9500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (N9500)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "SP Core (Routing)",
             "timeline": "",
             "comments": "",
-            "country_group": "Europe (CE Countries)"
+            "country_group": "Europe (CE Countries)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (Per request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "SP Access",
             "timeline": "",
             "comments": "",
-            "country_group": "Europe (CE Countries)"
+            "country_group": "Europe (CE Countries)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE GR-3108 Class-X (per request)"
+              },
+              {
+                "category": "Smart Grid (per request)",
+                "standard_specification": "IEEE 1613 EN/IEC 61850-3"
+              },
+              {
+                "category": "Railway",
+                "standard_specification": "EN50121-4"
+              }
+            ]
           },
           {
             "business_unit": "Security",
             "timeline": "",
             "comments": "",
-            "country_group": "Europe (CE Countries)"
+            "country_group": "Europe (CE Countries)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Optical",
             "timeline": "",
             "comments": "",
-            "country_group": "Europe (CE Countries)"
+            "country_group": "Europe (CE Countries)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "TMG",
             "timeline": "",
             "comments": "",
-            "country_group": "Europe (CE Countries)"
+            "country_group": "Europe (CE Countries)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "IOT",
             "timeline": "",
             "comments": "",
-            "country_group": "Europe (CE Countries), UK"
+            "country_group": "Europe (CE Countries), UK",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "ITE UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety UL/CSA 62368-1, AS/NZS 62368.1, CB to IEC 62368-1 CB with all country deviations and differences IEC 60529 (for IP66, IP67 systems) UL50E Type 4x (on IP66 and IP67 models) ICE UL61010-2-201 CB to IEC 61010-2-201 Hazloc Class 1, Div2/zone2 evaluations UL121201 CSA 22.2 213 UL60079-0, UL60079-7,UL60079-15 EN IEC 60079-0, EN IEC 60079-7, EN IEC 60079-15, EN IEC 60079-28 ATEX certification IECEx certification"
+              },
+              {
+                "category": "Railway Rolling stock and wayside",
+                "standard_specification": "EN 50121-3-2 EN 50121-4 EN50155 EN50153 EN45545-2 EN61373 EN50125-1 EN50125-3 EN50124-1"
+              },
+              {
+                "category": "Smart Grid",
+                "standard_specification": "IEC61850-3 IEEE1613:2025"
+              },
+              {
+                "category": "Traffic controllers",
+                "standard_specification": "NEMA TS2"
+              },
+              {
+                "category": "Marine",
+                "standard_specification": "DNV CG-0339, IACS UR E10"
+              },
+              {
+                "category": "Automotive",
+                "standard_specification": "CISPR25 UN ECE R10, R118 E-Mark certification"
+              },
+              {
+                "category": "MIL",
+                "standard_specification": "MIL-STD-461 (specific products only upon request) MIL-STD-810 (S&V)"
+              },
+              {
+                "category": "Corrosion",
+                "standard_specification": "IEC60068-2-52 IEC60068-2-60"
+              }
+            ]
           }
         ]
       }
@@ -5476,6 +6367,7 @@
     {
       "country": "Ghana",
       "slug": "ghana",
+      "country_file": "countries/ghana.json",
       "nemko": {
         "country": "GHANA",
         "national_language": "English",
@@ -5764,6 +6656,7 @@
     {
       "country": "Greece",
       "slug": "greece",
+      "country_file": "countries/greece.json",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -5781,7 +6674,21 @@
             "business_unit": "Ent Routing",
             "timeline": "",
             "comments": "",
-            "country_group": "Singapore, Mexico, Hong Kong, Philippines, Thailand, Malaysia, Greece, VietNam, Cyprus"
+            "country_group": "Singapore, Mexico, Hong Kong, Philippines, Thailand, Malaysia, Greece, VietNam, Cyprus",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C8300, C8400, C8500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           }
         ]
       }
@@ -5789,6 +6696,7 @@
     {
       "country": "Hong Kong",
       "slug": "hong-kong",
+      "country_file": "countries/hong-kong.json",
       "nemko": {
         "country": "HONG KONG",
         "national_language": "English/Chinese",
@@ -6076,19 +6984,57 @@
             "business_unit": "Ent Access",
             "timeline": "",
             "comments": "",
-            "country_group": "Argentina, Chile, Colombia, Costa Rica, Hong Kong, Philippines, Singapore"
+            "country_group": "Argentina, Chile, Colombia, Costa Rica, Hong Kong, Philippines, Singapore",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C9300, C9350, C9400)",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent Routing",
             "timeline": "",
             "comments": "",
-            "country_group": "Singapore, Mexico, Hong Kong, Philippines, Thailand, Malaysia, Greece, VietNam, Cyprus"
+            "country_group": "Singapore, Mexico, Hong Kong, Philippines, Thailand, Malaysia, Greece, VietNam, Cyprus",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C8300, C8400, C8500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Optical",
             "timeline": "",
             "comments": "",
-            "country_group": "Argentina, Chile, Hong Kong, and Singapore"
+            "country_group": "Argentina, Chile, Hong Kong, and Singapore",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              }
+            ]
           }
         ]
       }
@@ -6096,6 +7042,7 @@
     {
       "country": "India",
       "slug": "india",
+      "country_file": "countries/india.json",
       "nemko": {
         "country": "INDIA",
         "national_language": "Hindi",
@@ -6463,49 +7410,177 @@
             "business_unit": "Ent Access",
             "timeline": "FCS + 6 months",
             "comments": "at chassis level",
-            "country_group": "India (TEC)"
+            "country_group": "India (TEC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C9300, C9350, C9400)",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent Routing",
             "timeline": "FCS + 6 months",
             "comments": "",
-            "country_group": "India (TEC)"
+            "country_group": "India (TEC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C8300, C8400, C8500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent Routing",
             "timeline": "FCS + 9 months",
             "comments": "FCS +12 months if only 1 sample",
-            "country_group": "India (ComSec)"
+            "country_group": "India (ComSec)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C8300, C8400, C8500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Servers",
             "timeline": "FCS + 6 months",
             "comments": "+3 months per addl. DF site Only for UCSC and UCSX",
-            "country_group": "India (BIS)"
+            "country_group": "India (BIS)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (per customer request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (UCSC)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Switching",
             "timeline": "FCS + 6 months",
             "comments": "",
-            "country_group": "India (TEC)"
+            "country_group": "India (TEC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (N9300, N9500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (N9500)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Security",
             "timeline": "FCS + 6 months",
             "comments": "",
-            "country_group": "India (TEC)"
+            "country_group": "India (TEC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Optical",
             "timeline": "FCS + 6 months",
             "comments": "",
-            "country_group": "India (TEC)"
+            "country_group": "India (TEC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "IOT",
             "timeline": "FCS + 6 months",
             "comments": "",
-            "country_group": "India (TEC)"
+            "country_group": "India (TEC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "ITE UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety UL/CSA 62368-1, AS/NZS 62368.1, CB to IEC 62368-1 CB with all country deviations and differences IEC 60529 (for IP66, IP67 systems) UL50E Type 4x (on IP66 and IP67 models) ICE UL61010-2-201 CB to IEC 61010-2-201 Hazloc Class 1, Div2/zone2 evaluations UL121201 CSA 22.2 213 UL60079-0, UL60079-7,UL60079-15 EN IEC 60079-0, EN IEC 60079-7, EN IEC 60079-15, EN IEC 60079-28 ATEX certification IECEx certification"
+              },
+              {
+                "category": "Railway Rolling stock and wayside",
+                "standard_specification": "EN 50121-3-2 EN 50121-4 EN50155 EN50153 EN45545-2 EN61373 EN50125-1 EN50125-3 EN50124-1"
+              },
+              {
+                "category": "Smart Grid",
+                "standard_specification": "IEC61850-3 IEEE1613:2025"
+              },
+              {
+                "category": "Traffic controllers",
+                "standard_specification": "NEMA TS2"
+              },
+              {
+                "category": "Marine",
+                "standard_specification": "DNV CG-0339, IACS UR E10"
+              },
+              {
+                "category": "Automotive",
+                "standard_specification": "CISPR25 UN ECE R10, R118 E-Mark certification"
+              },
+              {
+                "category": "MIL",
+                "standard_specification": "MIL-STD-461 (specific products only upon request) MIL-STD-810 (S&V)"
+              },
+              {
+                "category": "Corrosion",
+                "standard_specification": "IEC60068-2-52 IEC60068-2-60"
+              }
+            ]
           }
         ]
       }
@@ -6513,6 +7588,7 @@
     {
       "country": "India /comsec",
       "slug": "india-comsec",
+      "country_file": "countries/india-comsec.json",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -6530,13 +7606,41 @@
             "business_unit": "SP Core (Routing)",
             "timeline": "FCS + 9 months",
             "comments": "For system level 2 Samples required",
-            "country_group": "India (TEC) /ComSec"
+            "country_group": "India (TEC) /ComSec",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (Per request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "SP Access",
             "timeline": "FCS + 9 months",
             "comments": "2 Samples required.",
-            "country_group": "India (TEC) /ComSec"
+            "country_group": "India (TEC) /ComSec",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE GR-3108 Class-X (per request)"
+              },
+              {
+                "category": "Smart Grid (per request)",
+                "standard_specification": "IEEE 1613 EN/IEC 61850-3"
+              },
+              {
+                "category": "Railway",
+                "standard_specification": "EN50121-4"
+              }
+            ]
           }
         ]
       }
@@ -6544,6 +7648,7 @@
     {
       "country": "Indonesia",
       "slug": "indonesia",
+      "country_file": "countries/indonesia.json",
       "nemko": {
         "country": "INDONESIA",
         "national_language": "Indonesian",
@@ -6877,49 +7982,177 @@
             "business_unit": "Ent Access",
             "timeline": "FCS + 3 months",
             "comments": "at chassis level",
-            "country_group": "Indonesia"
+            "country_group": "Indonesia",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C9300, C9350, C9400)",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent Routing",
             "timeline": "FCS + 3 months",
             "comments": "",
-            "country_group": "Indonesia"
+            "country_group": "Indonesia",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C8300, C8400, C8500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Switching",
             "timeline": "FCS + 3 months",
             "comments": "",
-            "country_group": "Indonesia (SDPPI)"
+            "country_group": "Indonesia (SDPPI)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (N9300, N9500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (N9500)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "SP Core (Routing)",
             "timeline": "FCS + 3 months",
             "comments": "For system level",
-            "country_group": "Indonesia"
+            "country_group": "Indonesia",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (Per request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "SP Access",
             "timeline": "FCS + 3 months",
             "comments": "",
-            "country_group": "Indonesia (SDPPI)"
+            "country_group": "Indonesia (SDPPI)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE GR-3108 Class-X (per request)"
+              },
+              {
+                "category": "Smart Grid (per request)",
+                "standard_specification": "IEEE 1613 EN/IEC 61850-3"
+              },
+              {
+                "category": "Railway",
+                "standard_specification": "EN50121-4"
+              }
+            ]
           },
           {
             "business_unit": "Security",
             "timeline": "FCS + 3 months",
             "comments": "",
-            "country_group": "Indonesia"
+            "country_group": "Indonesia",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Optical",
             "timeline": "FCS + 3 months",
             "comments": "",
-            "country_group": "Indonesia"
+            "country_group": "Indonesia",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "IOT",
             "timeline": "FCS + 3 months",
             "comments": "",
-            "country_group": "Indonesia"
+            "country_group": "Indonesia",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "ITE UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety UL/CSA 62368-1, AS/NZS 62368.1, CB to IEC 62368-1 CB with all country deviations and differences IEC 60529 (for IP66, IP67 systems) UL50E Type 4x (on IP66 and IP67 models) ICE UL61010-2-201 CB to IEC 61010-2-201 Hazloc Class 1, Div2/zone2 evaluations UL121201 CSA 22.2 213 UL60079-0, UL60079-7,UL60079-15 EN IEC 60079-0, EN IEC 60079-7, EN IEC 60079-15, EN IEC 60079-28 ATEX certification IECEx certification"
+              },
+              {
+                "category": "Railway Rolling stock and wayside",
+                "standard_specification": "EN 50121-3-2 EN 50121-4 EN50155 EN50153 EN45545-2 EN61373 EN50125-1 EN50125-3 EN50124-1"
+              },
+              {
+                "category": "Smart Grid",
+                "standard_specification": "IEC61850-3 IEEE1613:2025"
+              },
+              {
+                "category": "Traffic controllers",
+                "standard_specification": "NEMA TS2"
+              },
+              {
+                "category": "Marine",
+                "standard_specification": "DNV CG-0339, IACS UR E10"
+              },
+              {
+                "category": "Automotive",
+                "standard_specification": "CISPR25 UN ECE R10, R118 E-Mark certification"
+              },
+              {
+                "category": "MIL",
+                "standard_specification": "MIL-STD-461 (specific products only upon request) MIL-STD-810 (S&V)"
+              },
+              {
+                "category": "Corrosion",
+                "standard_specification": "IEC60068-2-52 IEC60068-2-60"
+              }
+            ]
           }
         ]
       }
@@ -6927,6 +8160,7 @@
     {
       "country": "Israel",
       "slug": "israel",
+      "country_file": "countries/israel.json",
       "nemko": {
         "country": "ISRAEL",
         "national_language": "Hebrew",
@@ -7216,6 +8450,7 @@
     {
       "country": "Japan",
       "slug": "japan",
+      "country_file": "countries/japan.json",
       "nemko": {
         "country": "JAPAN",
         "national_language": "Japanese",
@@ -7618,91 +8853,329 @@
             "business_unit": "Ent Access",
             "timeline": "",
             "comments": "",
-            "country_group": "Japan (VCCI)"
+            "country_group": "Japan (VCCI)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C9300, C9350, C9400)",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent Access",
             "timeline": "FCS + 3 months",
             "comments": "at chassis level",
-            "country_group": "Japan (JATE)"
+            "country_group": "Japan (JATE)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C9300, C9350, C9400)",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent Routing",
             "timeline": "",
             "comments": "",
-            "country_group": "Japan (VCCI)"
+            "country_group": "Japan (VCCI)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C8300, C8400, C8500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent Routing",
             "timeline": "FCS + 3 months",
             "comments": "",
-            "country_group": "Japan (JATE)"
+            "country_group": "Japan (JATE)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C8300, C8400, C8500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Servers",
             "timeline": "",
             "comments": "All UCS",
-            "country_group": "Japan (VCCI)"
+            "country_group": "Japan (VCCI)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (per customer request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (UCSC)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Switching",
             "timeline": "",
             "comments": "",
-            "country_group": "Japan (VCCI)"
+            "country_group": "Japan (VCCI)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (N9300, N9500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (N9500)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "SP Core (Routing)",
             "timeline": "",
             "comments": "",
-            "country_group": "Japan (VCCI)"
+            "country_group": "Japan (VCCI)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (Per request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "SP Access",
             "timeline": "",
             "comments": "",
-            "country_group": "Japan (VCCI)"
+            "country_group": "Japan (VCCI)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE GR-3108 Class-X (per request)"
+              },
+              {
+                "category": "Smart Grid (per request)",
+                "standard_specification": "IEEE 1613 EN/IEC 61850-3"
+              },
+              {
+                "category": "Railway",
+                "standard_specification": "EN50121-4"
+              }
+            ]
           },
           {
             "business_unit": "Security",
             "timeline": "",
             "comments": "",
-            "country_group": "Japan (VCCI)"
+            "country_group": "Japan (VCCI)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Security",
             "timeline": "FCS + 3 months",
             "comments": "For Telecom",
-            "country_group": "Japan (JATE)"
+            "country_group": "Japan (JATE)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Optical",
             "timeline": "",
             "comments": "",
-            "country_group": "Japan (VCCI)"
+            "country_group": "Japan (VCCI)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "Optical",
             "timeline": "FCS + 3 months",
             "comments": "",
-            "country_group": "Japan (JATE)"
+            "country_group": "Japan (JATE)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "TMG",
             "timeline": "",
             "comments": "",
-            "country_group": "Japan (VCCI)"
+            "country_group": "Japan (VCCI)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "IOT",
             "timeline": "",
             "comments": "",
-            "country_group": "Japan (VCCI)"
+            "country_group": "Japan (VCCI)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "ITE UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety UL/CSA 62368-1, AS/NZS 62368.1, CB to IEC 62368-1 CB with all country deviations and differences IEC 60529 (for IP66, IP67 systems) UL50E Type 4x (on IP66 and IP67 models) ICE UL61010-2-201 CB to IEC 61010-2-201 Hazloc Class 1, Div2/zone2 evaluations UL121201 CSA 22.2 213 UL60079-0, UL60079-7,UL60079-15 EN IEC 60079-0, EN IEC 60079-7, EN IEC 60079-15, EN IEC 60079-28 ATEX certification IECEx certification"
+              },
+              {
+                "category": "Railway Rolling stock and wayside",
+                "standard_specification": "EN 50121-3-2 EN 50121-4 EN50155 EN50153 EN45545-2 EN61373 EN50125-1 EN50125-3 EN50124-1"
+              },
+              {
+                "category": "Smart Grid",
+                "standard_specification": "IEC61850-3 IEEE1613:2025"
+              },
+              {
+                "category": "Traffic controllers",
+                "standard_specification": "NEMA TS2"
+              },
+              {
+                "category": "Marine",
+                "standard_specification": "DNV CG-0339, IACS UR E10"
+              },
+              {
+                "category": "Automotive",
+                "standard_specification": "CISPR25 UN ECE R10, R118 E-Mark certification"
+              },
+              {
+                "category": "MIL",
+                "standard_specification": "MIL-STD-461 (specific products only upon request) MIL-STD-810 (S&V)"
+              },
+              {
+                "category": "Corrosion",
+                "standard_specification": "IEC60068-2-52 IEC60068-2-60"
+              }
+            ]
           },
           {
             "business_unit": "IOT",
             "timeline": "FCS + 3 months",
             "comments": "",
-            "country_group": "Japan (JATE)"
+            "country_group": "Japan (JATE)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "ITE UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety UL/CSA 62368-1, AS/NZS 62368.1, CB to IEC 62368-1 CB with all country deviations and differences IEC 60529 (for IP66, IP67 systems) UL50E Type 4x (on IP66 and IP67 models) ICE UL61010-2-201 CB to IEC 61010-2-201 Hazloc Class 1, Div2/zone2 evaluations UL121201 CSA 22.2 213 UL60079-0, UL60079-7,UL60079-15 EN IEC 60079-0, EN IEC 60079-7, EN IEC 60079-15, EN IEC 60079-28 ATEX certification IECEx certification"
+              },
+              {
+                "category": "Railway Rolling stock and wayside",
+                "standard_specification": "EN 50121-3-2 EN 50121-4 EN50155 EN50153 EN45545-2 EN61373 EN50125-1 EN50125-3 EN50124-1"
+              },
+              {
+                "category": "Smart Grid",
+                "standard_specification": "IEC61850-3 IEEE1613:2025"
+              },
+              {
+                "category": "Traffic controllers",
+                "standard_specification": "NEMA TS2"
+              },
+              {
+                "category": "Marine",
+                "standard_specification": "DNV CG-0339, IACS UR E10"
+              },
+              {
+                "category": "Automotive",
+                "standard_specification": "CISPR25 UN ECE R10, R118 E-Mark certification"
+              },
+              {
+                "category": "MIL",
+                "standard_specification": "MIL-STD-461 (specific products only upon request) MIL-STD-810 (S&V)"
+              },
+              {
+                "category": "Corrosion",
+                "standard_specification": "IEC60068-2-52 IEC60068-2-60"
+              }
+            ]
           }
         ]
       }
@@ -7710,6 +9183,7 @@
     {
       "country": "Jordan",
       "slug": "jordan",
+      "country_file": "countries/jordan.json",
       "nemko": {
         "country": "JORDAN",
         "national_language": "Arabic",
@@ -7762,6 +9236,7 @@
     {
       "country": "Kazakhstan",
       "slug": "kazakhstan",
+      "country_file": "countries/kazakhstan.json",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -7992,55 +9467,197 @@
             "business_unit": "Ent Access",
             "timeline": "FCS + 6 months",
             "comments": "at chassis level",
-            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)"
+            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C9300, C9350, C9400)",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent Routing",
             "timeline": "FCS + 6 months",
             "comments": "",
-            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)"
+            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C8300, C8400, C8500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Servers",
             "timeline": "FCS + 6 months",
             "comments": "All UCS",
-            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)"
+            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (per customer request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (UCSC)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Switching",
             "timeline": "FCS + 6 months",
             "comments": "",
-            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)"
+            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (N9300, N9500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (N9500)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "SP Core (Routing)",
             "timeline": "FCS + 6 months",
             "comments": "For system level",
-            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)"
+            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (Per request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "SP Access",
             "timeline": "FCS + 6 months",
             "comments": "",
-            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)"
+            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE GR-3108 Class-X (per request)"
+              },
+              {
+                "category": "Smart Grid (per request)",
+                "standard_specification": "IEEE 1613 EN/IEC 61850-3"
+              },
+              {
+                "category": "Railway",
+                "standard_specification": "EN50121-4"
+              }
+            ]
           },
           {
             "business_unit": "Security",
             "timeline": "FCS + 6 months",
             "comments": "",
-            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)"
+            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Optical",
             "timeline": "FCS + 6 months",
             "comments": "",
-            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)"
+            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "IOT",
             "timeline": "FCS + 6 months",
             "comments": "",
-            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)"
+            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "ITE UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety UL/CSA 62368-1, AS/NZS 62368.1, CB to IEC 62368-1 CB with all country deviations and differences IEC 60529 (for IP66, IP67 systems) UL50E Type 4x (on IP66 and IP67 models) ICE UL61010-2-201 CB to IEC 61010-2-201 Hazloc Class 1, Div2/zone2 evaluations UL121201 CSA 22.2 213 UL60079-0, UL60079-7,UL60079-15 EN IEC 60079-0, EN IEC 60079-7, EN IEC 60079-15, EN IEC 60079-28 ATEX certification IECEx certification"
+              },
+              {
+                "category": "Railway Rolling stock and wayside",
+                "standard_specification": "EN 50121-3-2 EN 50121-4 EN50155 EN50153 EN45545-2 EN61373 EN50125-1 EN50125-3 EN50124-1"
+              },
+              {
+                "category": "Smart Grid",
+                "standard_specification": "IEC61850-3 IEEE1613:2025"
+              },
+              {
+                "category": "Traffic controllers",
+                "standard_specification": "NEMA TS2"
+              },
+              {
+                "category": "Marine",
+                "standard_specification": "DNV CG-0339, IACS UR E10"
+              },
+              {
+                "category": "Automotive",
+                "standard_specification": "CISPR25 UN ECE R10, R118 E-Mark certification"
+              },
+              {
+                "category": "MIL",
+                "standard_specification": "MIL-STD-461 (specific products only upon request) MIL-STD-810 (S&V)"
+              },
+              {
+                "category": "Corrosion",
+                "standard_specification": "IEC60068-2-52 IEC60068-2-60"
+              }
+            ]
           }
         ]
       }
@@ -8048,6 +9665,7 @@
     {
       "country": "Kenya",
       "slug": "kenya",
+      "country_file": "countries/kenya.json",
       "nemko": {
         "country": "KENYA",
         "national_language": "Swahili/English",
@@ -8100,6 +9718,7 @@
     {
       "country": "Korea",
       "slug": "korea",
+      "country_file": "countries/korea.json",
       "nemko": {
         "country": "KOREA",
         "national_language": "Korean",
@@ -8151,79 +9770,297 @@
             "business_unit": "Ent Access",
             "timeline": "FCS + 3 months",
             "comments": "at chassis level",
-            "country_group": "Korea (KCC)"
+            "country_group": "Korea (KCC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C9300, C9350, C9400)",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent Access",
             "timeline": "FCS + 6 months",
             "comments": "For PoE/ at chassis level",
-            "country_group": "Korea (KC safety)"
+            "country_group": "Korea (KC safety)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C9300, C9350, C9400)",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent Routing",
             "timeline": "FCS + 3 months",
             "comments": "",
-            "country_group": "Korea (KCC)"
+            "country_group": "Korea (KCC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C8300, C8400, C8500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Servers",
             "timeline": "FCS + 3 months",
             "comments": "UCS-FI",
-            "country_group": "Korea (KCC)"
+            "country_group": "Korea (KCC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (per customer request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (UCSC)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Servers",
             "timeline": "FCS + 6 months",
             "comments": "Only for UCSB",
-            "country_group": "Korea (KC safety)"
+            "country_group": "Korea (KC safety)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (per customer request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (UCSC)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Switching",
             "timeline": "FCS + 3 months",
             "comments": "",
-            "country_group": "Korea (KCC)"
+            "country_group": "Korea (KCC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (N9300, N9500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (N9500)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "SP Core (Routing)",
             "timeline": "FCS + 3 months",
             "comments": "For system level",
-            "country_group": "Korea (KCC)"
+            "country_group": "Korea (KCC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (Per request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "SP Access",
             "timeline": "FCS + 3 months",
             "comments": "",
-            "country_group": "Korea (KCC)"
+            "country_group": "Korea (KCC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE GR-3108 Class-X (per request)"
+              },
+              {
+                "category": "Smart Grid (per request)",
+                "standard_specification": "IEEE 1613 EN/IEC 61850-3"
+              },
+              {
+                "category": "Railway",
+                "standard_specification": "EN50121-4"
+              }
+            ]
           },
           {
             "business_unit": "Security",
             "timeline": "FCS + 3 months",
             "comments": "",
-            "country_group": "Korea (KCC)"
+            "country_group": "Korea (KCC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Security",
             "timeline": "FCS + 6 months",
             "comments": "For PoE w/internal PSU",
-            "country_group": "Korea (KC safety)"
+            "country_group": "Korea (KC safety)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Optical",
             "timeline": "FCS + 3 months",
             "comments": "",
-            "country_group": "Korea (KCC)"
+            "country_group": "Korea (KCC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "IOT",
             "timeline": "FCS + 3 months",
             "comments": "",
-            "country_group": "Korea (KCC)"
+            "country_group": "Korea (KCC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "ITE UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety UL/CSA 62368-1, AS/NZS 62368.1, CB to IEC 62368-1 CB with all country deviations and differences IEC 60529 (for IP66, IP67 systems) UL50E Type 4x (on IP66 and IP67 models) ICE UL61010-2-201 CB to IEC 61010-2-201 Hazloc Class 1, Div2/zone2 evaluations UL121201 CSA 22.2 213 UL60079-0, UL60079-7,UL60079-15 EN IEC 60079-0, EN IEC 60079-7, EN IEC 60079-15, EN IEC 60079-28 ATEX certification IECEx certification"
+              },
+              {
+                "category": "Railway Rolling stock and wayside",
+                "standard_specification": "EN 50121-3-2 EN 50121-4 EN50155 EN50153 EN45545-2 EN61373 EN50125-1 EN50125-3 EN50124-1"
+              },
+              {
+                "category": "Smart Grid",
+                "standard_specification": "IEC61850-3 IEEE1613:2025"
+              },
+              {
+                "category": "Traffic controllers",
+                "standard_specification": "NEMA TS2"
+              },
+              {
+                "category": "Marine",
+                "standard_specification": "DNV CG-0339, IACS UR E10"
+              },
+              {
+                "category": "Automotive",
+                "standard_specification": "CISPR25 UN ECE R10, R118 E-Mark certification"
+              },
+              {
+                "category": "MIL",
+                "standard_specification": "MIL-STD-461 (specific products only upon request) MIL-STD-810 (S&V)"
+              },
+              {
+                "category": "Corrosion",
+                "standard_specification": "IEC60068-2-52 IEC60068-2-60"
+              }
+            ]
           },
           {
             "business_unit": "IOT",
             "timeline": "FCS + 6 months",
             "comments": "For PoE",
-            "country_group": "Korea (KC safety)"
+            "country_group": "Korea (KC safety)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "ITE UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety UL/CSA 62368-1, AS/NZS 62368.1, CB to IEC 62368-1 CB with all country deviations and differences IEC 60529 (for IP66, IP67 systems) UL50E Type 4x (on IP66 and IP67 models) ICE UL61010-2-201 CB to IEC 61010-2-201 Hazloc Class 1, Div2/zone2 evaluations UL121201 CSA 22.2 213 UL60079-0, UL60079-7,UL60079-15 EN IEC 60079-0, EN IEC 60079-7, EN IEC 60079-15, EN IEC 60079-28 ATEX certification IECEx certification"
+              },
+              {
+                "category": "Railway Rolling stock and wayside",
+                "standard_specification": "EN 50121-3-2 EN 50121-4 EN50155 EN50153 EN45545-2 EN61373 EN50125-1 EN50125-3 EN50124-1"
+              },
+              {
+                "category": "Smart Grid",
+                "standard_specification": "IEC61850-3 IEEE1613:2025"
+              },
+              {
+                "category": "Traffic controllers",
+                "standard_specification": "NEMA TS2"
+              },
+              {
+                "category": "Marine",
+                "standard_specification": "DNV CG-0339, IACS UR E10"
+              },
+              {
+                "category": "Automotive",
+                "standard_specification": "CISPR25 UN ECE R10, R118 E-Mark certification"
+              },
+              {
+                "category": "MIL",
+                "standard_specification": "MIL-STD-461 (specific products only upon request) MIL-STD-810 (S&V)"
+              },
+              {
+                "category": "Corrosion",
+                "standard_specification": "IEC60068-2-52 IEC60068-2-60"
+              }
+            ]
           }
         ]
       }
@@ -8231,6 +10068,7 @@
     {
       "country": "Kyrgystan",
       "slug": "kyrgystan",
+      "country_file": "countries/kyrgystan.json",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -8439,6 +10277,7 @@
     {
       "country": "Kyrgyzstan",
       "slug": "kyrgyzstan",
+      "country_file": "countries/kyrgyzstan.json",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -8485,55 +10324,197 @@
             "business_unit": "Ent Access",
             "timeline": "FCS + 6 months",
             "comments": "at chassis level",
-            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)"
+            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C9300, C9350, C9400)",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent Routing",
             "timeline": "FCS + 6 months",
             "comments": "",
-            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)"
+            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C8300, C8400, C8500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Servers",
             "timeline": "FCS + 6 months",
             "comments": "All UCS",
-            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)"
+            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (per customer request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (UCSC)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Switching",
             "timeline": "FCS + 6 months",
             "comments": "",
-            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)"
+            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (N9300, N9500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (N9500)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "SP Core (Routing)",
             "timeline": "FCS + 6 months",
             "comments": "For system level",
-            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)"
+            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (Per request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "SP Access",
             "timeline": "FCS + 6 months",
             "comments": "",
-            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)"
+            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE GR-3108 Class-X (per request)"
+              },
+              {
+                "category": "Smart Grid (per request)",
+                "standard_specification": "IEEE 1613 EN/IEC 61850-3"
+              },
+              {
+                "category": "Railway",
+                "standard_specification": "EN50121-4"
+              }
+            ]
           },
           {
             "business_unit": "Security",
             "timeline": "FCS + 6 months",
             "comments": "",
-            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)"
+            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Optical",
             "timeline": "FCS + 6 months",
             "comments": "",
-            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)"
+            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "IOT",
             "timeline": "FCS + 6 months",
             "comments": "",
-            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)"
+            "country_group": "Armenia, Kazakhstan, Kyrgyzstan (EAC)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "ITE UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety UL/CSA 62368-1, AS/NZS 62368.1, CB to IEC 62368-1 CB with all country deviations and differences IEC 60529 (for IP66, IP67 systems) UL50E Type 4x (on IP66 and IP67 models) ICE UL61010-2-201 CB to IEC 61010-2-201 Hazloc Class 1, Div2/zone2 evaluations UL121201 CSA 22.2 213 UL60079-0, UL60079-7,UL60079-15 EN IEC 60079-0, EN IEC 60079-7, EN IEC 60079-15, EN IEC 60079-28 ATEX certification IECEx certification"
+              },
+              {
+                "category": "Railway Rolling stock and wayside",
+                "standard_specification": "EN 50121-3-2 EN 50121-4 EN50155 EN50153 EN45545-2 EN61373 EN50125-1 EN50125-3 EN50124-1"
+              },
+              {
+                "category": "Smart Grid",
+                "standard_specification": "IEC61850-3 IEEE1613:2025"
+              },
+              {
+                "category": "Traffic controllers",
+                "standard_specification": "NEMA TS2"
+              },
+              {
+                "category": "Marine",
+                "standard_specification": "DNV CG-0339, IACS UR E10"
+              },
+              {
+                "category": "Automotive",
+                "standard_specification": "CISPR25 UN ECE R10, R118 E-Mark certification"
+              },
+              {
+                "category": "MIL",
+                "standard_specification": "MIL-STD-461 (specific products only upon request) MIL-STD-810 (S&V)"
+              },
+              {
+                "category": "Corrosion",
+                "standard_specification": "IEC60068-2-52 IEC60068-2-60"
+              }
+            ]
           }
         ]
       }
@@ -8541,6 +10522,7 @@
     {
       "country": "Lebanon",
       "slug": "lebanon",
+      "country_file": "countries/lebanon.json",
       "nemko": {
         "country": "LEBANON",
         "national_language": "Arabic",
@@ -8593,6 +10575,7 @@
     {
       "country": "Malaysia",
       "slug": "malaysia",
+      "country_file": "countries/malaysia.json",
       "nemko": {
         "country": "MALAYSIA",
         "national_language": "Malay",
@@ -8912,7 +10895,21 @@
             "business_unit": "Ent Routing",
             "timeline": "",
             "comments": "",
-            "country_group": "Singapore, Mexico, Hong Kong, Philippines, Thailand, Malaysia, Greece, VietNam, Cyprus"
+            "country_group": "Singapore, Mexico, Hong Kong, Philippines, Thailand, Malaysia, Greece, VietNam, Cyprus",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C8300, C8400, C8500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           }
         ]
       }
@@ -8920,6 +10917,7 @@
     {
       "country": "Mexico",
       "slug": "mexico",
+      "country_file": "countries/mexico.json",
       "nemko": {
         "country": "MEXICO",
         "national_language": "Spanish",
@@ -9276,13 +11274,61 @@
             "business_unit": "Ent Routing",
             "timeline": "",
             "comments": "",
-            "country_group": "Singapore, Mexico, Hong Kong, Philippines, Thailand, Malaysia, Greece, VietNam, Cyprus"
+            "country_group": "Singapore, Mexico, Hong Kong, Philippines, Thailand, Malaysia, Greece, VietNam, Cyprus",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C8300, C8400, C8500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "IOT",
             "timeline": "",
             "comments": "",
-            "country_group": "Mexico"
+            "country_group": "Mexico",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "ITE UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety UL/CSA 62368-1, AS/NZS 62368.1, CB to IEC 62368-1 CB with all country deviations and differences IEC 60529 (for IP66, IP67 systems) UL50E Type 4x (on IP66 and IP67 models) ICE UL61010-2-201 CB to IEC 61010-2-201 Hazloc Class 1, Div2/zone2 evaluations UL121201 CSA 22.2 213 UL60079-0, UL60079-7,UL60079-15 EN IEC 60079-0, EN IEC 60079-7, EN IEC 60079-15, EN IEC 60079-28 ATEX certification IECEx certification"
+              },
+              {
+                "category": "Railway Rolling stock and wayside",
+                "standard_specification": "EN 50121-3-2 EN 50121-4 EN50155 EN50153 EN45545-2 EN61373 EN50125-1 EN50125-3 EN50124-1"
+              },
+              {
+                "category": "Smart Grid",
+                "standard_specification": "IEC61850-3 IEEE1613:2025"
+              },
+              {
+                "category": "Traffic controllers",
+                "standard_specification": "NEMA TS2"
+              },
+              {
+                "category": "Marine",
+                "standard_specification": "DNV CG-0339, IACS UR E10"
+              },
+              {
+                "category": "Automotive",
+                "standard_specification": "CISPR25 UN ECE R10, R118 E-Mark certification"
+              },
+              {
+                "category": "MIL",
+                "standard_specification": "MIL-STD-461 (specific products only upon request) MIL-STD-810 (S&V)"
+              },
+              {
+                "category": "Corrosion",
+                "standard_specification": "IEC60068-2-52 IEC60068-2-60"
+              }
+            ]
           }
         ]
       }
@@ -9290,6 +11336,7 @@
     {
       "country": "Middle East Countries",
       "slug": "middle-east-countries",
+      "country_file": "countries/middle-east-countries.json",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -9307,7 +11354,41 @@
             "business_unit": "IOT",
             "timeline": "FCS",
             "comments": "",
-            "country_group": "Middle east countries"
+            "country_group": "Middle east countries",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "ITE UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety UL/CSA 62368-1, AS/NZS 62368.1, CB to IEC 62368-1 CB with all country deviations and differences IEC 60529 (for IP66, IP67 systems) UL50E Type 4x (on IP66 and IP67 models) ICE UL61010-2-201 CB to IEC 61010-2-201 Hazloc Class 1, Div2/zone2 evaluations UL121201 CSA 22.2 213 UL60079-0, UL60079-7,UL60079-15 EN IEC 60079-0, EN IEC 60079-7, EN IEC 60079-15, EN IEC 60079-28 ATEX certification IECEx certification"
+              },
+              {
+                "category": "Railway Rolling stock and wayside",
+                "standard_specification": "EN 50121-3-2 EN 50121-4 EN50155 EN50153 EN45545-2 EN61373 EN50125-1 EN50125-3 EN50124-1"
+              },
+              {
+                "category": "Smart Grid",
+                "standard_specification": "IEC61850-3 IEEE1613:2025"
+              },
+              {
+                "category": "Traffic controllers",
+                "standard_specification": "NEMA TS2"
+              },
+              {
+                "category": "Marine",
+                "standard_specification": "DNV CG-0339, IACS UR E10"
+              },
+              {
+                "category": "Automotive",
+                "standard_specification": "CISPR25 UN ECE R10, R118 E-Mark certification"
+              },
+              {
+                "category": "MIL",
+                "standard_specification": "MIL-STD-461 (specific products only upon request) MIL-STD-810 (S&V)"
+              },
+              {
+                "category": "Corrosion",
+                "standard_specification": "IEC60068-2-52 IEC60068-2-60"
+              }
+            ]
           }
         ]
       }
@@ -9315,6 +11396,7 @@
     {
       "country": "Mongolia",
       "slug": "mongolia",
+      "country_file": "countries/mongolia.json",
       "nemko": {
         "country": "MONGOLIA",
         "national_language": "Mongolian",
@@ -9417,6 +11499,7 @@
     {
       "country": "Morocco",
       "slug": "morocco",
+      "country_file": "countries/morocco.json",
       "nemko": {
         "country": "MOROCCO",
         "national_language": "Arabic/Berber",
@@ -9468,61 +11551,213 @@
             "business_unit": "Ent Access",
             "timeline": "",
             "comments": "",
-            "country_group": "Morocco"
+            "country_group": "Morocco",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C9300, C9350, C9400)",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent Routing",
             "timeline": "",
             "comments": "",
-            "country_group": "Morocco"
+            "country_group": "Morocco",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C8300, C8400, C8500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Servers",
             "timeline": "",
             "comments": "All UCS",
-            "country_group": "Morocco"
+            "country_group": "Morocco",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (per customer request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (UCSC)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Switching",
             "timeline": "",
             "comments": "",
-            "country_group": "Morocco (ANRT)"
+            "country_group": "Morocco (ANRT)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (N9300, N9500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (N9500)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "SP Core (Routing)",
             "timeline": "",
             "comments": "",
-            "country_group": "Morocco"
+            "country_group": "Morocco",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (Per request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "SP Access",
             "timeline": "",
             "comments": "",
-            "country_group": "Morocco (ANRT)"
+            "country_group": "Morocco (ANRT)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE GR-3108 Class-X (per request)"
+              },
+              {
+                "category": "Smart Grid (per request)",
+                "standard_specification": "IEEE 1613 EN/IEC 61850-3"
+              },
+              {
+                "category": "Railway",
+                "standard_specification": "EN50121-4"
+              }
+            ]
           },
           {
             "business_unit": "Security",
             "timeline": "",
             "comments": "",
-            "country_group": "Morocco"
+            "country_group": "Morocco",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Optical",
             "timeline": "",
             "comments": "",
-            "country_group": "Morocco"
+            "country_group": "Morocco",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "TMG",
             "timeline": "",
             "comments": "",
-            "country_group": "Morocco"
+            "country_group": "Morocco",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "IOT",
             "timeline": "",
             "comments": "",
-            "country_group": "Morocco"
+            "country_group": "Morocco",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "ITE UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety UL/CSA 62368-1, AS/NZS 62368.1, CB to IEC 62368-1 CB with all country deviations and differences IEC 60529 (for IP66, IP67 systems) UL50E Type 4x (on IP66 and IP67 models) ICE UL61010-2-201 CB to IEC 61010-2-201 Hazloc Class 1, Div2/zone2 evaluations UL121201 CSA 22.2 213 UL60079-0, UL60079-7,UL60079-15 EN IEC 60079-0, EN IEC 60079-7, EN IEC 60079-15, EN IEC 60079-28 ATEX certification IECEx certification"
+              },
+              {
+                "category": "Railway Rolling stock and wayside",
+                "standard_specification": "EN 50121-3-2 EN 50121-4 EN50155 EN50153 EN45545-2 EN61373 EN50125-1 EN50125-3 EN50124-1"
+              },
+              {
+                "category": "Smart Grid",
+                "standard_specification": "IEC61850-3 IEEE1613:2025"
+              },
+              {
+                "category": "Traffic controllers",
+                "standard_specification": "NEMA TS2"
+              },
+              {
+                "category": "Marine",
+                "standard_specification": "DNV CG-0339, IACS UR E10"
+              },
+              {
+                "category": "Automotive",
+                "standard_specification": "CISPR25 UN ECE R10, R118 E-Mark certification"
+              },
+              {
+                "category": "MIL",
+                "standard_specification": "MIL-STD-461 (specific products only upon request) MIL-STD-810 (S&V)"
+              },
+              {
+                "category": "Corrosion",
+                "standard_specification": "IEC60068-2-52 IEC60068-2-60"
+              }
+            ]
           }
         ]
       }
@@ -9530,6 +11765,7 @@
     {
       "country": "Namibia",
       "slug": "namibia",
+      "country_file": "countries/namibia.json",
       "nemko": {
         "country": "NAMIBIA",
         "national_language": "English",
@@ -9819,6 +12055,7 @@
     {
       "country": "New Zealand",
       "slug": "new-zealand",
+      "country_file": "countries/new-zealand.json",
       "nemko": {
         "country": "NEW ZEALAND",
         "national_language": "English/M?ori",
@@ -10124,61 +12361,213 @@
             "business_unit": "Ent Access",
             "timeline": "FCS",
             "comments": "",
-            "country_group": "Australia, New Zealand"
+            "country_group": "Australia, New Zealand",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C9300, C9350, C9400)",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent Routing",
             "timeline": "FCS",
             "comments": "",
-            "country_group": "Australia, New Zealand"
+            "country_group": "Australia, New Zealand",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C8300, C8400, C8500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Servers",
             "timeline": "FCS",
             "comments": "All UCS",
-            "country_group": "Australia, New Zealand"
+            "country_group": "Australia, New Zealand",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (per customer request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (UCSC)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Switching",
             "timeline": "FCS",
             "comments": "",
-            "country_group": "Australia, New Zealand"
+            "country_group": "Australia, New Zealand",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (N9300, N9500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (N9500)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "SP Core (Routing)",
             "timeline": "FCS",
             "comments": "",
-            "country_group": "Australia, New Zealand"
+            "country_group": "Australia, New Zealand",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (Per request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "SP Access",
             "timeline": "FCS",
             "comments": "",
-            "country_group": "Australia, New Zealand"
+            "country_group": "Australia, New Zealand",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE GR-3108 Class-X (per request)"
+              },
+              {
+                "category": "Smart Grid (per request)",
+                "standard_specification": "IEEE 1613 EN/IEC 61850-3"
+              },
+              {
+                "category": "Railway",
+                "standard_specification": "EN50121-4"
+              }
+            ]
           },
           {
             "business_unit": "Security",
             "timeline": "FCS",
             "comments": "",
-            "country_group": "Australia, New Zealand"
+            "country_group": "Australia, New Zealand",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Optical",
             "timeline": "FCS",
             "comments": "",
-            "country_group": "Australia, New Zealand"
+            "country_group": "Australia, New Zealand",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "TMG",
             "timeline": "FCS",
             "comments": "",
-            "country_group": "Australia, New Zealand"
+            "country_group": "Australia, New Zealand",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "IOT",
             "timeline": "FCS",
             "comments": "",
-            "country_group": "Australia, New Zealand"
+            "country_group": "Australia, New Zealand",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "ITE UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety UL/CSA 62368-1, AS/NZS 62368.1, CB to IEC 62368-1 CB with all country deviations and differences IEC 60529 (for IP66, IP67 systems) UL50E Type 4x (on IP66 and IP67 models) ICE UL61010-2-201 CB to IEC 61010-2-201 Hazloc Class 1, Div2/zone2 evaluations UL121201 CSA 22.2 213 UL60079-0, UL60079-7,UL60079-15 EN IEC 60079-0, EN IEC 60079-7, EN IEC 60079-15, EN IEC 60079-28 ATEX certification IECEx certification"
+              },
+              {
+                "category": "Railway Rolling stock and wayside",
+                "standard_specification": "EN 50121-3-2 EN 50121-4 EN50155 EN50153 EN45545-2 EN61373 EN50125-1 EN50125-3 EN50124-1"
+              },
+              {
+                "category": "Smart Grid",
+                "standard_specification": "IEC61850-3 IEEE1613:2025"
+              },
+              {
+                "category": "Traffic controllers",
+                "standard_specification": "NEMA TS2"
+              },
+              {
+                "category": "Marine",
+                "standard_specification": "DNV CG-0339, IACS UR E10"
+              },
+              {
+                "category": "Automotive",
+                "standard_specification": "CISPR25 UN ECE R10, R118 E-Mark certification"
+              },
+              {
+                "category": "MIL",
+                "standard_specification": "MIL-STD-461 (specific products only upon request) MIL-STD-810 (S&V)"
+              },
+              {
+                "category": "Corrosion",
+                "standard_specification": "IEC60068-2-52 IEC60068-2-60"
+              }
+            ]
           }
         ]
       }
@@ -10186,6 +12575,7 @@
     {
       "country": "Nigeria",
       "slug": "nigeria",
+      "country_file": "countries/nigeria.json",
       "nemko": {
         "country": "NIGERIA",
         "national_language": "English",
@@ -10475,6 +12865,7 @@
     {
       "country": "OMAN",
       "slug": "oman",
+      "country_file": "countries/oman.json",
       "nemko": {
         "country": "OMAN",
         "national_language": "Arabic",
@@ -10527,6 +12918,7 @@
     {
       "country": "Oman",
       "slug": "oman",
+      "country_file": "countries/oman.json",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -10779,6 +13171,7 @@
     {
       "country": "Pakistan",
       "slug": "pakistan",
+      "country_file": "countries/pakistan.json",
       "nemko": {
         "country": "PAKISTAN",
         "national_language": "Urdu/English",
@@ -11065,6 +13458,7 @@
     {
       "country": "Philippines",
       "slug": "philippines",
+      "country_file": "countries/philippines.json",
       "nemko": {
         "country": "PHILIPPINES",
         "national_language": "Filipino/English",
@@ -11116,13 +13510,41 @@
             "business_unit": "Ent Access",
             "timeline": "",
             "comments": "",
-            "country_group": "Argentina, Chile, Colombia, Costa Rica, Hong Kong, Philippines, Singapore"
+            "country_group": "Argentina, Chile, Colombia, Costa Rica, Hong Kong, Philippines, Singapore",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C9300, C9350, C9400)",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent Routing",
             "timeline": "",
             "comments": "",
-            "country_group": "Singapore, Mexico, Hong Kong, Philippines, Thailand, Malaysia, Greece, VietNam, Cyprus"
+            "country_group": "Singapore, Mexico, Hong Kong, Philippines, Thailand, Malaysia, Greece, VietNam, Cyprus",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C8300, C8400, C8500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           }
         ]
       }
@@ -11130,6 +13552,7 @@
     {
       "country": "Qatar",
       "slug": "qatar",
+      "country_file": "countries/qatar.json",
       "nemko": {
         "country": "QATAR",
         "national_language": "Arabic",
@@ -11182,6 +13605,7 @@
     {
       "country": "Russia",
       "slug": "russia",
+      "country_file": "countries/russia.json",
       "nemko": {
         "country": "RUSSIA",
         "national_language": "Russian",
@@ -11234,6 +13658,7 @@
     {
       "country": "Russian Federation",
       "slug": "russian-federation",
+      "country_file": "countries/russian-federation.json",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -11999,6 +14424,7 @@
     {
       "country": "Saudi Arabia",
       "slug": "saudi-arabia",
+      "country_file": "countries/saudi-arabia.json",
       "nemko": {
         "country": "SAUDI ARABIA",
         "national_language": "Arabic",
@@ -12285,6 +14711,7 @@
     {
       "country": "Serbia",
       "slug": "serbia",
+      "country_file": "countries/serbia.json",
       "nemko": {
         "country": "SERBIA",
         "national_language": "Serbian",
@@ -12337,6 +14764,7 @@
     {
       "country": "Singapore",
       "slug": "singapore",
+      "country_file": "countries/singapore.json",
       "nemko": {
         "country": "SINGAPORE",
         "national_language": "Malay/English",
@@ -12624,19 +15052,57 @@
             "business_unit": "Ent Access",
             "timeline": "",
             "comments": "",
-            "country_group": "Argentina, Chile, Colombia, Costa Rica, Hong Kong, Philippines, Singapore"
+            "country_group": "Argentina, Chile, Colombia, Costa Rica, Hong Kong, Philippines, Singapore",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C9300, C9350, C9400)",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent Routing",
             "timeline": "",
             "comments": "",
-            "country_group": "Singapore, Mexico, Hong Kong, Philippines, Thailand, Malaysia, Greece, VietNam, Cyprus"
+            "country_group": "Singapore, Mexico, Hong Kong, Philippines, Thailand, Malaysia, Greece, VietNam, Cyprus",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C8300, C8400, C8500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Optical",
             "timeline": "",
             "comments": "",
-            "country_group": "Argentina, Chile, Hong Kong, and Singapore"
+            "country_group": "Argentina, Chile, Hong Kong, and Singapore",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              }
+            ]
           }
         ]
       }
@@ -12644,6 +15110,7 @@
     {
       "country": "South Africa",
       "slug": "south-africa",
+      "country_file": "countries/south-africa.json",
       "nemko": {
         "country": "SOUTH AFRICA",
         "national_language": "Afrikaans/English/+",
@@ -12932,19 +15399,77 @@
             "business_unit": "Ent DC Switching",
             "timeline": "FCS + 6 months",
             "comments": "",
-            "country_group": "South Africa (NRCS)"
+            "country_group": "South Africa (NRCS)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (N9300, N9500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (N9500)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Optical",
             "timeline": "FCS + 6 months",
             "comments": "",
-            "country_group": "South Africa"
+            "country_group": "South Africa",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "IOT",
             "timeline": "FCS+ 3 months",
             "comments": "",
-            "country_group": "South Africa"
+            "country_group": "South Africa",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "ITE UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety UL/CSA 62368-1, AS/NZS 62368.1, CB to IEC 62368-1 CB with all country deviations and differences IEC 60529 (for IP66, IP67 systems) UL50E Type 4x (on IP66 and IP67 models) ICE UL61010-2-201 CB to IEC 61010-2-201 Hazloc Class 1, Div2/zone2 evaluations UL121201 CSA 22.2 213 UL60079-0, UL60079-7,UL60079-15 EN IEC 60079-0, EN IEC 60079-7, EN IEC 60079-15, EN IEC 60079-28 ATEX certification IECEx certification"
+              },
+              {
+                "category": "Railway Rolling stock and wayside",
+                "standard_specification": "EN 50121-3-2 EN 50121-4 EN50155 EN50153 EN45545-2 EN61373 EN50125-1 EN50125-3 EN50124-1"
+              },
+              {
+                "category": "Smart Grid",
+                "standard_specification": "IEC61850-3 IEEE1613:2025"
+              },
+              {
+                "category": "Traffic controllers",
+                "standard_specification": "NEMA TS2"
+              },
+              {
+                "category": "Marine",
+                "standard_specification": "DNV CG-0339, IACS UR E10"
+              },
+              {
+                "category": "Automotive",
+                "standard_specification": "CISPR25 UN ECE R10, R118 E-Mark certification"
+              },
+              {
+                "category": "MIL",
+                "standard_specification": "MIL-STD-461 (specific products only upon request) MIL-STD-810 (S&V)"
+              },
+              {
+                "category": "Corrosion",
+                "standard_specification": "IEC60068-2-52 IEC60068-2-60"
+              }
+            ]
           }
         ]
       }
@@ -12952,6 +15477,7 @@
     {
       "country": "South Korea",
       "slug": "south-korea",
+      "country_file": "countries/south-korea.json",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -13229,6 +15755,7 @@
     {
       "country": "Taiwan",
       "slug": "taiwan",
+      "country_file": "countries/taiwan.json",
       "nemko": {
         "country": "TAIWAN",
         "national_language": "Mandarin",
@@ -13472,49 +15999,177 @@
             "business_unit": "Ent Access",
             "timeline": "FCS + 3 months",
             "comments": "at chassis level",
-            "country_group": "Taiwan"
+            "country_group": "Taiwan",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C9300, C9350, C9400)",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent Routing",
             "timeline": "FCS + 3 months",
             "comments": "",
-            "country_group": "Taiwan"
+            "country_group": "Taiwan",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C8300, C8400, C8500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Servers",
             "timeline": "FCS + 3 months",
             "comments": "All UCS",
-            "country_group": "Taiwan (BSMI)"
+            "country_group": "Taiwan (BSMI)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (per customer request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (UCSC)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Switching",
             "timeline": "FCS + 3 months",
             "comments": "",
-            "country_group": "Taiwan (BSMI)"
+            "country_group": "Taiwan (BSMI)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (N9300, N9500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (N9500)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "SP Core (Routing)",
             "timeline": "FCS + 3 months",
             "comments": "For system level",
-            "country_group": "Taiwan"
+            "country_group": "Taiwan",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (Per request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "SP Access",
             "timeline": "FCS + 3 months",
             "comments": "",
-            "country_group": "Taiwan (BSMI)"
+            "country_group": "Taiwan (BSMI)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE GR-3108 Class-X (per request)"
+              },
+              {
+                "category": "Smart Grid (per request)",
+                "standard_specification": "IEEE 1613 EN/IEC 61850-3"
+              },
+              {
+                "category": "Railway",
+                "standard_specification": "EN50121-4"
+              }
+            ]
           },
           {
             "business_unit": "Optical",
             "timeline": "FCS + 3 months",
             "comments": "",
-            "country_group": "Taiwan"
+            "country_group": "Taiwan",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "IOT",
             "timeline": "FCS + 3 months",
             "comments": "",
-            "country_group": "Taiwan (BSMI)"
+            "country_group": "Taiwan (BSMI)",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "ITE UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety UL/CSA 62368-1, AS/NZS 62368.1, CB to IEC 62368-1 CB with all country deviations and differences IEC 60529 (for IP66, IP67 systems) UL50E Type 4x (on IP66 and IP67 models) ICE UL61010-2-201 CB to IEC 61010-2-201 Hazloc Class 1, Div2/zone2 evaluations UL121201 CSA 22.2 213 UL60079-0, UL60079-7,UL60079-15 EN IEC 60079-0, EN IEC 60079-7, EN IEC 60079-15, EN IEC 60079-28 ATEX certification IECEx certification"
+              },
+              {
+                "category": "Railway Rolling stock and wayside",
+                "standard_specification": "EN 50121-3-2 EN 50121-4 EN50155 EN50153 EN45545-2 EN61373 EN50125-1 EN50125-3 EN50124-1"
+              },
+              {
+                "category": "Smart Grid",
+                "standard_specification": "IEC61850-3 IEEE1613:2025"
+              },
+              {
+                "category": "Traffic controllers",
+                "standard_specification": "NEMA TS2"
+              },
+              {
+                "category": "Marine",
+                "standard_specification": "DNV CG-0339, IACS UR E10"
+              },
+              {
+                "category": "Automotive",
+                "standard_specification": "CISPR25 UN ECE R10, R118 E-Mark certification"
+              },
+              {
+                "category": "MIL",
+                "standard_specification": "MIL-STD-461 (specific products only upon request) MIL-STD-810 (S&V)"
+              },
+              {
+                "category": "Corrosion",
+                "standard_specification": "IEC60068-2-52 IEC60068-2-60"
+              }
+            ]
           }
         ]
       }
@@ -13522,6 +16177,7 @@
     {
       "country": "Tanzania",
       "slug": "tanzania",
+      "country_file": "countries/tanzania.json",
       "nemko": {
         "country": "TANZANIA",
         "national_language": "Swahili/English",
@@ -13574,6 +16230,7 @@
     {
       "country": "Thailand",
       "slug": "thailand",
+      "country_file": "countries/thailand.json",
       "nemko": {
         "country": "THAILAND",
         "national_language": "Thai",
@@ -13861,7 +16518,21 @@
             "business_unit": "Ent Routing",
             "timeline": "",
             "comments": "",
-            "country_group": "Singapore, Mexico, Hong Kong, Philippines, Thailand, Malaysia, Greece, VietNam, Cyprus"
+            "country_group": "Singapore, Mexico, Hong Kong, Philippines, Thailand, Malaysia, Greece, VietNam, Cyprus",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C8300, C8400, C8500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           }
         ]
       }
@@ -13869,6 +16540,7 @@
     {
       "country": "Turkey",
       "slug": "turkey",
+      "country_file": "countries/turkey.json",
       "nemko": {
         "country": "TURKEY",
         "national_language": "Turkish",
@@ -14173,6 +16845,7 @@
     {
       "country": "UAE",
       "slug": "uae",
+      "country_file": "countries/uae.json",
       "nemko": {
         "country": "UAE",
         "national_language": "Arabic",
@@ -14225,6 +16898,7 @@
     {
       "country": "USA",
       "slug": "usa",
+      "country_file": "countries/usa.json",
       "nemko": {
         "country": "USA",
         "national_language": "English",
@@ -14276,7 +16950,21 @@
             "business_unit": "Ent Access",
             "timeline": "",
             "comments": "",
-            "country_group": "USA, Canada"
+            "country_group": "USA, Canada",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C9300, C9350, C9400)",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           }
         ]
       }
@@ -14284,6 +16972,7 @@
     {
       "country": "USA/Canada",
       "slug": "usa-canada",
+      "country_file": "countries/usa-canada.json",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -14580,55 +17269,193 @@
             "business_unit": "Ent Routing",
             "timeline": "",
             "comments": "",
-            "country_group": "USA/Canada"
+            "country_group": "USA/Canada",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C8300, C8400, C8500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Servers",
             "timeline": "",
             "comments": "All UCS",
-            "country_group": "USA/Canada"
+            "country_group": "USA/Canada",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (per customer request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (UCSC)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Ent DC Switching",
             "timeline": "",
             "comments": "",
-            "country_group": "USA/Canada"
+            "country_group": "USA/Canada",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (N9300, N9500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD (N9500)",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "SP Core (Routing)",
             "timeline": "",
             "comments": "",
-            "country_group": "USA/Canada"
+            "country_group": "USA/Canada",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (Per request)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "SP Access",
             "timeline": "",
             "comments": "",
-            "country_group": "USA/Canada"
+            "country_group": "USA/Canada",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE GR-3108 Class-X (per request)"
+              },
+              {
+                "category": "Smart Grid (per request)",
+                "standard_specification": "IEEE 1613 EN/IEC 61850-3"
+              },
+              {
+                "category": "Railway",
+                "standard_specification": "EN50121-4"
+              }
+            ]
           },
           {
             "business_unit": "Security",
             "timeline": "",
             "comments": "",
-            "country_group": "USA/Canada"
+            "country_group": "USA/Canada",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           },
           {
             "business_unit": "Optical",
             "timeline": "",
             "comments": "",
-            "country_group": "USA/Canada"
+            "country_group": "USA/Canada",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "TMG",
             "timeline": "",
             "comments": "",
-            "country_group": "USA/Canada"
+            "country_group": "USA/Canada",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS",
+                "standard_specification": "GR-63-CORE, GR-1089-CORE"
+              }
+            ]
           },
           {
             "business_unit": "IOT",
             "timeline": "",
             "comments": "",
-            "country_group": "USA/Canada"
+            "country_group": "USA/Canada",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "ITE UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety UL/CSA 62368-1, AS/NZS 62368.1, CB to IEC 62368-1 CB with all country deviations and differences IEC 60529 (for IP66, IP67 systems) UL50E Type 4x (on IP66 and IP67 models) ICE UL61010-2-201 CB to IEC 61010-2-201 Hazloc Class 1, Div2/zone2 evaluations UL121201 CSA 22.2 213 UL60079-0, UL60079-7,UL60079-15 EN IEC 60079-0, EN IEC 60079-7, EN IEC 60079-15, EN IEC 60079-28 ATEX certification IECEx certification"
+              },
+              {
+                "category": "Railway Rolling stock and wayside",
+                "standard_specification": "EN 50121-3-2 EN 50121-4 EN50155 EN50153 EN45545-2 EN61373 EN50125-1 EN50125-3 EN50124-1"
+              },
+              {
+                "category": "Smart Grid",
+                "standard_specification": "IEC61850-3 IEEE1613:2025"
+              },
+              {
+                "category": "Traffic controllers",
+                "standard_specification": "NEMA TS2"
+              },
+              {
+                "category": "Marine",
+                "standard_specification": "DNV CG-0339, IACS UR E10"
+              },
+              {
+                "category": "Automotive",
+                "standard_specification": "CISPR25 UN ECE R10, R118 E-Mark certification"
+              },
+              {
+                "category": "MIL",
+                "standard_specification": "MIL-STD-461 (specific products only upon request) MIL-STD-810 (S&V)"
+              },
+              {
+                "category": "Corrosion",
+                "standard_specification": "IEC60068-2-52 IEC60068-2-60"
+              }
+            ]
           }
         ]
       }
@@ -14636,6 +17463,7 @@
     {
       "country": "Uganda",
       "slug": "uganda",
+      "country_file": "countries/uganda.json",
       "nemko": {
         "country": "UGANDA",
         "national_language": "Swahili/English",
@@ -14688,6 +17516,7 @@
     {
       "country": "Ukraine",
       "slug": "ukraine",
+      "country_file": "countries/ukraine.json",
       "nemko": {
         "country": "UKRAINE",
         "national_language": "Ukrainian",
@@ -14993,6 +17822,7 @@
     {
       "country": "United ARAB Emirates",
       "slug": "united-arab-emirates",
+      "country_file": "countries/united-arab-emirates.json",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -15245,6 +18075,7 @@
     {
       "country": "United Kingdom",
       "slug": "united-kingdom",
+      "country_file": "countries/united-kingdom.json",
       "nemko": {
         "country": "UNITED KINGDOM",
         "national_language": "English",
@@ -15296,7 +18127,41 @@
             "business_unit": "IOT",
             "timeline": "",
             "comments": "",
-            "country_group": "Europe (CE Countries), UK"
+            "country_group": "Europe (CE Countries), UK",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "ITE UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety UL/CSA 62368-1, AS/NZS 62368.1, CB to IEC 62368-1 CB with all country deviations and differences IEC 60529 (for IP66, IP67 systems) UL50E Type 4x (on IP66 and IP67 models) ICE UL61010-2-201 CB to IEC 61010-2-201 Hazloc Class 1, Div2/zone2 evaluations UL121201 CSA 22.2 213 UL60079-0, UL60079-7,UL60079-15 EN IEC 60079-0, EN IEC 60079-7, EN IEC 60079-15, EN IEC 60079-28 ATEX certification IECEx certification"
+              },
+              {
+                "category": "Railway Rolling stock and wayside",
+                "standard_specification": "EN 50121-3-2 EN 50121-4 EN50155 EN50153 EN45545-2 EN61373 EN50125-1 EN50125-3 EN50124-1"
+              },
+              {
+                "category": "Smart Grid",
+                "standard_specification": "IEC61850-3 IEEE1613:2025"
+              },
+              {
+                "category": "Traffic controllers",
+                "standard_specification": "NEMA TS2"
+              },
+              {
+                "category": "Marine",
+                "standard_specification": "DNV CG-0339, IACS UR E10"
+              },
+              {
+                "category": "Automotive",
+                "standard_specification": "CISPR25 UN ECE R10, R118 E-Mark certification"
+              },
+              {
+                "category": "MIL",
+                "standard_specification": "MIL-STD-461 (specific products only upon request) MIL-STD-810 (S&V)"
+              },
+              {
+                "category": "Corrosion",
+                "standard_specification": "IEC60068-2-52 IEC60068-2-60"
+              }
+            ]
           }
         ]
       }
@@ -15304,6 +18169,7 @@
     {
       "country": "Uzbekistan",
       "slug": "uzbekistan",
+      "country_file": "countries/uzbekistan.json",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -15558,6 +18424,7 @@
     {
       "country": "Venezuela",
       "slug": "venezuela",
+      "country_file": "countries/venezuela.json",
       "nemko": {
         "country": "VENEZUELA",
         "national_language": "Spanish",
@@ -15610,6 +18477,7 @@
     {
       "country": "Vietnam",
       "slug": "vietnam",
+      "country_file": "countries/vietnam.json",
       "nemko": {
         "country": "VIETNAM",
         "national_language": "Vietnamese",
@@ -15897,7 +18765,21 @@
             "business_unit": "Ent Routing",
             "timeline": "",
             "comments": "",
-            "country_group": "Singapore, Mexico, Hong Kong, Philippines, Thailand, Malaysia, Greece, VietNam, Cyprus"
+            "country_group": "Singapore, Mexico, Hong Kong, Philippines, Thailand, Malaysia, Greece, VietNam, Cyprus",
+            "standards": [
+              {
+                "category": "Safety",
+                "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+              },
+              {
+                "category": "NEBS (C8300, C8400, C8500)",
+                "standard_specification": "GR-63-CORE GR-1089-CORE"
+              },
+              {
+                "category": "OSHPD",
+                "standard_specification": "ICC-ES AC156"
+              }
+            ]
           }
         ]
       }
@@ -15905,6 +18787,7 @@
     {
       "country": "Zambia",
       "slug": "zambia",
+      "country_file": "countries/zambia.json",
       "nemko": {
         "country": "ZAMBIA",
         "national_language": "English",

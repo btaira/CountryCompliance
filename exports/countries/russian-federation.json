@@ -1,0 +1,766 @@
+{
+  "country": "Russian Federation",
+  "slug": "russian-federation",
+  "country_file": "countries/russian-federation.json",
+  "nemko": null,
+  "workbook": {
+    "summary": {
+      "entry_count": 22,
+      "product_types": [
+        "Collab Technology",
+        "Optical",
+        "Radio - LTE",
+        "Radio - WiFi",
+        "Router - Ethernet",
+        "Security - Firepower",
+        "Server",
+        "Switch - Ethernet",
+        "TBD",
+        "Telecom - LTE",
+        "Telecom - T1/DSL",
+        "Telecom - Telecom Software. E.g. Network Management, Mobile Packet Core, Call Processing and LI, etc.",
+        "Telecom - WiFi"
+      ],
+      "agencies": [
+        "Accredited Certification Body",
+        "Accredited Lab",
+        "EAC",
+        "National Radio Frequency Center"
+      ],
+      "support_contacts": [
+        "Quintin Mokoena"
+      ]
+    },
+    "entries": [
+      {
+        "comment": "",
+        "region": "EMEA",
+        "country": "Russian Federation",
+        "blank": "",
+        "support_contact": "Quintin Mokoena",
+        "agency": "EAC",
+        "product_type": "Router - Ethernet",
+        "cost_per_certificate": "1900",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "1 for AC, 1 for DC",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "4",
+        "certificate_validity_years": "3-5",
+        "recertification_cost": "1900",
+        "lead_time_for_recertification_months": "4",
+        "budget_lt_needed_months": "-3",
+        "sample_needed_for_recertification": "1 for AC, 1 for DC",
+        "lead_time_for_sample_months": "4",
+        "row_number": "402",
+        "comments": []
+      },
+      {
+        "comment": "",
+        "region": "EMEA",
+        "country": "Russian Federation",
+        "blank": "",
+        "support_contact": "Quintin Mokoena",
+        "agency": "EAC",
+        "product_type": "Switch - Ethernet",
+        "cost_per_certificate": "1900",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "1 for AC, 1 for DC",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "4",
+        "certificate_validity_years": "3-5",
+        "recertification_cost": "1900",
+        "lead_time_for_recertification_months": "4",
+        "budget_lt_needed_months": "-3",
+        "sample_needed_for_recertification": "1 for AC, 1 for DC",
+        "lead_time_for_sample_months": "4",
+        "row_number": "403",
+        "comments": [
+          {
+            "row_reference": "Row 403",
+            "row_number": "403",
+            "comment": "count of lead time can be started only when the sample is in Russia, HIG translated into Russian is required to start in country testing",
+            "author": "Brent Taira",
+            "created_at": "04/28/20 4:52 PM"
+          }
+        ]
+      },
+      {
+        "comment": "",
+        "region": "EMEA",
+        "country": "Russian Federation",
+        "blank": "",
+        "support_contact": "Quintin Mokoena",
+        "agency": "EAC",
+        "product_type": "Server",
+        "cost_per_certificate": "2400",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "1 for AC, 1 for DC",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "4",
+        "certificate_validity_years": "3-5",
+        "recertification_cost": "2400",
+        "lead_time_for_recertification_months": "4",
+        "budget_lt_needed_months": "-3",
+        "sample_needed_for_recertification": "1 for AC, 1 for DC",
+        "lead_time_for_sample_months": "4",
+        "row_number": "404",
+        "comments": []
+      },
+      {
+        "comment": "",
+        "region": "EMEA",
+        "country": "Russian Federation",
+        "blank": "",
+        "support_contact": "Quintin Mokoena",
+        "agency": "Accredited Certification Body",
+        "product_type": "Router - Ethernet",
+        "cost_per_certificate": "6500 - cost per project/family. might include several models",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "One per family. Might be shared after EAC approval",
+        "family_approval_accepted_incremental_cost": "Yes",
+        "lead_time_for_certification_months": "5",
+        "certificate_validity_years": "3",
+        "recertification_cost": "7000",
+        "lead_time_for_recertification_months": "5",
+        "budget_lt_needed_months": "-5",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "N/A",
+        "row_number": "405",
+        "comments": []
+      },
+      {
+        "comment": "",
+        "region": "EMEA",
+        "country": "Russian Federation",
+        "blank": "",
+        "support_contact": "Quintin Mokoena",
+        "agency": "Accredited Certification Body",
+        "product_type": "Switch - Ethernet",
+        "cost_per_certificate": "6500 - cost per project/family. might include several models",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "One per family. Might be shared after EAC approval",
+        "family_approval_accepted_incremental_cost": "Yes",
+        "lead_time_for_certification_months": "5",
+        "certificate_validity_years": "3",
+        "recertification_cost": "7000",
+        "lead_time_for_recertification_months": "5",
+        "budget_lt_needed_months": "-5",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "N/A",
+        "row_number": "406",
+        "comments": [
+          {
+            "row_reference": "Row 406",
+            "row_number": "406",
+            "comment": "Russia - Telecom Approval: For SP Only",
+            "author": "Judith Tumbokon",
+            "created_at": "04/28/20 5:01 PM"
+          }
+        ]
+      },
+      {
+        "comment": "Russia - Telecom Approval: For SP Only",
+        "region": "EMEA",
+        "country": "Russian Federation",
+        "blank": "",
+        "support_contact": "Quintin Mokoena",
+        "agency": "Accredited Certification Body",
+        "product_type": "Server",
+        "cost_per_certificate": "5000 - cost per project/family. might include several models",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "One per family. Might be shared after EAC approval",
+        "family_approval_accepted_incremental_cost": "Yes",
+        "lead_time_for_certification_months": "5",
+        "certificate_validity_years": "3",
+        "recertification_cost": "5000",
+        "lead_time_for_recertification_months": "5",
+        "budget_lt_needed_months": "-5",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "N/A",
+        "row_number": "407",
+        "comments": [
+          {
+            "row_reference": "Row 407",
+            "row_number": "407",
+            "comment": "count of lead time can be started only when the sample is in Russia, HIG translated into Russian is required to start in country testing",
+            "author": "Brent Taira",
+            "created_at": "04/28/20 4:52 PM"
+          }
+        ]
+      },
+      {
+        "comment": "",
+        "region": "EMEA",
+        "country": "Russian Federation",
+        "blank": "",
+        "support_contact": "Quintin Mokoena",
+        "agency": "EAC",
+        "product_type": "Radio - WiFi",
+        "cost_per_certificate": "1900",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "1 for AC, 1 for DC",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "4",
+        "certificate_validity_years": "3-5",
+        "recertification_cost": "1900",
+        "lead_time_for_recertification_months": "4",
+        "budget_lt_needed_months": "-3",
+        "sample_needed_for_recertification": "1 for AC, 1 for DC",
+        "lead_time_for_sample_months": "4",
+        "row_number": "408",
+        "comments": [
+          {
+            "row_reference": "Row 408",
+            "row_number": "408",
+            "comment": "Outdoor and Enterprise class AP. Russia - RADIO Approval",
+            "author": "Judith Tumbokon",
+            "created_at": "04/28/20 5:52 PM"
+          }
+        ]
+      },
+      {
+        "comment": "Outdoor and Enterprise class Radio. Russia - RADIO Approval. For End User devices - Russia Telecom instead",
+        "region": "EMEA",
+        "country": "Russian Federation",
+        "blank": "",
+        "support_contact": "Quintin Mokoena",
+        "agency": "National Radio Frequency Center",
+        "product_type": "Radio - WiFi",
+        "cost_per_certificate": "1000",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "Each PID (!). Might be shared with EAC approval",
+        "family_approval_accepted_incremental_cost": "NO",
+        "lead_time_for_certification_months": "6",
+        "certificate_validity_years": "if PID not changed - no expiration",
+        "recertification_cost": "N/A",
+        "lead_time_for_recertification_months": "N/A",
+        "budget_lt_needed_months": "N/A",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "N/A",
+        "row_number": "409",
+        "comments": [
+          {
+            "row_reference": "Row 409",
+            "row_number": "409",
+            "comment": "Russia - Telecom Approval: Covers RADIO Approval",
+            "author": "Judith Tumbokon",
+            "created_at": "04/28/20 5:52 PM"
+          }
+        ]
+      },
+      {
+        "comment": "",
+        "region": "EMEA",
+        "country": "Russian Federation",
+        "blank": "",
+        "support_contact": "Quintin Mokoena",
+        "agency": "Accredited Lab",
+        "product_type": "Telecom - LTE",
+        "cost_per_certificate": "6000 - cost per project/family. might include several models",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "Each model. Might be shared with EAC approval",
+        "family_approval_accepted_incremental_cost": "Yes",
+        "lead_time_for_certification_months": "4",
+        "certificate_validity_years": "5-7",
+        "recertification_cost": "N/A",
+        "lead_time_for_recertification_months": "N/A",
+        "budget_lt_needed_months": "N/A",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "N/A",
+        "row_number": "410",
+        "comments": [
+          {
+            "row_reference": "Row 410",
+            "row_number": "410",
+            "comment": "count of lead time can be started only when the sample is in Russia, HIG translated into Russian is required to start in country testing",
+            "author": "Brent Taira",
+            "created_at": "04/28/20 4:52 PM"
+          }
+        ]
+      },
+      {
+        "comment": "",
+        "region": "EMEA",
+        "country": "Russian Federation",
+        "blank": "",
+        "support_contact": "Quintin Mokoena",
+        "agency": "EAC",
+        "product_type": "Radio - LTE",
+        "cost_per_certificate": "1900",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "1 for AC, 1 for DC",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "4",
+        "certificate_validity_years": "3-5",
+        "recertification_cost": "1900",
+        "lead_time_for_recertification_months": "4",
+        "budget_lt_needed_months": "-3",
+        "sample_needed_for_recertification": "1 for AC, 1 for DC",
+        "lead_time_for_sample_months": "4",
+        "row_number": "411",
+        "comments": [
+          {
+            "row_reference": "Row 411",
+            "row_number": "411",
+            "comment": "count of lead time can be started only when the sample is in Russia, HIG translated into Russian is required to start in country testing",
+            "author": "Brent Taira",
+            "created_at": "04/28/20 4:52 PM"
+          }
+        ]
+      },
+      {
+        "comment": "",
+        "region": "EMEA",
+        "country": "Russian Federation",
+        "blank": "",
+        "support_contact": "Quintin Mokoena",
+        "agency": "EAC",
+        "product_type": "Optical",
+        "cost_per_certificate": "1900",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "1 for AC, 1 for DC",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "4",
+        "certificate_validity_years": "3-5",
+        "recertification_cost": "1900",
+        "lead_time_for_recertification_months": "4",
+        "budget_lt_needed_months": "-3",
+        "sample_needed_for_recertification": "1 for AC, 1 for DC",
+        "lead_time_for_sample_months": "4",
+        "row_number": "412",
+        "comments": [
+          {
+            "row_reference": "Row 412",
+            "row_number": "412",
+            "comment": "Russia - Telecom Approval: For SP Only",
+            "author": "Judith Tumbokon",
+            "created_at": "04/28/20 5:52 PM"
+          }
+        ]
+      },
+      {
+        "comment": "Russia - Telecom Approval: For SP Only",
+        "region": "EMEA",
+        "country": "Russian Federation",
+        "blank": "",
+        "support_contact": "Quintin Mokoena",
+        "agency": "Accredited Certification Body",
+        "product_type": "Optical",
+        "cost_per_certificate": "6000 - cost per project/family. might include several models",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "One per family. Might be shared after EAC approval",
+        "family_approval_accepted_incremental_cost": "YES",
+        "lead_time_for_certification_months": "5",
+        "certificate_validity_years": "3",
+        "recertification_cost": "6000",
+        "lead_time_for_recertification_months": "5",
+        "budget_lt_needed_months": "-5",
+        "sample_needed_for_recertification": "Basically no, but might be requested by certification body/lab",
+        "lead_time_for_sample_months": "5",
+        "row_number": "413",
+        "comments": [
+          {
+            "row_reference": "Row 413",
+            "row_number": "413",
+            "comment": "count of lead time can be started only when the sample is in Russia, HIG translated into Russian is required to start in country testing",
+            "author": "Brent Taira",
+            "created_at": "04/28/20 4:52 PM"
+          }
+        ]
+      },
+      {
+        "comment": "",
+        "region": "EMEA",
+        "country": "Russian Federation",
+        "blank": "",
+        "support_contact": "Quintin Mokoena",
+        "agency": "EAC",
+        "product_type": "Security - Firepower",
+        "cost_per_certificate": "1900",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "1 for AC, 1 for DC",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "4",
+        "certificate_validity_years": "3-5",
+        "recertification_cost": "1900",
+        "lead_time_for_recertification_months": "4",
+        "budget_lt_needed_months": "-3",
+        "sample_needed_for_recertification": "1 for AC, 1 for DC",
+        "lead_time_for_sample_months": "4",
+        "row_number": "414",
+        "comments": [
+          {
+            "row_reference": "Row 414",
+            "row_number": "414",
+            "comment": "Russia - Telecom Approval: For SP Only",
+            "author": "Judith Tumbokon",
+            "created_at": "04/28/20 5:52 PM"
+          }
+        ]
+      },
+      {
+        "comment": "Russia - Telecom Approval: For SP Only",
+        "region": "EMEA",
+        "country": "Russian Federation",
+        "blank": "",
+        "support_contact": "Quintin Mokoena",
+        "agency": "Accredited Certification Body",
+        "product_type": "Security - Firepower",
+        "cost_per_certificate": "6000 - cost per project/family. might include several models",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "One per family. Might be shared after EAC approval",
+        "family_approval_accepted_incremental_cost": "YES",
+        "lead_time_for_certification_months": "5",
+        "certificate_validity_years": "3",
+        "recertification_cost": "6000",
+        "lead_time_for_recertification_months": "5",
+        "budget_lt_needed_months": "-5",
+        "sample_needed_for_recertification": "Basically no, but might be requested by certification body/lab",
+        "lead_time_for_sample_months": "5",
+        "row_number": "415",
+        "comments": [
+          {
+            "row_reference": "Row 415",
+            "row_number": "415",
+            "comment": "count of lead time can be started only when the sample is in Russia, HIG translated into Russian is required to start in country testing",
+            "author": "Brent Taira",
+            "created_at": "04/28/20 4:52 PM"
+          }
+        ]
+      },
+      {
+        "comment": "",
+        "region": "EMEA",
+        "country": "Russian Federation",
+        "blank": "",
+        "support_contact": "Quintin Mokoena",
+        "agency": "EAC",
+        "product_type": "Collab Technology",
+        "cost_per_certificate": "2400",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "1 for AC, 1 for DC",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "4",
+        "certificate_validity_years": "3-5",
+        "recertification_cost": "2400",
+        "lead_time_for_recertification_months": "4",
+        "budget_lt_needed_months": "-3",
+        "sample_needed_for_recertification": "1 for AC, 1 for DC",
+        "lead_time_for_sample_months": "4",
+        "row_number": "416",
+        "comments": [
+          {
+            "row_reference": "Row 416",
+            "row_number": "416",
+            "comment": "Russia - Telecom Approval: For SP Only",
+            "author": "Judith Tumbokon",
+            "created_at": "04/28/20 5:52 PM"
+          }
+        ]
+      },
+      {
+        "comment": "Russia - Telecom Approval: For SP Only",
+        "region": "EMEA",
+        "country": "Russian Federation",
+        "blank": "",
+        "support_contact": "Quintin Mokoena",
+        "agency": "Accredited Lab",
+        "product_type": "Collab Technology",
+        "cost_per_certificate": "5500 - cost per project/family. might include several models",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "One per family. Might be shared after EAC approval",
+        "family_approval_accepted_incremental_cost": "YES",
+        "lead_time_for_certification_months": "4",
+        "certificate_validity_years": "5-7",
+        "recertification_cost": "N/A",
+        "lead_time_for_recertification_months": "N/A",
+        "budget_lt_needed_months": "N/A",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "4",
+        "row_number": "417",
+        "comments": []
+      },
+      {
+        "comment": "",
+        "region": "EMEA",
+        "country": "Russian Federation",
+        "blank": "",
+        "support_contact": "Quintin Mokoena",
+        "agency": "EAC",
+        "product_type": "Telecom - T1/DSL",
+        "cost_per_certificate": "1900",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "1 for AC, 1 for DC",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "4",
+        "certificate_validity_years": "3-5",
+        "recertification_cost": "1900",
+        "lead_time_for_recertification_months": "4",
+        "budget_lt_needed_months": "-3",
+        "sample_needed_for_recertification": "1 for AC, 1 for DC",
+        "lead_time_for_sample_months": "4",
+        "row_number": "418",
+        "comments": [
+          {
+            "row_reference": "Row 418",
+            "row_number": "418",
+            "comment": "count of lead time can be started only when the sample is in Russia, HIG translated into Russian is required to start in country testing",
+            "author": "Brent Taira",
+            "created_at": "04/28/20 4:52 PM"
+          }
+        ]
+      },
+      {
+        "comment": "",
+        "region": "EMEA",
+        "country": "Russian Federation",
+        "blank": "",
+        "support_contact": "Quintin Mokoena",
+        "agency": "",
+        "product_type": "TBD",
+        "cost_per_certificate": "TBD",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "TBD",
+        "family_approval_accepted_incremental_cost": "TBD",
+        "lead_time_for_certification_months": "TBD",
+        "certificate_validity_years": "TBD",
+        "recertification_cost": "TBD",
+        "lead_time_for_recertification_months": "TBD",
+        "budget_lt_needed_months": "TBD",
+        "sample_needed_for_recertification": "TBD",
+        "lead_time_for_sample_months": "TBD",
+        "row_number": "419",
+        "comments": [
+          {
+            "row_reference": "Row 419",
+            "row_number": "419",
+            "comment": "Russia - Telecom Approval: For SP Only",
+            "author": "Judith Tumbokon",
+            "created_at": "04/28/20 5:01 PM"
+          }
+        ]
+      },
+      {
+        "comment": "Russia - Telecom Approval: For SP Only",
+        "region": "EMEA",
+        "country": "Russian Federation",
+        "blank": "",
+        "support_contact": "Quintin Mokoena",
+        "agency": "Accredited Certification Body",
+        "product_type": "Telecom - T1/DSL",
+        "cost_per_certificate": "5000 - cost per project/family. might include several models",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "One per family. Might be shared after EAC approval",
+        "family_approval_accepted_incremental_cost": "Yes",
+        "lead_time_for_certification_months": "5",
+        "certificate_validity_years": "3",
+        "recertification_cost": "5000",
+        "lead_time_for_recertification_months": "5",
+        "budget_lt_needed_months": "-5",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "N/A",
+        "row_number": "420",
+        "comments": [
+          {
+            "row_reference": "Row 420",
+            "row_number": "420",
+            "comment": "Russia - Telecom Approval: For SP Only",
+            "author": "Judith Tumbokon",
+            "created_at": "04/28/20 5:02 PM"
+          }
+        ]
+      },
+      {
+        "comment": "Russia - Telecom Approval: For SP Only",
+        "region": "EMEA",
+        "country": "Russian Federation",
+        "blank": "",
+        "support_contact": "Quintin Mokoena",
+        "agency": "Accredited Certification Body",
+        "product_type": "Telecom - Telecom Software. E.g. Network Management, Mobile Packet Core, Call Processing and LI, etc.",
+        "cost_per_certificate": "Mobile Packet Core - Approx 15K USD Network Management - 7K USD Call Processing and LI - Depends",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "No",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "6",
+        "certificate_validity_years": "3",
+        "recertification_cost": "10000",
+        "lead_time_for_recertification_months": "6",
+        "budget_lt_needed_months": "-5",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "N/A",
+        "row_number": "421",
+        "comments": [
+          {
+            "row_reference": "Row 421",
+            "row_number": "421",
+            "comment": "End User or Slave Device. Russia - Telecom Approval: Covers RADIO Approval",
+            "author": "Judith Tumbokon",
+            "created_at": "04/28/20 5:52 PM"
+          }
+        ]
+      },
+      {
+        "comment": "Russia - Telecom Approval: Covers RADIO Approval for End User devices",
+        "region": "EMEA",
+        "country": "Russian Federation",
+        "blank": "",
+        "support_contact": "Quintin Mokoena",
+        "agency": "Accredited Lab",
+        "product_type": "Telecom - WiFi",
+        "cost_per_certificate": "6000 - cost per project/family. might include several models",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "Each model. Might be shared with EAC approval",
+        "family_approval_accepted_incremental_cost": "Yes",
+        "lead_time_for_certification_months": "4",
+        "certificate_validity_years": "5-7",
+        "recertification_cost": "N/A",
+        "lead_time_for_recertification_months": "N/A",
+        "budget_lt_needed_months": "N/A",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "N/A",
+        "row_number": "422",
+        "comments": []
+      },
+      {
+        "comment": "Outdoor and Enterprise class AP. Russia - Telecom ApprovalOutdoor and Enterprise class AP. Russia - Telecom Approval",
+        "region": "EMEA",
+        "country": "Russian Federation",
+        "blank": "",
+        "support_contact": "Quintin Mokoena",
+        "agency": "Accredited Certification Body",
+        "product_type": "Telecom - WiFi",
+        "cost_per_certificate": "6000 - cost per project/family. might include several models",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "One per family. Might be shared after EAC approval",
+        "family_approval_accepted_incremental_cost": "Yes",
+        "lead_time_for_certification_months": "4",
+        "certificate_validity_years": "3",
+        "recertification_cost": "6000",
+        "lead_time_for_recertification_months": "4",
+        "budget_lt_needed_months": "-5",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "N/A",
+        "row_number": "423",
+        "comments": []
+      }
+    ],
+    "comments": [
+      {
+        "row_reference": "Row 403",
+        "row_number": "403",
+        "comment": "count of lead time can be started only when the sample is in Russia, HIG translated into Russian is required to start in country testing",
+        "author": "Brent Taira",
+        "created_at": "04/28/20 4:52 PM"
+      },
+      {
+        "row_reference": "Row 406",
+        "row_number": "406",
+        "comment": "Russia - Telecom Approval: For SP Only",
+        "author": "Judith Tumbokon",
+        "created_at": "04/28/20 5:01 PM"
+      },
+      {
+        "row_reference": "Row 407",
+        "row_number": "407",
+        "comment": "count of lead time can be started only when the sample is in Russia, HIG translated into Russian is required to start in country testing",
+        "author": "Brent Taira",
+        "created_at": "04/28/20 4:52 PM"
+      },
+      {
+        "row_reference": "Row 408",
+        "row_number": "408",
+        "comment": "Outdoor and Enterprise class AP. Russia - RADIO Approval",
+        "author": "Judith Tumbokon",
+        "created_at": "04/28/20 5:52 PM"
+      },
+      {
+        "row_reference": "Row 409",
+        "row_number": "409",
+        "comment": "Russia - Telecom Approval: Covers RADIO Approval",
+        "author": "Judith Tumbokon",
+        "created_at": "04/28/20 5:52 PM"
+      },
+      {
+        "row_reference": "Row 410",
+        "row_number": "410",
+        "comment": "count of lead time can be started only when the sample is in Russia, HIG translated into Russian is required to start in country testing",
+        "author": "Brent Taira",
+        "created_at": "04/28/20 4:52 PM"
+      },
+      {
+        "row_reference": "Row 411",
+        "row_number": "411",
+        "comment": "count of lead time can be started only when the sample is in Russia, HIG translated into Russian is required to start in country testing",
+        "author": "Brent Taira",
+        "created_at": "04/28/20 4:52 PM"
+      },
+      {
+        "row_reference": "Row 412",
+        "row_number": "412",
+        "comment": "Russia - Telecom Approval: For SP Only",
+        "author": "Judith Tumbokon",
+        "created_at": "04/28/20 5:52 PM"
+      },
+      {
+        "row_reference": "Row 413",
+        "row_number": "413",
+        "comment": "count of lead time can be started only when the sample is in Russia, HIG translated into Russian is required to start in country testing",
+        "author": "Brent Taira",
+        "created_at": "04/28/20 4:52 PM"
+      },
+      {
+        "row_reference": "Row 414",
+        "row_number": "414",
+        "comment": "Russia - Telecom Approval: For SP Only",
+        "author": "Judith Tumbokon",
+        "created_at": "04/28/20 5:52 PM"
+      },
+      {
+        "row_reference": "Row 415",
+        "row_number": "415",
+        "comment": "count of lead time can be started only when the sample is in Russia, HIG translated into Russian is required to start in country testing",
+        "author": "Brent Taira",
+        "created_at": "04/28/20 4:52 PM"
+      },
+      {
+        "row_reference": "Row 416",
+        "row_number": "416",
+        "comment": "Russia - Telecom Approval: For SP Only",
+        "author": "Judith Tumbokon",
+        "created_at": "04/28/20 5:52 PM"
+      },
+      {
+        "row_reference": "Row 418",
+        "row_number": "418",
+        "comment": "count of lead time can be started only when the sample is in Russia, HIG translated into Russian is required to start in country testing",
+        "author": "Brent Taira",
+        "created_at": "04/28/20 4:52 PM"
+      },
+      {
+        "row_reference": "Row 419",
+        "row_number": "419",
+        "comment": "Russia - Telecom Approval: For SP Only",
+        "author": "Judith Tumbokon",
+        "created_at": "04/28/20 5:01 PM"
+      },
+      {
+        "row_reference": "Row 420",
+        "row_number": "420",
+        "comment": "Russia - Telecom Approval: For SP Only",
+        "author": "Judith Tumbokon",
+        "created_at": "04/28/20 5:02 PM"
+      },
+      {
+        "row_reference": "Row 421",
+        "row_number": "421",
+        "comment": "End User or Slave Device. Russia - Telecom Approval: Covers RADIO Approval",
+        "author": "Judith Tumbokon",
+        "created_at": "04/28/20 5:52 PM"
+      }
+    ]
+  },
+  "hardware_handbook": {
+    "approvals": []
+  }
+}

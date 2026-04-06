@@ -1,0 +1,422 @@
+{
+  "country": "Taiwan",
+  "slug": "taiwan",
+  "country_file": "countries/taiwan.json",
+  "nemko": {
+    "country": "TAIWAN",
+    "national_language": "Mandarin",
+    "population": "23.5 million",
+    "flag_image_url": "https://www.nemko.com/hubfs/Global%20Marketing%20flags/tw.png",
+    "compliance_requirement_for_telecom_radio": "Yes",
+    "regulatory_authority": "R/T: National communications Commission Nemko Canada (CAB)",
+    "mandatory_requirements_telecom_radio_safety_emc": "TelecomRadioEMCSafety",
+    "in_country_test": "No, Reports accepted from accredited MRA labs",
+    "language_requirements_application_manual_report": "Chinese (traditional)",
+    "local_representation_required_for_approval": "No",
+    "country_specific_labelling": "Yes",
+    "approval_validity": "Life of product",
+    "factory_inspection": "No",
+    "other_requirements": "",
+    "radio_telecom_certificate_example_url": "",
+    "radio_telecom_mark_artwork_url": "",
+    "emc_certification_and_test_report_required_for_it_products": "No",
+    "emission_and_immunity": "Emission only",
+    "safety_certification_required_for_it_products": "Yes",
+    "safety_test_report_requirement": "Yes",
+    "rohs_certification_required_for_it_products": "Yes",
+    "rohs_requirements": "Yes (6 substances)",
+    "sample_required_in_country": "Yes",
+    "language_requirements_user_manual_product_safety_markings": "Class A: English | Class B: traditional Chinese",
+    "local_representative_applicant_required": "Yes",
+    "mandatory_factory_inspection_requirement": "No, factory list is accepted",
+    "remarks": "HS code required",
+    "safety_emc_certificate_example_url": "",
+    "safety_emc_mark_artwork_url": "",
+    "energy_efficiency_requirements": "No",
+    "energy_efficiency_certificate_example_url": "",
+    "energy_efficiency_mark_artwork_url": "",
+    "country_css_class": "taiwan"
+  },
+  "workbook": {
+    "summary": {
+      "entry_count": 8,
+      "product_types": [
+        "Collab Technology",
+        "Optical",
+        "Radio - LTE",
+        "Radio - WiFi",
+        "Router - Ethernet",
+        "Security - Firepower",
+        "Server - UCS",
+        "Telecom - T1/DSL"
+      ],
+      "agencies": [
+        "BSMI DOC",
+        "BSMI RPC",
+        "NCC"
+      ],
+      "support_contacts": [
+        "Hao Tian"
+      ]
+    },
+    "entries": [
+      {
+        "comment": "in-country test for Access Point",
+        "region": "APAC",
+        "country": "Taiwan",
+        "blank": "",
+        "support_contact": "Hao Tian",
+        "agency": "NCC",
+        "product_type": "Radio - WiFi",
+        "cost_per_certificate": "30000",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "Yes, 1 sample (LP0002 reports)",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "1.5",
+        "certificate_validity_years": "Permanent",
+        "recertification_cost": "N/A",
+        "lead_time_for_recertification_months": "N/A",
+        "budget_lt_needed_months": "NA",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "N/A",
+        "row_number": "273",
+        "comments": []
+      },
+      {
+        "comment": "In-country test for cellular products",
+        "region": "APAC",
+        "country": "Taiwan",
+        "blank": "",
+        "support_contact": "Hao Tian",
+        "agency": "NCC",
+        "product_type": "Radio - LTE",
+        "cost_per_certificate": "30000",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "Yes - 1x sample for each PID",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "1.5",
+        "certificate_validity_years": "Permanent",
+        "recertification_cost": "N/A",
+        "lead_time_for_recertification_months": "N/A",
+        "budget_lt_needed_months": "NA",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "N/A",
+        "row_number": "274",
+        "comments": []
+      },
+      {
+        "comment": "",
+        "region": "APAC",
+        "country": "Taiwan",
+        "blank": "",
+        "support_contact": "Hao Tian",
+        "agency": "",
+        "product_type": "Optical",
+        "cost_per_certificate": "0",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "No",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "N/A",
+        "certificate_validity_years": "N/A",
+        "recertification_cost": "N/A",
+        "lead_time_for_recertification_months": "N/A",
+        "budget_lt_needed_months": "NA",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "N/A",
+        "row_number": "275",
+        "comments": []
+      },
+      {
+        "comment": "",
+        "region": "APAC",
+        "country": "Taiwan",
+        "blank": "",
+        "support_contact": "Hao Tian",
+        "agency": "",
+        "product_type": "Security - Firepower",
+        "cost_per_certificate": "0",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "No",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "N/A",
+        "certificate_validity_years": "N/A",
+        "recertification_cost": "N/A",
+        "lead_time_for_recertification_months": "N/A",
+        "budget_lt_needed_months": "NA",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "N/A",
+        "row_number": "276",
+        "comments": []
+      },
+      {
+        "comment": "",
+        "region": "APAC",
+        "country": "Taiwan",
+        "blank": "",
+        "support_contact": "Hao Tian",
+        "agency": "",
+        "product_type": "Collab Technology",
+        "cost_per_certificate": "0",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "No",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "N/A",
+        "certificate_validity_years": "N/A",
+        "recertification_cost": "N/A",
+        "lead_time_for_recertification_months": "N/A",
+        "budget_lt_needed_months": "NA",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "N/A",
+        "row_number": "277",
+        "comments": []
+      },
+      {
+        "comment": "BSMI EMC& Safety AC or AC/DC, if require in-ountry lab test, the cost will increase",
+        "region": "APAC",
+        "country": "Taiwan",
+        "blank": "",
+        "support_contact": "Hao Tian",
+        "agency": "BSMI DOC",
+        "product_type": "Router - Ethernet",
+        "cost_per_certificate": "3800",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "depends on the existing test report meet the requirement or not",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "2",
+        "certificate_validity_years": "Permanent",
+        "recertification_cost": "N/A",
+        "lead_time_for_recertification_months": "N/A",
+        "budget_lt_needed_months": "NA",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "N/A",
+        "row_number": "278",
+        "comments": []
+      },
+      {
+        "comment": "BSMI EMC& safety AC or AC/DC, if require in-ountry lab test, the cost will increase",
+        "region": "APAC",
+        "country": "Taiwan",
+        "blank": "",
+        "support_contact": "Hao Tian",
+        "agency": "BSMI RPC",
+        "product_type": "Server - UCS",
+        "cost_per_certificate": "$3600-$4200",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "depends on the existing test report meet the requirement or not",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "3",
+        "certificate_validity_years": "3",
+        "recertification_cost": "$50 for 1st time recertification",
+        "lead_time_for_recertification_months": "1",
+        "budget_lt_needed_months": "-3",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "N/A",
+        "row_number": "279",
+        "comments": []
+      },
+      {
+        "comment": "lab test base on test items",
+        "region": "APAC",
+        "country": "Taiwan",
+        "blank": "",
+        "support_contact": "Hao Tian",
+        "agency": "NCC",
+        "product_type": "Telecom - T1/DSL",
+        "cost_per_certificate": "6000-8000",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "No",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "N/A",
+        "certificate_validity_years": "N/A",
+        "recertification_cost": "N/A",
+        "lead_time_for_recertification_months": "N/A",
+        "budget_lt_needed_months": "NA",
+        "sample_needed_for_recertification": "N/A",
+        "lead_time_for_sample_months": "N/A",
+        "row_number": "280",
+        "comments": []
+      }
+    ],
+    "comments": []
+  },
+  "hardware_handbook": {
+    "approvals": [
+      {
+        "business_unit": "Ent Access",
+        "timeline": "FCS + 3 months",
+        "comments": "at chassis level",
+        "country_group": "Taiwan",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS (C9300, C9350, C9400)",
+            "standard_specification": "GR-63-CORE, GR-1089-CORE"
+          },
+          {
+            "category": "OSHPD",
+            "standard_specification": "ICC-ES AC156"
+          }
+        ]
+      },
+      {
+        "business_unit": "Ent Routing",
+        "timeline": "FCS + 3 months",
+        "comments": "",
+        "country_group": "Taiwan",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS (C8300, C8400, C8500)",
+            "standard_specification": "GR-63-CORE GR-1089-CORE"
+          },
+          {
+            "category": "OSHPD",
+            "standard_specification": "ICC-ES AC156"
+          }
+        ]
+      },
+      {
+        "business_unit": "Ent DC Servers",
+        "timeline": "FCS + 3 months",
+        "comments": "All UCS",
+        "country_group": "Taiwan (BSMI)",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS (per customer request)",
+            "standard_specification": "GR-63-CORE GR-1089-CORE"
+          },
+          {
+            "category": "OSHPD (UCSC)",
+            "standard_specification": "ICC-ES AC156"
+          }
+        ]
+      },
+      {
+        "business_unit": "Ent DC Switching",
+        "timeline": "FCS + 3 months",
+        "comments": "",
+        "country_group": "Taiwan (BSMI)",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS (N9300, N9500)",
+            "standard_specification": "GR-63-CORE GR-1089-CORE"
+          },
+          {
+            "category": "OSHPD (N9500)",
+            "standard_specification": "ICC-ES AC156"
+          }
+        ]
+      },
+      {
+        "business_unit": "SP Core (Routing)",
+        "timeline": "FCS + 3 months",
+        "comments": "For system level",
+        "country_group": "Taiwan",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS (Per request)",
+            "standard_specification": "GR-63-CORE GR-1089-CORE"
+          }
+        ]
+      },
+      {
+        "business_unit": "SP Access",
+        "timeline": "FCS + 3 months",
+        "comments": "",
+        "country_group": "Taiwan (BSMI)",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS",
+            "standard_specification": "GR-63-CORE, GR-1089-CORE GR-3108 Class-X (per request)"
+          },
+          {
+            "category": "Smart Grid (per request)",
+            "standard_specification": "IEEE 1613 EN/IEC 61850-3"
+          },
+          {
+            "category": "Railway",
+            "standard_specification": "EN50121-4"
+          }
+        ]
+      },
+      {
+        "business_unit": "Optical",
+        "timeline": "FCS + 3 months",
+        "comments": "",
+        "country_group": "Taiwan",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS",
+            "standard_specification": "GR-63-CORE, GR-1089-CORE"
+          }
+        ]
+      },
+      {
+        "business_unit": "IOT",
+        "timeline": "FCS + 3 months",
+        "comments": "",
+        "country_group": "Taiwan (BSMI)",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "ITE UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety UL/CSA 62368-1, AS/NZS 62368.1, CB to IEC 62368-1 CB with all country deviations and differences IEC 60529 (for IP66, IP67 systems) UL50E Type 4x (on IP66 and IP67 models) ICE UL61010-2-201 CB to IEC 61010-2-201 Hazloc Class 1, Div2/zone2 evaluations UL121201 CSA 22.2 213 UL60079-0, UL60079-7,UL60079-15 EN IEC 60079-0, EN IEC 60079-7, EN IEC 60079-15, EN IEC 60079-28 ATEX certification IECEx certification"
+          },
+          {
+            "category": "Railway Rolling stock and wayside",
+            "standard_specification": "EN 50121-3-2 EN 50121-4 EN50155 EN50153 EN45545-2 EN61373 EN50125-1 EN50125-3 EN50124-1"
+          },
+          {
+            "category": "Smart Grid",
+            "standard_specification": "IEC61850-3 IEEE1613:2025"
+          },
+          {
+            "category": "Traffic controllers",
+            "standard_specification": "NEMA TS2"
+          },
+          {
+            "category": "Marine",
+            "standard_specification": "DNV CG-0339, IACS UR E10"
+          },
+          {
+            "category": "Automotive",
+            "standard_specification": "CISPR25 UN ECE R10, R118 E-Mark certification"
+          },
+          {
+            "category": "MIL",
+            "standard_specification": "MIL-STD-461 (specific products only upon request) MIL-STD-810 (S&V)"
+          },
+          {
+            "category": "Corrosion",
+            "standard_specification": "IEC60068-2-52 IEC60068-2-60"
+          }
+        ]
+      }
+    ]
+  }
+}

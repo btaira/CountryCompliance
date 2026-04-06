@@ -1,0 +1,346 @@
+{
+  "country": "Singapore",
+  "slug": "singapore",
+  "country_file": "countries/singapore.json",
+  "nemko": {
+    "country": "SINGAPORE",
+    "national_language": "Malay/English",
+    "population": "5.6 million",
+    "flag_image_url": "https://www.nemko.com/hubfs/Global%20Marketing%20flags/sg.png",
+    "compliance_requirement_for_telecom_radio": "Yes",
+    "regulatory_authority": "Infocomm Media Development Authority (IMDA)",
+    "mandatory_requirements_telecom_radio_safety_emc": "TelecomRadioEMCSafety",
+    "in_country_test": "No",
+    "language_requirements_application_manual_report": "English",
+    "local_representation_required_for_approval": "Yes",
+    "country_specific_labelling": "Yes",
+    "approval_validity": "5 years",
+    "factory_inspection": "No",
+    "other_requirements": "Other requirements for EMC, safety and ROHS might apply. Please check the Nemko Direct key info for more information.",
+    "radio_telecom_certificate_example_url": "",
+    "radio_telecom_mark_artwork_url": "",
+    "emc_certification_and_test_report_required_for_it_products": "No",
+    "emission_and_immunity": "No",
+    "safety_certification_required_for_it_products": "Yes",
+    "safety_test_report_requirement": "Yes",
+    "rohs_certification_required_for_it_products": "Yes",
+    "rohs_requirements": "Yes (6 substances)",
+    "sample_required_in_country": "No",
+    "language_requirements_user_manual_product_safety_markings": "English is OK",
+    "local_representative_applicant_required": "Yes",
+    "mandatory_factory_inspection_requirement": "No",
+    "remarks": "",
+    "safety_emc_certificate_example_url": "",
+    "safety_emc_mark_artwork_url": "",
+    "energy_efficiency_requirements": "Yes",
+    "energy_efficiency_certificate_example_url": "",
+    "energy_efficiency_mark_artwork_url": "",
+    "country_css_class": "singapore"
+  },
+  "workbook": {
+    "summary": {
+      "entry_count": 10,
+      "product_types": [
+        "Collab Technology",
+        "Optical",
+        "Radio - Cellular",
+        "Radio - WiFi",
+        "Router - Ethernet",
+        "Security - Firepower",
+        "Server - Ethernet",
+        "Switch - Ethernet",
+        "TBD",
+        "Telecom - T1/DSL"
+      ],
+      "agencies": [
+        "IMDA"
+      ],
+      "support_contacts": [
+        "Abdul Wahid"
+      ]
+    },
+    "entries": [
+      {
+        "comment": "Products has Telecom/Wireless modules requires approvals",
+        "region": "APAC",
+        "country": "Singapore",
+        "blank": "",
+        "support_contact": "Abdul Wahid",
+        "agency": "IMDA",
+        "product_type": "Router - Ethernet",
+        "cost_per_certificate": "35",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "No",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "1",
+        "certificate_validity_years": "5",
+        "recertification_cost": "35",
+        "lead_time_for_recertification_months": "1",
+        "budget_lt_needed_months": "1",
+        "sample_needed_for_recertification": "No",
+        "lead_time_for_sample_months": "No",
+        "row_number": "242",
+        "comments": []
+      },
+      {
+        "comment": "Applicable to products with Telecom/Wireless modules",
+        "region": "APAC",
+        "country": "Singapore",
+        "blank": "",
+        "support_contact": "Abdul Wahid",
+        "agency": "IMDA",
+        "product_type": "Switch - Ethernet",
+        "cost_per_certificate": "35",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "No",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "1",
+        "certificate_validity_years": "5",
+        "recertification_cost": "35",
+        "lead_time_for_recertification_months": "1",
+        "budget_lt_needed_months": "1",
+        "sample_needed_for_recertification": "No",
+        "lead_time_for_sample_months": "No",
+        "row_number": "243",
+        "comments": []
+      },
+      {
+        "comment": "Products has Telecom/Wireless modules requires approvals",
+        "region": "APAC",
+        "country": "Singapore",
+        "blank": "",
+        "support_contact": "Abdul Wahid",
+        "agency": "IMDA",
+        "product_type": "Server - Ethernet",
+        "cost_per_certificate": "35",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "No",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "1",
+        "certificate_validity_years": "5",
+        "recertification_cost": "35",
+        "lead_time_for_recertification_months": "1",
+        "budget_lt_needed_months": "1",
+        "sample_needed_for_recertification": "No",
+        "lead_time_for_sample_months": "No",
+        "row_number": "244",
+        "comments": []
+      },
+      {
+        "comment": "SRD - Bluetooth, WiFi, LoRA, RFID, wireless",
+        "region": "APAC",
+        "country": "Singapore",
+        "blank": "",
+        "support_contact": "Abdul Wahid",
+        "agency": "IMDA",
+        "product_type": "Radio - WiFi",
+        "cost_per_certificate": "0",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "No",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "1",
+        "certificate_validity_years": "5",
+        "recertification_cost": "0",
+        "lead_time_for_recertification_months": "1",
+        "budget_lt_needed_months": "0",
+        "sample_needed_for_recertification": "No",
+        "lead_time_for_sample_months": "No",
+        "row_number": "245",
+        "comments": []
+      },
+      {
+        "comment": "Mobile cellular 2G/3G/4G/5G",
+        "region": "APAC",
+        "country": "Singapore",
+        "blank": "",
+        "support_contact": "Abdul Wahid",
+        "agency": "IMDA",
+        "product_type": "Radio - Cellular",
+        "cost_per_certificate": "180",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "No",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "1",
+        "certificate_validity_years": "5",
+        "recertification_cost": "35",
+        "lead_time_for_recertification_months": "1",
+        "budget_lt_needed_months": "1",
+        "sample_needed_for_recertification": "No",
+        "lead_time_for_sample_months": "No",
+        "row_number": "246",
+        "comments": []
+      },
+      {
+        "comment": "SONET/SDH, Optical OCxx",
+        "region": "APAC",
+        "country": "Singapore",
+        "blank": "",
+        "support_contact": "Abdul Wahid",
+        "agency": "IMDA",
+        "product_type": "Optical",
+        "cost_per_certificate": "0",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "No",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "NA",
+        "certificate_validity_years": "NA",
+        "recertification_cost": "0",
+        "lead_time_for_recertification_months": "NA",
+        "budget_lt_needed_months": "NA",
+        "sample_needed_for_recertification": "No",
+        "lead_time_for_sample_months": "No",
+        "row_number": "247",
+        "comments": []
+      },
+      {
+        "comment": "Products has Telecom/Wireless modules requires approvals",
+        "region": "APAC",
+        "country": "Singapore",
+        "blank": "",
+        "support_contact": "Abdul Wahid",
+        "agency": "IMDA",
+        "product_type": "Security - Firepower",
+        "cost_per_certificate": "35",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "No",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "1",
+        "certificate_validity_years": "5",
+        "recertification_cost": "35",
+        "lead_time_for_recertification_months": "1",
+        "budget_lt_needed_months": "1",
+        "sample_needed_for_recertification": "No",
+        "lead_time_for_sample_months": "No",
+        "row_number": "248",
+        "comments": []
+      },
+      {
+        "comment": "DECT, WiFi, Bluetooth, wireless",
+        "region": "APAC",
+        "country": "Singapore",
+        "blank": "",
+        "support_contact": "Abdul Wahid",
+        "agency": "IMDA",
+        "product_type": "Collab Technology",
+        "cost_per_certificate": "0",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "No",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "1",
+        "certificate_validity_years": "5",
+        "recertification_cost": "0",
+        "lead_time_for_recertification_months": "1",
+        "budget_lt_needed_months": "1",
+        "sample_needed_for_recertification": "No",
+        "lead_time_for_sample_months": "No",
+        "row_number": "249",
+        "comments": []
+      },
+      {
+        "comment": "ISDN, FXO, ADSL, Analog",
+        "region": "APAC",
+        "country": "Singapore",
+        "blank": "",
+        "support_contact": "Abdul Wahid",
+        "agency": "IMDA",
+        "product_type": "Telecom - T1/DSL",
+        "cost_per_certificate": "0",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "No",
+        "family_approval_accepted_incremental_cost": "No",
+        "lead_time_for_certification_months": "1",
+        "certificate_validity_years": "5",
+        "recertification_cost": "0",
+        "lead_time_for_recertification_months": "1",
+        "budget_lt_needed_months": "1",
+        "sample_needed_for_recertification": "No",
+        "lead_time_for_sample_months": "No",
+        "row_number": "250",
+        "comments": []
+      },
+      {
+        "comment": "ISDN, FXO, ADSL, Analog",
+        "region": "APAC",
+        "country": "Singapore",
+        "blank": "",
+        "support_contact": "Abdul Wahid",
+        "agency": "IMDA",
+        "product_type": "TBD",
+        "cost_per_certificate": "TBD",
+        "cost_for_additional_country_of_origin": "",
+        "sample_needed_for_certification": "TBD",
+        "family_approval_accepted_incremental_cost": "TBD",
+        "lead_time_for_certification_months": "TBD",
+        "certificate_validity_years": "TBD",
+        "recertification_cost": "TBD",
+        "lead_time_for_recertification_months": "TBD",
+        "budget_lt_needed_months": "TBD",
+        "sample_needed_for_recertification": "TBD",
+        "lead_time_for_sample_months": "TBD",
+        "row_number": "251",
+        "comments": []
+      }
+    ],
+    "comments": []
+  },
+  "hardware_handbook": {
+    "approvals": [
+      {
+        "business_unit": "Ent Access",
+        "timeline": "",
+        "comments": "",
+        "country_group": "Argentina, Chile, Colombia, Costa Rica, Hong Kong, Philippines, Singapore",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS (C9300, C9350, C9400)",
+            "standard_specification": "GR-63-CORE, GR-1089-CORE"
+          },
+          {
+            "category": "OSHPD",
+            "standard_specification": "ICC-ES AC156"
+          }
+        ]
+      },
+      {
+        "business_unit": "Ent Routing",
+        "timeline": "",
+        "comments": "",
+        "country_group": "Singapore, Mexico, Hong Kong, Philippines, Thailand, Malaysia, Greece, VietNam, Cyprus",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS (C8300, C8400, C8500)",
+            "standard_specification": "GR-63-CORE GR-1089-CORE"
+          },
+          {
+            "category": "OSHPD",
+            "standard_specification": "ICC-ES AC156"
+          }
+        ]
+      },
+      {
+        "business_unit": "Optical",
+        "timeline": "",
+        "comments": "",
+        "country_group": "Argentina, Chile, Hong Kong, and Singapore",
+        "standards": [
+          {
+            "category": "Safety",
+            "standard_specification": "UL/CSA 60950-1 CAN/CSA-C22.2 No. 60950-1 IEC/EN 60825 Laser Safety AS/NZS 62368.1 UL/CSA 62368-1, IEC 62368-1 CB with all country deviations CAN/CSA-C22.2 No. 62368-1 IEC/EN 62368-1"
+          },
+          {
+            "category": "NEBS",
+            "standard_specification": "GR-63-CORE, GR-1089-CORE"
+          }
+        ]
+      }
+    ]
+  }
+}

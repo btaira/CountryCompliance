@@ -1,0 +1,53 @@
+{
+  "country": "EU/EEA",
+  "slug": "eu-eea",
+  "country_file": "countries/eu-eea.json",
+  "nemko": {
+    "country": "EU/EEA",
+    "national_language": "N/A",
+    "population": "445 million",
+    "flag_image_url": "https://www.nemko.com/hubfs/Global%20Marketing%20flags/EU%20flag.png",
+    "compliance_requirement_for_telecom_radio": "Yes",
+    "regulatory_authority": "National Authorities in each Member State",
+    "mandatory_requirements_telecom_radio_safety_emc": "RadioSafetyEMC(Self-declaration allowed if Effective Use of Spectrum HS is used/listed in OJ, otherwise, EU Type Exam Cert.)",
+    "in_country_test": "No",
+    "language_requirements_application_manual_report": "Local language requirements are required. For more information, please contact your local Nemko sales representative",
+    "local_representation_required_for_approval": "Other requirements for EMC, safety and ROHS might apply.Please check the Nemko Direct key info for more information.",
+    "country_specific_labelling": "Yes",
+    "approval_validity": "Other requirements for EMC, safety and ROHS might apply.Please check the Nemko Direct key info for more information.",
+    "factory_inspection": "No (unless Full Quality Assurance method used)",
+    "other_requirements": "Life of product(product must comply with Designated Standard listed in UK list during placement of unit on market)",
+    "radio_telecom_certificate_example_url": "",
+    "radio_telecom_mark_artwork_url": "",
+    "emc_certification_and_test_report_required_for_it_products": "Yes",
+    "emission_and_immunity": "E and I",
+    "safety_certification_required_for_it_products": "",
+    "safety_test_report_requirement": "",
+    "rohs_certification_required_for_it_products": "",
+    "rohs_requirements": "Yes (10 substances)",
+    "sample_required_in_country": "",
+    "language_requirements_user_manual_product_safety_markings": "",
+    "local_representative_applicant_required": "",
+    "mandatory_factory_inspection_requirement": "",
+    "remarks": "",
+    "safety_emc_certificate_example_url": "",
+    "safety_emc_mark_artwork_url": "",
+    "energy_efficiency_requirements": "Yes",
+    "energy_efficiency_certificate_example_url": "",
+    "energy_efficiency_mark_artwork_url": "",
+    "country_css_class": "eu-eea"
+  },
+  "workbook": {
+    "summary": {
+      "entry_count": 0,
+      "product_types": [],
+      "agencies": [],
+      "support_contacts": []
+    },
+    "entries": [],
+    "comments": []
+  },
+  "hardware_handbook": {
+    "approvals": []
+  }
+}
