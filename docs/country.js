@@ -140,9 +140,14 @@ async function init() {
   }
 
   try {
-    const response = await fetch(`./data/countries/${slug}.json`);
-    if (!response.ok) throw new Error(`Failed to load ${slug}`);
-    const country = await response.json();
+    const dataset =
+      window.COUNTRY_COMPLIANCE_DATABASE ||
+      await fetch("./data/country_compliance_database.json").then((response) => {
+        if (!response.ok) throw new Error(`Failed to load country database: ${response.status}`);
+        return response.json();
+      });
+    const country = dataset.countries.find((item) => item.slug === slug);
+    if (!country) throw new Error(`Failed to load ${slug}`);
     const nemko = country.nemko || {};
 
     title.textContent = country.country;

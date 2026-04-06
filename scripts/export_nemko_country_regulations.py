@@ -514,6 +514,11 @@ def write_json(path: Path, payload: dict[str, object] | list[dict[str, str]]) ->
     path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
+def write_js_data(path: Path, variable_name: str, payload: dict[str, object]) -> None:
+    serialized = json.dumps(payload, ensure_ascii=False)
+    path.write_text(f"window.{variable_name} = {serialized};\n", encoding="utf-8")
+
+
 def write_country_files(path: Path, countries: list[dict[str, object]]) -> None:
     path.mkdir(parents=True, exist_ok=True)
     for country in countries:
@@ -554,6 +559,11 @@ def main() -> None:
     )
     write_json(OUTPUT_DIR / "country_compliance_database.json", unified_database)
     write_json(DOCS_DATA_DIR / "country_compliance_database.json", unified_database)
+    write_js_data(
+        DOCS_DATA_DIR / "country_compliance_database.js",
+        "COUNTRY_COMPLIANCE_DATABASE",
+        unified_database,
+    )
     write_country_files(OUTPUT_COUNTRIES_DIR, unified_database["countries"])
     write_country_files(DOCS_COUNTRIES_DIR, unified_database["countries"])
 

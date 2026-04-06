@@ -189,9 +189,12 @@ function attachEvents() {
 async function init() {
   attachEvents();
   try {
-    const response = await fetch("./data/country_compliance_database.json");
-    if (!response.ok) throw new Error(`Failed to load data: ${response.status}`);
-    const dataset = await response.json();
+    const dataset =
+      window.COUNTRY_COMPLIANCE_DATABASE ||
+      await fetch("./data/country_compliance_database.json").then((response) => {
+        if (!response.ok) throw new Error(`Failed to load data: ${response.status}`);
+        return response.json();
+      });
     state.countries = dataset.countries.filter((country) => country.nemko).map(enrichCountry);
     renderStats(dataset);
     applyFilters();
