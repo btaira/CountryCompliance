@@ -3,10 +3,13 @@ from __future__ import annotations
 import csv
 import json
 import re
+import zipfile
+from collections import defaultdict
 from datetime import UTC, datetime
 from html import unescape
 from pathlib import Path
 from urllib.request import urlopen
+from xml.etree import ElementTree as ET
 
 
 SOURCE_URL = "https://www.nemko.com/services/global-market-access/select-by-country"
@@ -14,10 +17,15 @@ ROOT_DIR = Path(__file__).resolve().parents[1]
 OUTPUT_DIR = ROOT_DIR / "exports"
 DOCS_DATA_DIR = ROOT_DIR / "docs" / "data"
 RAW_HTML_PATH = ROOT_DIR / "nemko_select_by_country.html"
+WORKBOOK_PATH = ROOT_DIR / "Country Compliance Requirements.xlsx"
+HANDBOOK_PATH = ROOT_DIR / "Compliance Requirements for Hardware.docx"
+
+XLSX_NS = {"a": "http://schemas.openxmlformats.org/spreadsheetml/2006/main"}
+DOCX_NS = {"w": "http://schemas.openxmlformats.org/wordprocessingml/2006/main"}
 
 # Nemko renders each country as a repeated list of 35 <li> values.
 # The list-heading items are section separators, not standalone data fields.
-FIELDS = [
+NEMKO_FIELDS = [
     "country",
     "national_language",
     "population",
@@ -52,6 +60,40 @@ FIELDS = [
     "energy_efficiency_mark_artwork_url",
 ]
 
+WORKBOOK_FIELDS = [
+    "comment",
+    "region",
+    "country",
+    "blank",
+    "support_contact",
+    "agency",
+    "product_type",
+    "cost_per_certificate",
+    "cost_for_additional_country_of_origin",
+    "sample_needed_for_certification",
+    "family_approval_accepted_incremental_cost",
+    "lead_time_for_certification_months",
+    "certificate_validity_years",
+    "recertification_cost",
+    "lead_time_for_recertification_months",
+    "budget_lt_needed_months",
+    "sample_needed_for_recertification",
+    "lead_time_for_sample_months",
+]
+
+HARDWARE_BUSINESS_UNITS = [
+    "Ent Access",
+    "Ent Routing",
+    "Ent DC Servers",
+    "Ent DC Switching",
+    "SP Core (Routing)",
+    "SP Access",
+    "Security",
+    "Optical",
+    "TMG",
+    "IOT",
+]
+
 
 def fetch_html(url: str) -> str:
     with urlopen(url, timeout=30) as response:
@@ -61,9 +103,64 @@ def fetch_html(url: str) -> str:
 def clean_text(value: str) -> str:
     value = re.sub(r"<[^>]+>", "", value)
     value = unescape(value)
-    value = value.replace("\xa0", " ")
+    value = value.replace("\xa0", " ").replace("\u200b", " ")
     value = re.sub(r"\s+", " ", value)
     return value.strip()
+
+
+def slugify(value: str) -> str:
+    value = clean_text(value).lower()
+    value = re.sub(r"[^a-z0-9]+", "-", value)
+    return value.strip("-")
+
+
+def normalize_country_name(value: str) -> str:
+    text = clean_text(value)
+    if not text:
+        return ""
+
+    aliases = {
+        "usa": "USA",
+        "us": "USA",
+        "united-states": "USA",
+        "united-states-of-america": "USA",
+        "usa-canada": "USA/Canada",
+        "canada": "Canada",
+        "uk": "United Kingdom",
+        "vietnam": "Vietnam",
+        "eu-eea": "EU/EEA",
+        "europe": "Europe",
+        "europe-ce-countries": "Europe (CE Countries)",
+        "europe-lot-9": "Europe (Lot 9)",
+        "morocco-anrt": "Morocco",
+        "brazil-anatel": "Brazil",
+        "indonesia-sdppi": "Indonesia",
+        "korea-kcc": "Korea",
+        "korea-kc-safety": "Korea",
+        "japan-vcci": "Japan",
+        "japan-jate": "Japan",
+        "armenia-kazakhstan-kyrgyzstan-eac": "Armenia",
+        "australia-new-zealand": "Australia",
+        "usa-canada ": "USA/Canada",
+        "hong-kong": "Hong Kong",
+        "dominican-republic": "Dominican Republic",
+        "new-zealand": "New Zealand",
+        "united-kingdom": "United Kingdom",
+        "south-africa": "South Africa",
+        "saudi-arabia": "Saudi Arabia",
+        "china-mainland": "China Mainland",
+    }
+    slug = slugify(text)
+    if slug in aliases:
+        return aliases[slug]
+    words = re.split(r"\s+", text)
+    normalized_words = []
+    for word in words:
+        if word.isupper() and len(word) <= 4:
+            normalized_words.append(word)
+        else:
+            normalized_words.append(word.capitalize())
+    return " ".join(normalized_words).strip()
 
 
 def extract_image_src(value: str) -> str:
@@ -73,7 +170,7 @@ def extract_image_src(value: str) -> str:
     return unescape(match.group(1)).strip()
 
 
-def parse_country_cards(html: str) -> list[dict[str, str]]:
+def parse_nemko_country_cards(html: str) -> list[dict[str, str]]:
     blocks = re.findall(
         r'<div class="resource-card mix all ([^"]+?)\s+">\s*<ul>(.*?)</ul>\s*</div>',
         html,
@@ -123,49 +220,326 @@ def parse_country_cards(html: str) -> list[dict[str, str]]:
             extract_image_src(items[34]),
         ]
 
-        row = dict(zip(FIELDS, values, strict=True))
+        row = dict(zip(NEMKO_FIELDS, values, strict=True))
         row["country_css_class"] = css_class.strip()
         countries.append(row)
 
     return countries
 
 
+def read_xlsx_shared_strings(zf: zipfile.ZipFile) -> list[str]:
+    if "xl/sharedStrings.xml" not in zf.namelist():
+        return []
+    root = ET.fromstring(zf.read("xl/sharedStrings.xml"))
+    return [
+        "".join(t.text or "" for t in item.iterfind(".//a:t", XLSX_NS))
+        for item in root.findall("a:si", XLSX_NS)
+    ]
+
+
+def read_xlsx_sheet_rows(path: Path, sheet_name: str) -> list[list[str]]:
+    with zipfile.ZipFile(path) as zf:
+        shared_strings = read_xlsx_shared_strings(zf)
+        sheet = ET.fromstring(zf.read(sheet_name))
+        rows: list[list[str]] = []
+        for row in sheet.findall(".//a:row", XLSX_NS):
+            values: list[str] = []
+            for cell in row.findall("a:c", XLSX_NS):
+                value = cell.find("a:v", XLSX_NS)
+                if value is None:
+                    values.append("")
+                    continue
+                if cell.attrib.get("t") == "s":
+                    values.append(shared_strings[int(value.text)])
+                else:
+                    values.append(value.text or "")
+            rows.append(values)
+        return rows
+
+
+def parse_workbook() -> tuple[list[dict[str, str]], list[dict[str, str]]]:
+    sheet_rows = read_xlsx_sheet_rows(WORKBOOK_PATH, "xl/worksheets/sheet1.xml")
+    data_rows: list[dict[str, str]] = []
+    for row_index, row in enumerate(sheet_rows[1:], start=2):
+        padded = row + [""] * (len(WORKBOOK_FIELDS) - len(row))
+        entry = dict(zip(WORKBOOK_FIELDS, padded[: len(WORKBOOK_FIELDS)], strict=True))
+        entry = {key: clean_text(value) for key, value in entry.items()}
+        entry["row_number"] = str(row_index)
+        entry["country"] = normalize_country_name(entry["country"])
+        if entry["country"]:
+            data_rows.append(entry)
+
+    comments_rows = read_xlsx_sheet_rows(WORKBOOK_PATH, "xl/worksheets/sheet2.xml")
+    comments: list[dict[str, str]] = []
+    for row in comments_rows:
+        padded = row + [""] * (4 - len(row))
+        row_ref, comment_text, author, created_at = (clean_text(value) for value in padded[:4])
+        match = re.search(r"Row\s+(\d+)", row_ref, re.IGNORECASE)
+        comments.append(
+            {
+                "row_reference": row_ref,
+                "row_number": match.group(1) if match else "",
+                "comment": comment_text,
+                "author": author,
+                "created_at": created_at,
+            }
+        )
+
+    comments_by_row = defaultdict(list)
+    for item in comments:
+        if item["row_number"]:
+            comments_by_row[item["row_number"]].append(item)
+
+    for entry in data_rows:
+        entry["comments"] = comments_by_row.get(entry["row_number"], [])
+
+    return data_rows, comments
+
+
+def extract_docx_tables(path: Path) -> list[list[list[str]]]:
+    with zipfile.ZipFile(path) as zf:
+        root = ET.fromstring(zf.read("word/document.xml"))
+    tables: list[list[list[str]]] = []
+    for tbl in root.findall(".//w:tbl", DOCX_NS):
+        rows: list[list[str]] = []
+        for tr in tbl.findall("w:tr", DOCX_NS):
+            cells: list[str] = []
+            for tc in tr.findall("w:tc", DOCX_NS):
+                parts = []
+                for paragraph in tc.findall(".//w:p", DOCX_NS):
+                    text = "".join(
+                        node.text or "" for node in paragraph.findall(".//w:t", DOCX_NS)
+                    )
+                    text = clean_text(text)
+                    if text:
+                        parts.append(text)
+                cells.append(" ".join(parts).strip())
+            rows.append(cells)
+        tables.append(rows)
+    return tables
+
+
+def expand_country_group(value: str) -> list[str]:
+    text = clean_text(value)
+    if not text:
+        return []
+
+    text = text.replace(" and ", ", ")
+    text = re.sub(r"\(([^)]*)\)", "", text)
+    text = re.sub(r"\s+", " ", text).strip(" ,")
+    parts = [part.strip(" ,") for part in text.split(",") if part.strip(" ,")]
+
+    expanded: list[str] = []
+    for part in parts:
+        normalized = normalize_country_name(part)
+        if normalized in {"Europe", "Europe CE Countries"}:
+            normalized = "Europe (CE Countries)"
+        if normalized in {"Australia New Zealand"}:
+            normalized = "Australia"
+        expanded.append(normalized)
+    return [item for item in expanded if item]
+
+
+def parse_hardware_handbook() -> dict[str, object]:
+    tables = extract_docx_tables(HANDBOOK_PATH)
+    metadata = {
+        "document_number": tables[0][0][2] if len(tables) > 0 and len(tables[0][0]) > 2 else "",
+        "revision": tables[0][1][2] if len(tables) > 0 and len(tables[0][1]) > 2 else "",
+        "created_by": tables[0][2][2] if len(tables) > 0 and len(tables[0][2]) > 2 else "",
+    }
+
+    sections: list[dict[str, object]] = []
+    country_index: dict[str, list[dict[str, object]]] = defaultdict(list)
+
+    for idx, unit in enumerate(HARDWARE_BUSINESS_UNITS):
+        standards_table = tables[3 + idx * 2]
+        approvals_table = tables[4 + idx * 2]
+
+        standards = []
+        for row in standards_table[1:]:
+            if len(row) >= 2 and any(row):
+                standards.append(
+                    {
+                        "category": clean_text(row[0]),
+                        "standard_specification": clean_text(row[1]),
+                    }
+                )
+
+        approvals = []
+        for row in approvals_table[1:]:
+            padded = row + [""] * (3 - len(row))
+            country_group = clean_text(padded[0])
+            timeline = clean_text(padded[1])
+            comments = clean_text(padded[2])
+            if not (country_group or timeline or comments):
+                continue
+            approval = {
+                "country_group": country_group,
+                "timeline": timeline,
+                "comments": comments,
+                "countries": expand_country_group(country_group),
+            }
+            approvals.append(approval)
+            for country in approval["countries"]:
+                country_index[country].append(
+                    {
+                        "business_unit": unit,
+                        "timeline": timeline,
+                        "comments": comments,
+                        "country_group": country_group,
+                    }
+                )
+
+        sections.append(
+            {
+                "business_unit": unit,
+                "standards": standards,
+                "approvals": approvals,
+            }
+        )
+
+    glossary = []
+    for row in tables[23]:
+        if len(row) >= 2:
+            glossary.append({"term": clean_text(row[0]), "definition": clean_text(row[1])})
+
+    return {
+        "metadata": metadata,
+        "business_units": sections,
+        "country_index": dict(country_index),
+        "glossary": glossary,
+    }
+
+
+def build_unified_database(
+    nemko_rows: list[dict[str, str]],
+    workbook_rows: list[dict[str, str]],
+    workbook_comments: list[dict[str, str]],
+    handbook: dict[str, object],
+) -> dict[str, object]:
+    nemko_by_country = {normalize_country_name(item["country"]): item for item in nemko_rows}
+    workbook_by_country: dict[str, list[dict[str, str]]] = defaultdict(list)
+    for row in workbook_rows:
+        workbook_by_country[row["country"]].append(row)
+
+    handbook_by_country = handbook["country_index"]
+    all_countries = sorted(
+        {
+            *nemko_by_country.keys(),
+            *workbook_by_country.keys(),
+            *handbook_by_country.keys(),
+        }
+    )
+
+    unified_countries = []
+    for country in all_countries:
+        workbook_entries = workbook_by_country.get(country, [])
+        country_comments = [
+            comment
+            for entry in workbook_entries
+            for comment in entry.get("comments", [])
+        ]
+
+        workbook_summary = {
+            "entry_count": len(workbook_entries),
+            "product_types": sorted(
+                {entry["product_type"] for entry in workbook_entries if entry["product_type"]}
+            ),
+            "agencies": sorted({entry["agency"] for entry in workbook_entries if entry["agency"]}),
+            "support_contacts": sorted(
+                {
+                    entry["support_contact"]
+                    for entry in workbook_entries
+                    if entry["support_contact"]
+                }
+            ),
+        }
+
+        unified_countries.append(
+            {
+                "country": country,
+                "slug": slugify(country),
+                "nemko": nemko_by_country.get(country),
+                "workbook": {
+                    "summary": workbook_summary,
+                    "entries": workbook_entries,
+                    "comments": country_comments,
+                },
+                "hardware_handbook": {
+                    "approvals": handbook_by_country.get(country, []),
+                },
+            }
+        )
+
+    return {
+        "source_url": SOURCE_URL,
+        "fetched_at_utc": datetime.now(UTC).isoformat(),
+        "country_count": len(unified_countries),
+        "sources": {
+            "nemko_html": RAW_HTML_PATH.name,
+            "workbook": WORKBOOK_PATH.name,
+            "hardware_handbook": HANDBOOK_PATH.name,
+        },
+        "hardware_handbook": {
+            "metadata": handbook["metadata"],
+            "business_units": handbook["business_units"],
+            "glossary": handbook["glossary"],
+        },
+        "workbook_comments_total": len(workbook_comments),
+        "countries": unified_countries,
+    }
+
+
 def write_csv(path: Path, rows: list[dict[str, str]]) -> None:
-    fieldnames = ["country_css_class", *FIELDS]
+    fieldnames = ["country_css_class", *NEMKO_FIELDS]
     with path.open("w", newline="", encoding="utf-8-sig") as handle:
         writer = csv.DictWriter(handle, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(rows)
 
 
-def write_json(path: Path, rows: list[dict[str, str]]) -> None:
-    payload = {
-        "source_url": SOURCE_URL,
-        "fetched_at_utc": datetime.now(UTC).isoformat(),
-        "country_count": len(rows),
-        "countries": rows,
-    }
+def write_json(path: Path, payload: dict[str, object] | list[dict[str, str]]) -> None:
     path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
 def main() -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     DOCS_DATA_DIR.mkdir(parents=True, exist_ok=True)
+
     html = fetch_html(SOURCE_URL)
     RAW_HTML_PATH.write_text(html, encoding="utf-8")
 
-    countries = parse_country_cards(html)
-    if not countries:
+    nemko_rows = parse_nemko_country_cards(html)
+    workbook_rows, workbook_comments = parse_workbook()
+    handbook = parse_hardware_handbook()
+    unified_database = build_unified_database(
+        nemko_rows,
+        workbook_rows,
+        workbook_comments,
+        handbook,
+    )
+
+    if not nemko_rows:
         raise ValueError("No country cards were parsed from the source page.")
 
-    write_csv(OUTPUT_DIR / "nemko_country_regulations.csv", countries)
-    write_json(OUTPUT_DIR / "nemko_country_regulations.json", countries)
-    write_json(DOCS_DATA_DIR / "nemko_country_regulations.json", countries)
+    write_csv(OUTPUT_DIR / "nemko_country_regulations.csv", nemko_rows)
+    write_json(
+        OUTPUT_DIR / "nemko_country_regulations.json",
+        {
+            "source_url": SOURCE_URL,
+            "fetched_at_utc": datetime.now(UTC).isoformat(),
+            "country_count": len(nemko_rows),
+            "countries": nemko_rows,
+        },
+    )
+    write_json(OUTPUT_DIR / "country_compliance_database.json", unified_database)
+    write_json(DOCS_DATA_DIR / "country_compliance_database.json", unified_database)
 
-    print(f"Parsed {len(countries)} countries.")
+    print(f"Parsed {len(nemko_rows)} Nemko countries.")
+    print(f"Unified countries: {unified_database['country_count']}")
     print(f"CSV: {OUTPUT_DIR / 'nemko_country_regulations.csv'}")
-    print(f"JSON: {OUTPUT_DIR / 'nemko_country_regulations.json'}")
-    print(f"Site data: {DOCS_DATA_DIR / 'nemko_country_regulations.json'}")
+    print(f"Unified DB: {OUTPUT_DIR / 'country_compliance_database.json'}")
+    print(f"Site data: {DOCS_DATA_DIR / 'country_compliance_database.json'}")
 
 
 if __name__ == "__main__":
