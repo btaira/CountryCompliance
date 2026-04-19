@@ -4,6 +4,7 @@
   "country_file": "countries/kazakhstan.json",
   "official_regulatory_link": "https://www.gov.kz/memleket/entities/mdai",
   "gdp": 225496328925.494,
+  "gdp_per_capita": 11255.339643788106,
   "nemko": null,
   "workbook": {
     "summary": {

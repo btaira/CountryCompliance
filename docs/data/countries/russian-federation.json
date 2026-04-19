@@ -4,6 +4,7 @@
   "country_file": "countries/russian-federation.json",
   "official_regulatory_link": "https://digital.gov.ru/",
   "gdp": 2291612121334.64,
+  "gdp_per_capita": 15887.831734016698,
   "nemko": null,
   "workbook": {
     "summary": {

@@ -9,6 +9,8 @@ const elements = {
   filterCompliance: document.getElementById("filter-compliance"),
   filterLocalRep: document.getElementById("filter-local-rep"),
   filterEnergy: document.getElementById("filter-energy"),
+  filterEmc: document.getElementById("filter-emc"),
+  filterSafety: document.getElementById("filter-safety"),
   clearFilters: document.getElementById("clear-filters"),
   resultCount: document.getElementById("result-count"),
   sourceLink: document.getElementById("source-link"),
@@ -71,8 +73,9 @@ function formatDate(value) {
   return new Intl.DateTimeFormat("en-US", { year: "numeric", month: "short", day: "numeric" }).format(date);
 }
 
-function formatGDP(value) {
+function formatGDP(value, isPerCapita = false) {
     if (!value) return "Not listed";
+    if (isPerCapita) return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(value);
     if (value >= 1e12) return `$${(value / 1e12).toFixed(2)} Trillion`;
     if (value >= 1e9) return `$${(value / 1e9).toFixed(2)} Billion`;
     return `$${(value / 1e6).toFixed(2)} Million`;
@@ -144,6 +147,11 @@ function renderCards(countries) {
     }
 
     node.querySelector(".gdp-value").textContent = formatGDP(country.gdp);
+    
+    const pcRow = node.querySelector(".gdp-pc-value");
+    if (pcRow) {
+      pcRow.textContent = formatGDP(country.gdp_per_capita, true);
+    }
 
     link.href = `./country.html?v=20260406c&country=${encodeURIComponent(country.slug)}`;
 
@@ -163,6 +171,8 @@ function applyFilters() {
   const compliance = elements.filterCompliance.value;
   const localRep = elements.filterLocalRep.value;
   const energy = elements.filterEnergy.value;
+  const emc = elements.filterEmc.value;
+  const safety = elements.filterSafety.value;
   const sortKey = elements.sortSelect.value;
 
   let filtered = state.countries.filter((country) => {
@@ -170,6 +180,8 @@ function applyFilters() {
     if (compliance && country.approvalState !== compliance) return false;
     if (localRep && country.localRepState !== localRep) return false;
     if (energy && country.energyState !== energy) return false;
+    if (emc && country.emcState !== emc) return false;
+    if (safety && country.safetyState !== safety) return false;
     return true;
   });
 
@@ -177,6 +189,7 @@ function applyFilters() {
   filtered = filtered.sort((a, b) => {
     if (sortKey === "population") return b.populationValue - a.populationValue || a.country.localeCompare(b.country);
     if (sortKey === "gdp") return (b.gdp || 0) - (a.gdp || 0) || a.country.localeCompare(b.country);
+    if (sortKey === "gdp_per_capita") return (b.gdp_per_capita || 0) - (a.gdp_per_capita || 0) || a.country.localeCompare(b.country);
     if (sortKey === "authority") return a.nemko.regulatory_authority.localeCompare(b.nemko.regulatory_authority) || a.country.localeCompare(b.country);
     if (sortKey === "emc") return (stateScore[b.emcState] || 0) - (stateScore[a.emcState] || 0) || a.country.localeCompare(b.country);
     if (sortKey === "safety") return (stateScore[b.safetyState] || 0) - (stateScore[a.safetyState] || 0) || a.country.localeCompare(b.country);
@@ -201,12 +214,16 @@ function attachEvents() {
   elements.filterCompliance.addEventListener("change", applyFilters);
   elements.filterLocalRep.addEventListener("change", applyFilters);
   elements.filterEnergy.addEventListener("change", applyFilters);
+  elements.filterEmc.addEventListener("change", applyFilters);
+  elements.filterSafety.addEventListener("change", applyFilters);
   elements.clearFilters.addEventListener("click", () => {
     elements.searchInput.value = "";
     elements.sortSelect.value = "country";
     elements.filterCompliance.value = "";
     elements.filterLocalRep.value = "";
     elements.filterEnergy.value = "";
+    elements.filterEmc.value = "";
+    elements.filterSafety.value = "";
     applyFilters();
   });
 }

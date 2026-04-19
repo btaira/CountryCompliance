@@ -4,6 +4,7 @@
   "country_file": "countries/qatar.json",
   "official_regulatory_link": "https://www.cra.gov.qa/",
   "gdp": 235709340659.341,
+  "gdp_per_capita": 88701.46897635373,
   "nemko": {
     "country": "QATAR",
     "national_language": "Arabic",

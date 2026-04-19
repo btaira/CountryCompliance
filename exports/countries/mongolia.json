@@ -4,6 +4,7 @@
   "country_file": "countries/mongolia.json",
   "official_regulatory_link": "https://crc.gov.mn/",
   "gdp": 17146471713.748,
+  "gdp_per_capita": 4993.514874634947,
   "nemko": {
     "country": "MONGOLIA",
     "national_language": "Mongolian",

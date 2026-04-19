@@ -3,7 +3,8 @@
   "slug": "uae",
   "country_file": "countries/uae.json",
   "official_regulatory_link": "https://tdra.gov.ae/",
-  "gdp": null,
+  "gdp": 511403403675.97,
+  "gdp_per_capita": 50759.75892311912,
   "nemko": {
     "country": "UAE",
     "national_language": "Arabic",

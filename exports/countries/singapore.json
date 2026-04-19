@@ -4,6 +4,7 @@
   "country_file": "countries/singapore.json",
   "official_regulatory_link": "https://www.imda.gov.sg/",
   "gdp": 509017841146.557,
+  "gdp_per_capita": 90299.06946372695,
   "nemko": {
     "country": "SINGAPORE",
     "national_language": "Malay/English",

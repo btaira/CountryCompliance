@@ -4,6 +4,7 @@
   "country_file": "countries/china-mainland.json",
   "official_regulatory_link": "http://www.cnca.gov.cn/",
   "gdp": 18316765021690.2,
+  "gdp_per_capita": 12970.605641432683,
   "nemko": {
     "country": "CHINA MAINLAND",
     "national_language": "Mandarin",

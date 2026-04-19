@@ -4,6 +4,7 @@
   "country_file": "countries/venezuela.json",
   "official_regulatory_link": "http://www.conatel.gob.ve/",
   "gdp": 89013255584.7499,
+  "gdp_per_capita": 3155.04207099687,
   "nemko": {
     "country": "VENEZUELA",
     "national_language": "Spanish",

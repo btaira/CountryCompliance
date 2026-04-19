@@ -3,7 +3,8 @@
   "slug": "taiwan",
   "country_file": "countries/taiwan.json",
   "official_regulatory_link": "https://www.ncc.gov.tw/",
-  "gdp": 18316765021690.2,
+  "gdp": 762600000000,
+  "gdp_per_capita": 31921.305985768104,
   "nemko": {
     "country": "TAIWAN",
     "national_language": "Mandarin",

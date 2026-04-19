@@ -4,6 +4,7 @@
   "country_file": "countries/south-africa.json",
   "official_regulatory_link": "https://www.icasa.org.za/",
   "gdp": 407596043067.885,
+  "gdp_per_capita": 6534.248677833965,
   "nemko": {
     "country": "SOUTH AFRICA",
     "national_language": "Afrikaans/English/+",

@@ -1,6 +1,6 @@
 {
   "source_url": "https://www.nemko.com/services/global-market-access/select-by-country",
-  "fetched_at_utc": "2026-04-19T17:22:22.686984+00:00",
+  "fetched_at_utc": "2026-04-19T18:43:11.401365+00:00",
   "country_count": 73,
   "sources": {
     "nemko_html": "nemko_select_by_country.html",
@@ -1339,6 +1339,7 @@
       "country_file": "countries/argentina.json",
       "official_regulatory_link": "https://www.enacom.gob.ar/",
       "gdp": 633993756301.08,
+      "gdp_per_capita": 13962.189408722323,
       "nemko": {
         "country": "ARGENTINA",
         "national_language": "Spanish",
@@ -1707,6 +1708,7 @@
       "country_file": "countries/armenia.json",
       "official_regulatory_link": "http://www.psrc.am/",
       "gdp": 19513506553.1251,
+      "gdp_per_capita": 6571.974455450996,
       "nemko": null,
       "workbook": {
         "summary": {
@@ -2138,6 +2140,7 @@
       "country_file": "countries/australia.json",
       "official_regulatory_link": "https://www.acma.gov.au/",
       "gdp": 1695627535475.8,
+      "gdp_per_capita": 65169.519111865644,
       "nemko": {
         "country": "AUSTRALIA",
         "national_language": "no official, English",
@@ -2658,6 +2661,7 @@
       "country_file": "countries/azerbaijan.json",
       "official_regulatory_link": "https://mincom.gov.az/",
       "gdp": 78807470588.2353,
+      "gdp_per_capita": 7770.594223350996,
       "nemko": null,
       "workbook": {
         "summary": {
@@ -2915,6 +2919,7 @@
       "country_file": "countries/bahrain.json",
       "official_regulatory_link": "https://www.tra.org.bh/",
       "gdp": 46458191489.3617,
+      "gdp_per_capita": 30470.52192760228,
       "nemko": null,
       "workbook": {
         "summary": {
@@ -3170,6 +3175,7 @@
       "country_file": "countries/belarus.json",
       "official_regulatory_link": "https://mpt.gov.by/",
       "gdp": 73775179924.603,
+      "gdp_per_capita": 7994.648060748882,
       "nemko": {
         "country": "BELARUS",
         "national_language": "Belarusian/Russian",
@@ -3640,6 +3646,7 @@
       "country_file": "countries/bolivia.json",
       "official_regulatory_link": "https://www.att.gob.bo/",
       "gdp": 50959081953.6903,
+      "gdp_per_capita": 4219.461137424454,
       "nemko": {
         "country": "BOLIVIA",
         "national_language": "Spanish and 36 indigenous",
@@ -3695,6 +3702,7 @@
       "country_file": "countries/botswana.json",
       "official_regulatory_link": "https://www.bocra.org.bw/",
       "gdp": 20321150599.1523,
+      "gdp_per_capita": 8328.709057266593,
       "nemko": null,
       "workbook": {
         "summary": {
@@ -3953,6 +3961,7 @@
       "country_file": "countries/brazil.json",
       "official_regulatory_link": "https://www.gov.br/anatel/",
       "gdp": 1951923832083.87,
+      "gdp_per_capita": 9281.332821368622,
       "nemko": {
         "country": "BRAZIL",
         "national_language": "Spanish",
@@ -4482,6 +4491,7 @@
       "country_file": "countries/core.json",
       "official_regulatory_link": "",
       "gdp": null,
+      "gdp_per_capita": null,
       "nemko": null,
       "workbook": {
         "summary": {
@@ -4532,6 +4542,7 @@
       "country_file": "countries/canada.json",
       "official_regulatory_link": "https://ised-isde.canada.ca/",
       "gdp": 2190411080134.32,
+      "gdp_per_capita": 56256.80072640148,
       "nemko": {
         "country": "CANADA",
         "national_language": "English/French",
@@ -4608,6 +4619,7 @@
       "country_file": "countries/chile.json",
       "official_regulatory_link": "https://www.subtel.gob.cl/",
       "gdp": 301226575540.242,
+      "gdp_per_capita": 15405.616577407314,
       "nemko": {
         "country": "CHILE",
         "national_language": "Spanish",
@@ -4700,6 +4712,7 @@
       "country_file": "countries/china.json",
       "official_regulatory_link": "http://www.cnca.gov.cn/",
       "gdp": 18316765021690.2,
+      "gdp_per_capita": 12970.605641432683,
       "nemko": null,
       "workbook": {
         "summary": {
@@ -5409,6 +5422,7 @@
       "country_file": "countries/china-ccc-ex.json",
       "official_regulatory_link": "",
       "gdp": null,
+      "gdp_per_capita": null,
       "nemko": null,
       "workbook": {
         "summary": {
@@ -5471,6 +5485,7 @@
       "country_file": "countries/china-mainland.json",
       "official_regulatory_link": "http://www.cnca.gov.cn/",
       "gdp": 18316765021690.2,
+      "gdp_per_capita": 12970.605641432683,
       "nemko": {
         "country": "CHINA MAINLAND",
         "national_language": "Mandarin",
@@ -5526,6 +5541,7 @@
       "country_file": "countries/colombia.json",
       "official_regulatory_link": "https://www.crcom.gov.co/",
       "gdp": 345632492851.448,
+      "gdp_per_capita": 6680.445068544819,
       "nemko": {
         "country": "COLOMBIA",
         "national_language": "Spanish",
@@ -5602,6 +5618,7 @@
       "country_file": "countries/costa-rica.json",
       "official_regulatory_link": "https://sutel.go.cr/",
       "gdp": 69243626028.5936,
+      "gdp_per_capita": 13625.90084913285,
       "nemko": null,
       "workbook": {
         "summary": {
@@ -5644,6 +5661,7 @@
       "country_file": "countries/cyprus.json",
       "official_regulatory_link": "https://ocecpr.ee.cy/",
       "gdp": 31218038929.0919,
+      "gdp_per_capita": 23448.05645995621,
       "nemko": null,
       "workbook": {
         "summary": {
@@ -5686,6 +5704,7 @@
       "country_file": "countries/dominican-republic.json",
       "official_regulatory_link": "https://indotel.gob.do/",
       "gdp": 113478087134.8,
+      "gdp_per_capita": 10104.244934908083,
       "nemko": {
         "country": "DOMINICAN REPUBLIC",
         "national_language": "Spanish",
@@ -5741,6 +5760,7 @@
       "country_file": "countries/eu-eea.json",
       "official_regulatory_link": "https://europa.eu/youreurope/business/product-requirements/labels-markings/ce-marking/index_en.htm",
       "gdp": 17023612496380.4,
+      "gdp_per_capita": 38066.88448926243,
       "nemko": {
         "country": "EU/EEA",
         "national_language": "N/A",
@@ -5796,6 +5816,7 @@
       "country_file": "countries/ethiopia.json",
       "official_regulatory_link": "https://eca.et/",
       "gdp": 123140304666,
+      "gdp_per_capita": 982.1031615069917,
       "nemko": {
         "country": "ETHIOPIA",
         "national_language": "Amharic",
@@ -5851,6 +5872,7 @@
       "country_file": "countries/europe.json",
       "official_regulatory_link": "https://europa.eu/youreurope/business/product-requirements/labels-markings/ce-marking/index_en.htm",
       "gdp": 17023612496380.4,
+      "gdp_per_capita": 38066.88448926243,
       "nemko": null,
       "workbook": {
         "summary": {
@@ -6162,6 +6184,7 @@
       "country_file": "countries/europe-ce-countries.json",
       "official_regulatory_link": "https://europa.eu/youreurope/business/product-requirements/labels-markings/ce-marking/index_en.htm",
       "gdp": 17023612496380.4,
+      "gdp_per_capita": 38066.88448926243,
       "nemko": null,
       "workbook": {
         "summary": {
@@ -6416,6 +6439,7 @@
       "country_file": "countries/ghana.json",
       "official_regulatory_link": "https://nca.org.gh/",
       "gdp": 73919003209.9866,
+      "gdp_per_capita": 2229.891226478029,
       "nemko": {
         "country": "GHANA",
         "national_language": "English",
@@ -6707,6 +6731,7 @@
       "country_file": "countries/greece.json",
       "official_regulatory_link": "https://www.eett.gr/",
       "gdp": 217990189600.69,
+      "gdp_per_capita": 20886.524308762906,
       "nemko": null,
       "workbook": {
         "summary": {
@@ -6749,6 +6774,7 @@
       "country_file": "countries/hong-kong.json",
       "official_regulatory_link": "https://www.ofca.gov.hk/",
       "gdp": 358679533984.718,
+      "gdp_per_capita": 48825.84418735356,
       "nemko": {
         "country": "HONG KONG",
         "national_language": "English/Chinese",
@@ -7097,6 +7123,7 @@
       "country_file": "countries/india.json",
       "official_regulatory_link": "https://www.bis.gov.in/",
       "gdp": 3346107287730.93,
+      "gdp_per_capita": 2347.448294346234,
       "nemko": {
         "country": "INDIA",
         "national_language": "Hindi",
@@ -7645,6 +7672,7 @@
       "country_file": "countries/india-comsec.json",
       "official_regulatory_link": "",
       "gdp": null,
+      "gdp_per_capita": null,
       "nemko": null,
       "workbook": {
         "summary": {
@@ -7707,6 +7735,7 @@
       "country_file": "countries/indonesia.json",
       "official_regulatory_link": "https://www.postel.go.id/",
       "gdp": 1319101183380.15,
+      "gdp_per_capita": 4730.8348483610625,
       "nemko": {
         "country": "INDONESIA",
         "national_language": "Indonesian",
@@ -8221,6 +8250,7 @@
       "country_file": "countries/israel.json",
       "official_regulatory_link": "https://www.gov.il/en/departments/ministry_of_communications",
       "gdp": 525181008025.57,
+      "gdp_per_capita": 54949.62155642898,
       "nemko": {
         "country": "ISRAEL",
         "national_language": "Hebrew",
@@ -8513,6 +8543,7 @@
       "country_file": "countries/japan.json",
       "official_regulatory_link": "https://www.tele.soumu.go.jp/",
       "gdp": 4262463317796.53,
+      "gdp_per_capita": 34065.64389625265,
       "nemko": {
         "country": "JAPAN",
         "national_language": "Japanese",
@@ -9248,6 +9279,7 @@
       "country_file": "countries/jordan.json",
       "official_regulatory_link": "https://trc.gov.jo/",
       "gdp": 48764963380.2817,
+      "gdp_per_capita": 4332.251598979315,
       "nemko": {
         "country": "JORDAN",
         "national_language": "Arabic",
@@ -9303,6 +9335,7 @@
       "country_file": "countries/kazakhstan.json",
       "official_regulatory_link": "https://www.gov.kz/memleket/entities/mdai",
       "gdp": 225496328925.494,
+      "gdp_per_capita": 11255.339643788106,
       "nemko": null,
       "workbook": {
         "summary": {
@@ -9734,6 +9767,7 @@
       "country_file": "countries/kenya.json",
       "official_regulatory_link": "https://www.ca.go.ke/",
       "gdp": 114448978152.637,
+      "gdp_per_capita": 2109.5628851313677,
       "nemko": {
         "country": "KENYA",
         "national_language": "Swahili/English",
@@ -9789,6 +9823,7 @@
       "country_file": "countries/korea.json",
       "official_regulatory_link": "https://www.rra.go.kr/",
       "gdp": 1799363116866.52,
+      "gdp_per_capita": 34822.404840497096,
       "nemko": {
         "country": "KOREA",
         "national_language": "Korean",
@@ -10141,6 +10176,7 @@
       "country_file": "countries/kyrgystan.json",
       "official_regulatory_link": "",
       "gdp": null,
+      "gdp_per_capita": null,
       "nemko": null,
       "workbook": {
         "summary": {
@@ -10352,6 +10388,7 @@
       "country_file": "countries/kyrgyzstan.json",
       "official_regulatory_link": "https://ict.gov.kg/",
       "gdp": 12134931017.9465,
+      "gdp_per_capita": 1739.720183441741,
       "nemko": null,
       "workbook": {
         "summary": {
@@ -10599,6 +10636,7 @@
       "country_file": "countries/lebanon.json",
       "official_regulatory_link": "https://tra.gov.lb/",
       "gdp": 20992421948.8081,
+      "gdp_per_capita": 3654.3584553487876,
       "nemko": {
         "country": "LEBANON",
         "national_language": "Arabic",
@@ -10654,6 +10692,7 @@
       "country_file": "countries/malaysia.json",
       "official_regulatory_link": "https://www.mcmc.gov.my/",
       "gdp": 407830525989.553,
+      "gdp_per_capita": 11754.567833624758,
       "nemko": {
         "country": "MALAYSIA",
         "national_language": "Malay",
@@ -10998,6 +11037,7 @@
       "country_file": "countries/mexico.json",
       "official_regulatory_link": "https://www.ift.org.mx/",
       "gdp": 1466934724293.06,
+      "gdp_per_capita": 11405.794047375899,
       "nemko": {
         "country": "MEXICO",
         "national_language": "Spanish",
@@ -11419,6 +11459,7 @@
       "country_file": "countries/middle-east-countries.json",
       "official_regulatory_link": "",
       "gdp": null,
+      "gdp_per_capita": null,
       "nemko": null,
       "workbook": {
         "summary": {
@@ -11481,6 +11522,7 @@
       "country_file": "countries/mongolia.json",
       "official_regulatory_link": "https://crc.gov.mn/",
       "gdp": 17146471713.748,
+      "gdp_per_capita": 4993.514874634947,
       "nemko": {
         "country": "MONGOLIA",
         "national_language": "Mongolian",
@@ -11586,6 +11628,7 @@
       "country_file": "countries/morocco.json",
       "official_regulatory_link": "https://www.anrt.ma/",
       "gdp": 131245312804.483,
+      "gdp_per_capita": 3515.9015185723115,
       "nemko": {
         "country": "MOROCCO",
         "national_language": "Arabic/Berber",
@@ -11854,6 +11897,7 @@
       "country_file": "countries/namibia.json",
       "official_regulatory_link": "https://www.cran.na/",
       "gdp": 12569449123.3661,
+      "gdp_per_capita": 4349.799084933152,
       "nemko": {
         "country": "NAMIBIA",
         "national_language": "English",
@@ -12146,6 +12190,7 @@
       "country_file": "countries/new-zealand.json",
       "official_regulatory_link": "https://www.rsm.govt.nz/",
       "gdp": 249509991440.438,
+      "gdp_per_capita": 49099.70904233583,
       "nemko": {
         "country": "NEW ZEALAND",
         "national_language": "English/M?ori",
@@ -12668,6 +12713,7 @@
       "country_file": "countries/nigeria.json",
       "official_regulatory_link": "https://ncc.gov.ng/",
       "gdp": 646950257577.814,
+      "gdp_per_capita": 2899.160474703243,
       "nemko": {
         "country": "NIGERIA",
         "national_language": "English",
@@ -12960,6 +13006,7 @@
       "country_file": "countries/oman.json",
       "official_regulatory_link": "",
       "gdp": null,
+      "gdp_per_capita": null,
       "nemko": {
         "country": "OMAN",
         "national_language": "Arabic",
@@ -13015,6 +13062,7 @@
       "country_file": "countries/oman.json",
       "official_regulatory_link": "https://tra.gov.om/",
       "gdp": 109852795838.752,
+      "gdp_per_capita": 23223.582940593536,
       "nemko": null,
       "workbook": {
         "summary": {
@@ -13270,6 +13318,7 @@
       "country_file": "countries/pakistan.json",
       "official_regulatory_link": "https://www.pta.gov.pk/",
       "gdp": 374890295666.694,
+      "gdp_per_capita": 1538.3228133171008,
       "nemko": {
         "country": "PAKISTAN",
         "national_language": "Urdu/English",
@@ -13559,6 +13608,7 @@
       "country_file": "countries/philippines.json",
       "official_regulatory_link": "https://ntc.gov.ph/",
       "gdp": 404353369604.631,
+      "gdp_per_capita": 3548.0693057211543,
       "nemko": {
         "country": "PHILIPPINES",
         "national_language": "Filipino/English",
@@ -13655,6 +13705,7 @@
       "country_file": "countries/qatar.json",
       "official_regulatory_link": "https://www.cra.gov.qa/",
       "gdp": 235709340659.341,
+      "gdp_per_capita": 88701.46897635373,
       "nemko": {
         "country": "QATAR",
         "national_language": "Arabic",
@@ -13710,6 +13761,7 @@
       "country_file": "countries/russia.json",
       "official_regulatory_link": "https://digital.gov.ru/",
       "gdp": 2291612121334.64,
+      "gdp_per_capita": 15887.831734016698,
       "nemko": {
         "country": "RUSSIA",
         "national_language": "Russian",
@@ -13765,6 +13817,7 @@
       "country_file": "countries/russian-federation.json",
       "official_regulatory_link": "https://digital.gov.ru/",
       "gdp": 2291612121334.64,
+      "gdp_per_capita": 15887.831734016698,
       "nemko": null,
       "workbook": {
         "summary": {
@@ -14533,6 +14586,7 @@
       "country_file": "countries/saudi-arabia.json",
       "official_regulatory_link": "https://www.cst.gov.sa/",
       "gdp": 1239075200000,
+      "gdp_per_capita": 38510.22762110374,
       "nemko": {
         "country": "SAUDI ARABIA",
         "national_language": "Arabic",
@@ -14822,6 +14876,7 @@
       "country_file": "countries/serbia.json",
       "official_regulatory_link": "https://www.ratel.rs/",
       "gdp": 66809895701.2152,
+      "gdp_per_capita": 10024.819111259641,
       "nemko": {
         "country": "SERBIA",
         "national_language": "Serbian",
@@ -14877,6 +14932,7 @@
       "country_file": "countries/singapore.json",
       "official_regulatory_link": "https://www.imda.gov.sg/",
       "gdp": 509017841146.557,
+      "gdp_per_capita": 90299.06946372695,
       "nemko": {
         "country": "SINGAPORE",
         "national_language": "Malay/English",
@@ -15225,6 +15281,7 @@
       "country_file": "countries/south-africa.json",
       "official_regulatory_link": "https://www.icasa.org.za/",
       "gdp": 407596043067.885,
+      "gdp_per_capita": 6534.248677833965,
       "nemko": {
         "country": "SOUTH AFRICA",
         "national_language": "Afrikaans/English/+",
@@ -15594,6 +15651,7 @@
       "country_file": "countries/south-korea.json",
       "official_regulatory_link": "https://www.rra.go.kr/",
       "gdp": 1799363116866.52,
+      "gdp_per_capita": 34822.404840497096,
       "nemko": null,
       "workbook": {
         "summary": {
@@ -15873,7 +15931,8 @@
       "slug": "taiwan",
       "country_file": "countries/taiwan.json",
       "official_regulatory_link": "https://www.ncc.gov.tw/",
-      "gdp": 18316765021690.2,
+      "gdp": 762600000000,
+      "gdp_per_capita": 31921.305985768104,
       "nemko": {
         "country": "TAIWAN",
         "national_language": "Mandarin",
@@ -16298,6 +16357,7 @@
       "country_file": "countries/tanzania.json",
       "official_regulatory_link": "https://www.tcra.go.tz/",
       "gdp": 75749121842.9149,
+      "gdp_per_capita": 1170.5608136558992,
       "nemko": {
         "country": "TANZANIA",
         "national_language": "Swahili/English",
@@ -16353,6 +16413,7 @@
       "country_file": "countries/thailand.json",
       "official_regulatory_link": "https://www.nbtc.go.th/",
       "gdp": 495644697587.661,
+      "gdp_per_capita": 6909.352818158275,
       "nemko": {
         "country": "THAILAND",
         "national_language": "Thai",
@@ -16664,7 +16725,8 @@
       "slug": "turkey",
       "country_file": "countries/turkey.json",
       "official_regulatory_link": "https://www.btk.gov.tr/",
-      "gdp": null,
+      "gdp": 926097476913.818,
+      "gdp_per_capita": 10897.839786136496,
       "nemko": {
         "country": "TURKEY",
         "national_language": "Turkish",
@@ -16971,7 +17033,8 @@
       "slug": "uae",
       "country_file": "countries/uae.json",
       "official_regulatory_link": "https://tdra.gov.ae/",
-      "gdp": null,
+      "gdp": 511403403675.97,
+      "gdp_per_capita": 50759.75892311912,
       "nemko": {
         "country": "UAE",
         "national_language": "Arabic",
@@ -17027,6 +17090,7 @@
       "country_file": "countries/usa.json",
       "official_regulatory_link": "https://www.fcc.gov/oet/ea",
       "gdp": 25604848907611,
+      "gdp_per_capita": 76657.24888444034,
       "nemko": {
         "country": "USA",
         "national_language": "English",
@@ -17103,6 +17167,7 @@
       "country_file": "countries/usa-canada.json",
       "official_regulatory_link": "https://www.fcc.gov/oet/ea",
       "gdp": 25604848907611,
+      "gdp_per_capita": 76657.24888444034,
       "nemko": null,
       "workbook": {
         "summary": {
@@ -17596,6 +17661,7 @@
       "country_file": "countries/uganda.json",
       "official_regulatory_link": "https://www.ucc.co.ug/",
       "gdp": 45565333210.9108,
+      "gdp_per_capita": 963.0673141171784,
       "nemko": {
         "country": "UGANDA",
         "national_language": "Swahili/English",
@@ -17651,6 +17717,7 @@
       "country_file": "countries/ukraine.json",
       "official_regulatory_link": "https://nkrzi.gov.ua/",
       "gdp": 161989520721.19,
+      "gdp_per_capita": 3946.2701685402676,
       "nemko": {
         "country": "UKRAINE",
         "national_language": "Ukrainian",
@@ -17959,6 +18026,7 @@
       "country_file": "countries/united-arab-emirates.json",
       "official_regulatory_link": "",
       "gdp": null,
+      "gdp_per_capita": null,
       "nemko": null,
       "workbook": {
         "summary": {
@@ -18214,6 +18282,7 @@
       "country_file": "countries/united-kingdom.json",
       "official_regulatory_link": "https://www.ofcom.org.uk/",
       "gdp": 3181244350465.41,
+      "gdp_per_capita": 47057.0432291789,
       "nemko": {
         "country": "UNITED KINGDOM",
         "national_language": "English",
@@ -18310,6 +18379,7 @@
       "country_file": "countries/uzbekistan.json",
       "official_regulatory_link": "https://mitc.uz/",
       "gdp": 90095926567.4359,
+      "gdp_per_capita": 2578.6668939421884,
       "nemko": null,
       "workbook": {
         "summary": {
@@ -18567,6 +18637,7 @@
       "country_file": "countries/venezuela.json",
       "official_regulatory_link": "http://www.conatel.gob.ve/",
       "gdp": 89013255584.7499,
+      "gdp_per_capita": 3155.04207099687,
       "nemko": {
         "country": "VENEZUELA",
         "national_language": "Spanish",
@@ -18622,6 +18693,7 @@
       "country_file": "countries/vietnam.json",
       "official_regulatory_link": "https://mic.gov.vn/",
       "gdp": null,
+      "gdp_per_capita": null,
       "nemko": {
         "country": "VIETNAM",
         "national_language": "Vietnamese",
@@ -18934,6 +19006,7 @@
       "country_file": "countries/zambia.json",
       "official_regulatory_link": "https://www.zicta.zm/",
       "gdp": 29163782140.4858,
+      "gdp_per_capita": 1447.1231013803447,
       "nemko": {
         "country": "ZAMBIA",
         "national_language": "English",

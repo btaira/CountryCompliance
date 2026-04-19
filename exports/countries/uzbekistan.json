@@ -4,6 +4,7 @@
   "country_file": "countries/uzbekistan.json",
   "official_regulatory_link": "https://mitc.uz/",
   "gdp": 90095926567.4359,
+  "gdp_per_capita": 2578.6668939421884,
   "nemko": null,
   "workbook": {
     "summary": {

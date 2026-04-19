@@ -4,6 +4,7 @@
   "country_file": "countries/kyrgyzstan.json",
   "official_regulatory_link": "https://ict.gov.kg/",
   "gdp": 12134931017.9465,
+  "gdp_per_capita": 1739.720183441741,
   "nemko": null,
   "workbook": {
     "summary": {

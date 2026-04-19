@@ -4,6 +4,7 @@
   "country_file": "countries/greece.json",
   "official_regulatory_link": "https://www.eett.gr/",
   "gdp": 217990189600.69,
+  "gdp_per_capita": 20886.524308762906,
   "nemko": null,
   "workbook": {
     "summary": {

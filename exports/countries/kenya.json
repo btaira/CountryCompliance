@@ -4,6 +4,7 @@
   "country_file": "countries/kenya.json",
   "official_regulatory_link": "https://www.ca.go.ke/",
   "gdp": 114448978152.637,
+  "gdp_per_capita": 2109.5628851313677,
   "nemko": {
     "country": "KENYA",
     "national_language": "Swahili/English",

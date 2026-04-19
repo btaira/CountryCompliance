@@ -4,6 +4,7 @@
   "country_file": "countries/lebanon.json",
   "official_regulatory_link": "https://tra.gov.lb/",
   "gdp": 20992421948.8081,
+  "gdp_per_capita": 3654.3584553487876,
   "nemko": {
     "country": "LEBANON",
     "national_language": "Arabic",

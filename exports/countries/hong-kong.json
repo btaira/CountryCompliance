@@ -4,6 +4,7 @@
   "country_file": "countries/hong-kong.json",
   "official_regulatory_link": "https://www.ofca.gov.hk/",
   "gdp": 358679533984.718,
+  "gdp_per_capita": 48825.84418735356,
   "nemko": {
     "country": "HONG KONG",
     "national_language": "English/Chinese",

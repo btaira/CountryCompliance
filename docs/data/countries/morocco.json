@@ -4,6 +4,7 @@
   "country_file": "countries/morocco.json",
   "official_regulatory_link": "https://www.anrt.ma/",
   "gdp": 131245312804.483,
+  "gdp_per_capita": 3515.9015185723115,
   "nemko": {
     "country": "MOROCCO",
     "national_language": "Arabic/Berber",

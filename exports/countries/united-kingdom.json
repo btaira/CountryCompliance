@@ -4,6 +4,7 @@
   "country_file": "countries/united-kingdom.json",
   "official_regulatory_link": "https://www.ofcom.org.uk/",
   "gdp": 3181244350465.41,
+  "gdp_per_capita": 47057.0432291789,
   "nemko": {
     "country": "UNITED KINGDOM",
     "national_language": "English",

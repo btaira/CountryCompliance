@@ -4,6 +4,7 @@
   "country_file": "countries/belarus.json",
   "official_regulatory_link": "https://mpt.gov.by/",
   "gdp": 73775179924.603,
+  "gdp_per_capita": 7994.648060748882,
   "nemko": {
     "country": "BELARUS",
     "national_language": "Belarusian/Russian",

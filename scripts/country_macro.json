@@ -1,0 +1,270 @@
+{
+  "Argentina": {
+    "gdp": 633993756301.08,
+    "gdp_per_capita": 13962.189408722323
+  },
+  "Armenia": {
+    "gdp": 19513506553.1251,
+    "gdp_per_capita": 6571.974455450996
+  },
+  "Australia": {
+    "gdp": 1695627535475.8,
+    "gdp_per_capita": 65169.519111865644
+  },
+  "Azerbaijan": {
+    "gdp": 78807470588.2353,
+    "gdp_per_capita": 7770.594223350996
+  },
+  "Bahrain": {
+    "gdp": 46458191489.3617,
+    "gdp_per_capita": 30470.52192760228
+  },
+  "Belarus": {
+    "gdp": 73775179924.603,
+    "gdp_per_capita": 7994.648060748882
+  },
+  "Bolivia": {
+    "gdp": 50959081953.6903,
+    "gdp_per_capita": 4219.461137424454
+  },
+  "Botswana": {
+    "gdp": 20321150599.1523,
+    "gdp_per_capita": 8328.709057266593
+  },
+  "Brazil": {
+    "gdp": 1951923832083.87,
+    "gdp_per_capita": 9281.332821368622
+  },
+  "Canada": {
+    "gdp": 2190411080134.32,
+    "gdp_per_capita": 56256.80072640148
+  },
+  "Chile": {
+    "gdp": 301226575540.242,
+    "gdp_per_capita": 15405.616577407314
+  },
+  "China": {
+    "gdp": 18316765021690.2,
+    "gdp_per_capita": 12970.605641432683
+  },
+  "China Mainland": {
+    "gdp": 18316765021690.2,
+    "gdp_per_capita": 12970.605641432683
+  },
+  "Colombia": {
+    "gdp": 345632492851.448,
+    "gdp_per_capita": 6680.445068544819
+  },
+  "Costa Rica": {
+    "gdp": 69243626028.5936,
+    "gdp_per_capita": 13625.90084913285
+  },
+  "Cyprus": {
+    "gdp": 31218038929.0919,
+    "gdp_per_capita": 23448.05645995621
+  },
+  "Dominican Republic": {
+    "gdp": 113478087134.8,
+    "gdp_per_capita": 10104.244934908083
+  },
+  "Ethiopia": {
+    "gdp": 123140304666,
+    "gdp_per_capita": 982.1031615069917
+  },
+  "EU/EEA": {
+    "gdp": 17023612496380.4,
+    "gdp_per_capita": 38066.88448926243
+  },
+  "Europe": {
+    "gdp": 17023612496380.4,
+    "gdp_per_capita": 38066.88448926243
+  },
+  "Europe (CE Countries)": {
+    "gdp": 17023612496380.4,
+    "gdp_per_capita": 38066.88448926243
+  },
+  "Ghana": {
+    "gdp": 73919003209.9866,
+    "gdp_per_capita": 2229.891226478029
+  },
+  "Greece": {
+    "gdp": 217990189600.69,
+    "gdp_per_capita": 20886.524308762906
+  },
+  "Hong Kong": {
+    "gdp": 358679533984.718,
+    "gdp_per_capita": 48825.84418735356
+  },
+  "India": {
+    "gdp": 3346107287730.93,
+    "gdp_per_capita": 2347.448294346234
+  },
+  "Indonesia": {
+    "gdp": 1319101183380.15,
+    "gdp_per_capita": 4730.8348483610625
+  },
+  "Israel": {
+    "gdp": 525181008025.57,
+    "gdp_per_capita": 54949.62155642898
+  },
+  "Japan": {
+    "gdp": 4262463317796.53,
+    "gdp_per_capita": 34065.64389625265
+  },
+  "Jordan": {
+    "gdp": 48764963380.2817,
+    "gdp_per_capita": 4332.251598979315
+  },
+  "Kazakhstan": {
+    "gdp": 225496328925.494,
+    "gdp_per_capita": 11255.339643788106
+  },
+  "Kenya": {
+    "gdp": 114448978152.637,
+    "gdp_per_capita": 2109.5628851313677
+  },
+  "Korea": {
+    "gdp": 1799363116866.52,
+    "gdp_per_capita": 34822.404840497096
+  },
+  "South Korea": {
+    "gdp": 1799363116866.52,
+    "gdp_per_capita": 34822.404840497096
+  },
+  "Kyrgyzstan": {
+    "gdp": 12134931017.9465,
+    "gdp_per_capita": 1739.720183441741
+  },
+  "Lebanon": {
+    "gdp": 20992421948.8081,
+    "gdp_per_capita": 3654.3584553487876
+  },
+  "Malaysia": {
+    "gdp": 407830525989.553,
+    "gdp_per_capita": 11754.567833624758
+  },
+  "Mexico": {
+    "gdp": 1466934724293.06,
+    "gdp_per_capita": 11405.794047375899
+  },
+  "Mongolia": {
+    "gdp": 17146471713.748,
+    "gdp_per_capita": 4993.514874634947
+  },
+  "Morocco": {
+    "gdp": 131245312804.483,
+    "gdp_per_capita": 3515.9015185723115
+  },
+  "Namibia": {
+    "gdp": 12569449123.3661,
+    "gdp_per_capita": 4349.799084933152
+  },
+  "New Zealand": {
+    "gdp": 249509991440.438,
+    "gdp_per_capita": 49099.70904233583
+  },
+  "Nigeria": {
+    "gdp": 646950257577.814,
+    "gdp_per_capita": 2899.160474703243
+  },
+  "Oman": {
+    "gdp": 109852795838.752,
+    "gdp_per_capita": 23223.582940593536
+  },
+  "Pakistan": {
+    "gdp": 374890295666.694,
+    "gdp_per_capita": 1538.3228133171008
+  },
+  "Philippines": {
+    "gdp": 404353369604.631,
+    "gdp_per_capita": 3548.0693057211543
+  },
+  "Qatar": {
+    "gdp": 235709340659.341,
+    "gdp_per_capita": 88701.46897635373
+  },
+  "Russia": {
+    "gdp": 2291612121334.64,
+    "gdp_per_capita": 15887.831734016698
+  },
+  "Russian Federation": {
+    "gdp": 2291612121334.64,
+    "gdp_per_capita": 15887.831734016698
+  },
+  "Saudi Arabia": {
+    "gdp": 1239075200000,
+    "gdp_per_capita": 38510.22762110374
+  },
+  "Serbia": {
+    "gdp": 66809895701.2152,
+    "gdp_per_capita": 10024.819111259641
+  },
+  "Singapore": {
+    "gdp": 509017841146.557,
+    "gdp_per_capita": 90299.06946372695
+  },
+  "South Africa": {
+    "gdp": 407596043067.885,
+    "gdp_per_capita": 6534.248677833965
+  },
+  "Taiwan": {
+    "gdp": 762600000000,
+    "gdp_per_capita": 31921.305985768104
+  },
+  "Tanzania": {
+    "gdp": 75749121842.9149,
+    "gdp_per_capita": 1170.5608136558992
+  },
+  "Thailand": {
+    "gdp": 495644697587.661,
+    "gdp_per_capita": 6909.352818158275
+  },
+  "Turkey": {
+    "gdp": 926097476913.818,
+    "gdp_per_capita": 10897.839786136496
+  },
+  "UAE": {
+    "gdp": 511403403675.97,
+    "gdp_per_capita": 50759.75892311912
+  },
+  "United Arab Emirates": {
+    "gdp": 511403403675.97,
+    "gdp_per_capita": 50759.75892311912
+  },
+  "Uganda": {
+    "gdp": 45565333210.9108,
+    "gdp_per_capita": 963.0673141171784
+  },
+  "Ukraine": {
+    "gdp": 161989520721.19,
+    "gdp_per_capita": 3946.2701685402676
+  },
+  "United Kingdom": {
+    "gdp": 3181244350465.41,
+    "gdp_per_capita": 47057.0432291789
+  },
+  "USA": {
+    "gdp": 25604848907611,
+    "gdp_per_capita": 76657.24888444034
+  },
+  "USA/Canada": {
+    "gdp": 25604848907611,
+    "gdp_per_capita": 76657.24888444034
+  },
+  "Uzbekistan": {
+    "gdp": 90095926567.4359,
+    "gdp_per_capita": 2578.6668939421884
+  },
+  "Venezuela": {
+    "gdp": 89013255584.7499,
+    "gdp_per_capita": 3155.04207099687
+  },
+  "Vietnam": {
+    "gdp": null,
+    "gdp_per_capita": null
+  },
+  "Zambia": {
+    "gdp": 29163782140.4858,
+    "gdp_per_capita": 1447.1231013803447
+  }
+}

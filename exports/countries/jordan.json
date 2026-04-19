@@ -4,6 +4,7 @@
   "country_file": "countries/jordan.json",
   "official_regulatory_link": "https://trc.gov.jo/",
   "gdp": 48764963380.2817,
+  "gdp_per_capita": 4332.251598979315,
   "nemko": {
     "country": "JORDAN",
     "national_language": "Arabic",

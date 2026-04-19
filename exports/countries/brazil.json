@@ -4,6 +4,7 @@
   "country_file": "countries/brazil.json",
   "official_regulatory_link": "https://www.gov.br/anatel/",
   "gdp": 1951923832083.87,
+  "gdp_per_capita": 9281.332821368622,
   "nemko": {
     "country": "BRAZIL",
     "national_language": "Spanish",

@@ -4,6 +4,7 @@
   "country_file": "countries/botswana.json",
   "official_regulatory_link": "https://www.bocra.org.bw/",
   "gdp": 20321150599.1523,
+  "gdp_per_capita": 8328.709057266593,
   "nemko": null,
   "workbook": {
     "summary": {

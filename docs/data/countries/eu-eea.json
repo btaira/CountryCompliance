@@ -4,6 +4,7 @@
   "country_file": "countries/eu-eea.json",
   "official_regulatory_link": "https://europa.eu/youreurope/business/product-requirements/labels-markings/ce-marking/index_en.htm",
   "gdp": 17023612496380.4,
+  "gdp_per_capita": 38066.88448926243,
   "nemko": {
     "country": "EU/EEA",
     "national_language": "N/A",

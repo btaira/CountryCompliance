@@ -4,6 +4,7 @@
   "country_file": "countries/pakistan.json",
   "official_regulatory_link": "https://www.pta.gov.pk/",
   "gdp": 374890295666.694,
+  "gdp_per_capita": 1538.3228133171008,
   "nemko": {
     "country": "PAKISTAN",
     "national_language": "Urdu/English",

@@ -4,6 +4,7 @@
   "country_file": "countries/united-arab-emirates.json",
   "official_regulatory_link": "",
   "gdp": null,
+  "gdp_per_capita": null,
   "nemko": null,
   "workbook": {
     "summary": {

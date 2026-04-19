@@ -4,6 +4,7 @@
   "country_file": "countries/serbia.json",
   "official_regulatory_link": "https://www.ratel.rs/",
   "gdp": 66809895701.2152,
+  "gdp_per_capita": 10024.819111259641,
   "nemko": {
     "country": "SERBIA",
     "national_language": "Serbian",

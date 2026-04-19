@@ -4,6 +4,7 @@
   "country_file": "countries/cyprus.json",
   "official_regulatory_link": "https://ocecpr.ee.cy/",
   "gdp": 31218038929.0919,
+  "gdp_per_capita": 23448.05645995621,
   "nemko": null,
   "workbook": {
     "summary": {

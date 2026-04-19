@@ -4,6 +4,7 @@
   "country_file": "countries/bolivia.json",
   "official_regulatory_link": "https://www.att.gob.bo/",
   "gdp": 50959081953.6903,
+  "gdp_per_capita": 4219.461137424454,
   "nemko": {
     "country": "BOLIVIA",
     "national_language": "Spanish and 36 indigenous",

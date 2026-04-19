@@ -4,6 +4,7 @@
   "country_file": "countries/argentina.json",
   "official_regulatory_link": "https://www.enacom.gob.ar/",
   "gdp": 633993756301.08,
+  "gdp_per_capita": 13962.189408722323,
   "nemko": {
     "country": "ARGENTINA",
     "national_language": "Spanish",

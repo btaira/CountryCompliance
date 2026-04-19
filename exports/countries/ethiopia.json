@@ -4,6 +4,7 @@
   "country_file": "countries/ethiopia.json",
   "official_regulatory_link": "https://eca.et/",
   "gdp": 123140304666,
+  "gdp_per_capita": 982.1031615069917,
   "nemko": {
     "country": "ETHIOPIA",
     "national_language": "Amharic",

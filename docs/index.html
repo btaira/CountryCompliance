@@ -53,6 +53,7 @@
             <select id="sort-select">
               <option value="country">Country A-Z</option>
               <option value="gdp">GDP</option>
+              <option value="gdp_per_capita">GDP per Capita</option>
               <option value="population">Population</option>
               <option value="authority">Authority</option>
               <option value="emc">EMC Requirements</option>
@@ -86,6 +87,27 @@
               <option value="">All</option>
               <option value="yes">Has requirements</option>
               <option value="no">No requirements</option>
+              <option value="unknown">Unknown / mixed</option>
+            </select>
+            </select>
+          </section>
+
+          <section class="panel-block">
+            <label class="field-label" for="filter-emc">EMC Requirements</label>
+            <select id="filter-emc">
+              <option value="">All</option>
+              <option value="yes">Required</option>
+              <option value="no">Not required / Voluntary</option>
+              <option value="unknown">Unknown / mixed</option>
+            </select>
+          </section>
+
+          <section class="panel-block">
+            <label class="field-label" for="filter-safety">Safety Requirements</label>
+            <select id="filter-safety">
+              <option value="">All</option>
+              <option value="yes">Required</option>
+              <option value="no">Not required / Voluntary</option>
               <option value="unknown">Unknown / mixed</option>
             </select>
           </section>
@@ -162,6 +184,10 @@
             <dt>GDP</dt>
             <dd class="gdp-value"></dd>
           </div>
+          <div class="gdp-pc-row">
+            <dt>GDP per Capita</dt>
+            <dd class="gdp-pc-value"></dd>
+          </div>
           <div>
             <dt>Authority</dt>
             <dd data-field="regulatory_authority"></dd>
@@ -178,7 +204,7 @@
       </article>
     </template>
 
-    <script src="./data/country_compliance_database.js?v=20260406c"></script>
-    <script src="./app.js?v=20260406c" defer></script>
+    <script src="./data/country_compliance_database.js?v=20260419f"></script>
+    <script src="./app.js?v=20260419f" defer></script>
   </body>
 </html>

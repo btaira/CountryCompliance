@@ -4,6 +4,7 @@
   "country_file": "countries/namibia.json",
   "official_regulatory_link": "https://www.cran.na/",
   "gdp": 12569449123.3661,
+  "gdp_per_capita": 4349.799084933152,
   "nemko": {
     "country": "NAMIBIA",
     "national_language": "English",

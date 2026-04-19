@@ -4,6 +4,7 @@
   "country_file": "countries/new-zealand.json",
   "official_regulatory_link": "https://www.rsm.govt.nz/",
   "gdp": 249509991440.438,
+  "gdp_per_capita": 49099.70904233583,
   "nemko": {
     "country": "NEW ZEALAND",
     "national_language": "English/M?ori",

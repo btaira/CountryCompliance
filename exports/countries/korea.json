@@ -4,6 +4,7 @@
   "country_file": "countries/korea.json",
   "official_regulatory_link": "https://www.rra.go.kr/",
   "gdp": 1799363116866.52,
+  "gdp_per_capita": 34822.404840497096,
   "nemko": {
     "country": "KOREA",
     "national_language": "Korean",

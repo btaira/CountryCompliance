@@ -4,6 +4,7 @@
   "country_file": "countries/israel.json",
   "official_regulatory_link": "https://www.gov.il/en/departments/ministry_of_communications",
   "gdp": 525181008025.57,
+  "gdp_per_capita": 54949.62155642898,
   "nemko": {
     "country": "ISRAEL",
     "national_language": "Hebrew",
