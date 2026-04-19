@@ -18,7 +18,7 @@ OUTPUT_DIR = ROOT_DIR / "exports"
 DOCS_DATA_DIR = ROOT_DIR / "docs" / "data"
 OUTPUT_COUNTRIES_DIR = OUTPUT_DIR / "countries"
 DOCS_COUNTRIES_DIR = DOCS_DATA_DIR / "countries"
-RAW_HTML_PATH = ROOT_DIR / "nemko_select_by_country.html"
+RAW_HTML_PATH = ROOT_DIR / "country_requirements.html"
 WORKBOOK_PATH = ROOT_DIR / "Country Compliance Requirements.xlsx"
 HANDBOOK_PATH = ROOT_DIR / "Compliance Requirements for Hardware.docx"
 
