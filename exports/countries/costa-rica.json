@@ -3,6 +3,7 @@
   "slug": "costa-rica",
   "country_file": "countries/costa-rica.json",
   "official_regulatory_link": "https://sutel.go.cr/",
+  "gdp": 69243626028.5936,
   "nemko": null,
   "workbook": {
     "summary": {

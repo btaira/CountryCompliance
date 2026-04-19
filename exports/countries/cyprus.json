@@ -3,6 +3,7 @@
   "slug": "cyprus",
   "country_file": "countries/cyprus.json",
   "official_regulatory_link": "https://ocecpr.ee.cy/",
+  "gdp": 31218038929.0919,
   "nemko": null,
   "workbook": {
     "summary": {

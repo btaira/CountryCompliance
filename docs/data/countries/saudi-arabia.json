@@ -3,6 +3,7 @@
   "slug": "saudi-arabia",
   "country_file": "countries/saudi-arabia.json",
   "official_regulatory_link": "https://www.cst.gov.sa/",
+  "gdp": 1239075200000,
   "nemko": {
     "country": "SAUDI ARABIA",
     "national_language": "Arabic",

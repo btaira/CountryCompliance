@@ -3,6 +3,7 @@
   "slug": "singapore",
   "country_file": "countries/singapore.json",
   "official_regulatory_link": "https://www.imda.gov.sg/",
+  "gdp": 509017841146.557,
   "nemko": {
     "country": "SINGAPORE",
     "national_language": "Malay/English",

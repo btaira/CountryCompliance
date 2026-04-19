@@ -3,6 +3,7 @@
   "slug": "bahrain",
   "country_file": "countries/bahrain.json",
   "official_regulatory_link": "https://www.tra.org.bh/",
+  "gdp": 46458191489.3617,
   "nemko": null,
   "workbook": {
     "summary": {

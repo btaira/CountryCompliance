@@ -3,6 +3,7 @@
   "slug": "namibia",
   "country_file": "countries/namibia.json",
   "official_regulatory_link": "https://www.cran.na/",
+  "gdp": 12569449123.3661,
   "nemko": {
     "country": "NAMIBIA",
     "national_language": "English",

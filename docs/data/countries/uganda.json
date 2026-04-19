@@ -3,6 +3,7 @@
   "slug": "uganda",
   "country_file": "countries/uganda.json",
   "official_regulatory_link": "https://www.ucc.co.ug/",
+  "gdp": 45565333210.9108,
   "nemko": {
     "country": "UGANDA",
     "national_language": "Swahili/English",

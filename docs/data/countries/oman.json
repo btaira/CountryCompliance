@@ -3,6 +3,7 @@
   "slug": "oman",
   "country_file": "countries/oman.json",
   "official_regulatory_link": "https://tra.gov.om/",
+  "gdp": 109852795838.752,
   "nemko": null,
   "workbook": {
     "summary": {

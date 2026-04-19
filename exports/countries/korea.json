@@ -3,6 +3,7 @@
   "slug": "korea",
   "country_file": "countries/korea.json",
   "official_regulatory_link": "https://www.rra.go.kr/",
+  "gdp": 1799363116866.52,
   "nemko": {
     "country": "KOREA",
     "national_language": "Korean",

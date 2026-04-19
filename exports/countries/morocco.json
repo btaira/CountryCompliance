@@ -3,6 +3,7 @@
   "slug": "morocco",
   "country_file": "countries/morocco.json",
   "official_regulatory_link": "https://www.anrt.ma/",
+  "gdp": 131245312804.483,
   "nemko": {
     "country": "MOROCCO",
     "national_language": "Arabic/Berber",

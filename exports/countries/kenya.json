@@ -3,6 +3,7 @@
   "slug": "kenya",
   "country_file": "countries/kenya.json",
   "official_regulatory_link": "https://www.ca.go.ke/",
+  "gdp": 114448978152.637,
   "nemko": {
     "country": "KENYA",
     "national_language": "Swahili/English",

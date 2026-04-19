@@ -3,6 +3,7 @@
   "slug": "botswana",
   "country_file": "countries/botswana.json",
   "official_regulatory_link": "https://www.bocra.org.bw/",
+  "gdp": 20321150599.1523,
   "nemko": null,
   "workbook": {
     "summary": {

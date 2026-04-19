@@ -3,6 +3,7 @@
   "slug": "ukraine",
   "country_file": "countries/ukraine.json",
   "official_regulatory_link": "https://nkrzi.gov.ua/",
+  "gdp": 161989520721.19,
   "nemko": {
     "country": "UKRAINE",
     "national_language": "Ukrainian",

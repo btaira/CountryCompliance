@@ -3,6 +3,7 @@
   "slug": "serbia",
   "country_file": "countries/serbia.json",
   "official_regulatory_link": "https://www.ratel.rs/",
+  "gdp": 66809895701.2152,
   "nemko": {
     "country": "SERBIA",
     "national_language": "Serbian",

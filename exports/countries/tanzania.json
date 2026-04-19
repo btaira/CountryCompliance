@@ -3,6 +3,7 @@
   "slug": "tanzania",
   "country_file": "countries/tanzania.json",
   "official_regulatory_link": "https://www.tcra.go.tz/",
+  "gdp": 75749121842.9149,
   "nemko": {
     "country": "TANZANIA",
     "national_language": "Swahili/English",

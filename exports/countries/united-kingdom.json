@@ -3,6 +3,7 @@
   "slug": "united-kingdom",
   "country_file": "countries/united-kingdom.json",
   "official_regulatory_link": "https://www.ofcom.org.uk/",
+  "gdp": 3181244350465.41,
   "nemko": {
     "country": "UNITED KINGDOM",
     "national_language": "English",

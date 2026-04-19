@@ -3,6 +3,7 @@
   "slug": "uae",
   "country_file": "countries/uae.json",
   "official_regulatory_link": "https://tdra.gov.ae/",
+  "gdp": null,
   "nemko": {
     "country": "UAE",
     "national_language": "Arabic",

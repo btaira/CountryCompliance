@@ -3,6 +3,7 @@
   "slug": "turkey",
   "country_file": "countries/turkey.json",
   "official_regulatory_link": "https://www.btk.gov.tr/",
+  "gdp": null,
   "nemko": {
     "country": "TURKEY",
     "national_language": "Turkish",

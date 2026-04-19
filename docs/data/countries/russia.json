@@ -3,6 +3,7 @@
   "slug": "russia",
   "country_file": "countries/russia.json",
   "official_regulatory_link": "https://digital.gov.ru/",
+  "gdp": 2291612121334.64,
   "nemko": {
     "country": "RUSSIA",
     "national_language": "Russian",

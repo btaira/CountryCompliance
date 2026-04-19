@@ -3,6 +3,7 @@
   "slug": "mongolia",
   "country_file": "countries/mongolia.json",
   "official_regulatory_link": "https://crc.gov.mn/",
+  "gdp": 17146471713.748,
   "nemko": {
     "country": "MONGOLIA",
     "national_language": "Mongolian",

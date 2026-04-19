@@ -3,6 +3,7 @@
   "slug": "armenia",
   "country_file": "countries/armenia.json",
   "official_regulatory_link": "http://www.psrc.am/",
+  "gdp": 19513506553.1251,
   "nemko": null,
   "workbook": {
     "summary": {

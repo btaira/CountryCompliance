@@ -3,6 +3,7 @@
   "slug": "vietnam",
   "country_file": "countries/vietnam.json",
   "official_regulatory_link": "https://mic.gov.vn/",
+  "gdp": null,
   "nemko": {
     "country": "VIETNAM",
     "national_language": "Vietnamese",

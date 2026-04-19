@@ -3,6 +3,7 @@
   "slug": "jordan",
   "country_file": "countries/jordan.json",
   "official_regulatory_link": "https://trc.gov.jo/",
+  "gdp": 48764963380.2817,
   "nemko": {
     "country": "JORDAN",
     "national_language": "Arabic",

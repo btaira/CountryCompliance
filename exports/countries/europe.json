@@ -3,6 +3,7 @@
   "slug": "europe",
   "country_file": "countries/europe.json",
   "official_regulatory_link": "https://europa.eu/youreurope/business/product-requirements/labels-markings/ce-marking/index_en.htm",
+  "gdp": 17023612496380.4,
   "nemko": null,
   "workbook": {
     "summary": {

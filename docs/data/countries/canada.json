@@ -3,6 +3,7 @@
   "slug": "canada",
   "country_file": "countries/canada.json",
   "official_regulatory_link": "https://ised-isde.canada.ca/",
+  "gdp": 2190411080134.32,
   "nemko": {
     "country": "CANADA",
     "national_language": "English/French",

@@ -3,6 +3,7 @@
   "slug": "ethiopia",
   "country_file": "countries/ethiopia.json",
   "official_regulatory_link": "https://eca.et/",
+  "gdp": 123140304666,
   "nemko": {
     "country": "ETHIOPIA",
     "national_language": "Amharic",

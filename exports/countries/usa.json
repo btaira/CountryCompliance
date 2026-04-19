@@ -3,6 +3,7 @@
   "slug": "usa",
   "country_file": "countries/usa.json",
   "official_regulatory_link": "https://www.fcc.gov/oet/ea",
+  "gdp": 25604848907611,
   "nemko": {
     "country": "USA",
     "national_language": "English",

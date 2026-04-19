@@ -3,6 +3,7 @@
   "slug": "mexico",
   "country_file": "countries/mexico.json",
   "official_regulatory_link": "https://www.ift.org.mx/",
+  "gdp": 1466934724293.06,
   "nemko": {
     "country": "MEXICO",
     "national_language": "Spanish",

@@ -3,6 +3,7 @@
   "slug": "argentina",
   "country_file": "countries/argentina.json",
   "official_regulatory_link": "https://www.enacom.gob.ar/",
+  "gdp": 633993756301.08,
   "nemko": {
     "country": "ARGENTINA",
     "national_language": "Spanish",

@@ -3,6 +3,7 @@
   "slug": "middle-east-countries",
   "country_file": "countries/middle-east-countries.json",
   "official_regulatory_link": "",
+  "gdp": null,
   "nemko": null,
   "workbook": {
     "summary": {

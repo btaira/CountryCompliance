@@ -3,6 +3,7 @@
   "slug": "venezuela",
   "country_file": "countries/venezuela.json",
   "official_regulatory_link": "http://www.conatel.gob.ve/",
+  "gdp": 89013255584.7499,
   "nemko": {
     "country": "VENEZUELA",
     "national_language": "Spanish",

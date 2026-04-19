@@ -71,11 +71,20 @@ function formatDate(value) {
   return new Intl.DateTimeFormat("en-US", { year: "numeric", month: "short", day: "numeric" }).format(date);
 }
 
+function formatGDP(value) {
+    if (!value) return "Not listed";
+    if (value >= 1e12) return `$${(value / 1e12).toFixed(2)} Trillion`;
+    if (value >= 1e9) return `$${(value / 1e9).toFixed(2)} Billion`;
+    return `$${(value / 1e6).toFixed(2)} Million`;
+}
+
 function enrichCountry(country) {
   const nemko = country.nemko;
   const approvalState = classifyValue(nemko.compliance_requirement_for_telecom_radio);
   const localRepState = classifyValue(nemko.local_representation_required_for_approval);
   const energyState = classifyValue(nemko.energy_efficiency_requirements);
+  const safetyState = classifyValue(nemko.safety_certification_required_for_it_products);
+  const emcState = classifyValue(nemko.emc_certification_and_test_report_required_for_it_products);
   const searchBlob = [
     country.country,
     nemko.national_language,
@@ -91,6 +100,8 @@ function enrichCountry(country) {
     approvalState,
     localRepState,
     energyState,
+    safetyState,
+    emcState,
     populationValue: parsePopulation(nemko.population),
     searchBlob,
   };
@@ -132,6 +143,8 @@ function renderCards(countries) {
       field.textContent = emptyDisplay(country.nemko[field.dataset.field]);
     }
 
+    node.querySelector(".gdp-value").textContent = formatGDP(country.gdp);
+
     link.href = `./country.html?v=20260406c&country=${encodeURIComponent(country.slug)}`;
 
     if (country.official_regulatory_link) {
@@ -160,9 +173,13 @@ function applyFilters() {
     return true;
   });
 
+  const stateScore = { yes: 3, unknown: 2, mixed: 2, no: 1 };
   filtered = filtered.sort((a, b) => {
     if (sortKey === "population") return b.populationValue - a.populationValue || a.country.localeCompare(b.country);
+    if (sortKey === "gdp") return (b.gdp || 0) - (a.gdp || 0) || a.country.localeCompare(b.country);
     if (sortKey === "authority") return a.nemko.regulatory_authority.localeCompare(b.nemko.regulatory_authority) || a.country.localeCompare(b.country);
+    if (sortKey === "emc") return (stateScore[b.emcState] || 0) - (stateScore[a.emcState] || 0) || a.country.localeCompare(b.country);
+    if (sortKey === "safety") return (stateScore[b.safetyState] || 0) - (stateScore[a.safetyState] || 0) || a.country.localeCompare(b.country);
     return a.country.localeCompare(b.country);
   });
 

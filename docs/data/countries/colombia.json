@@ -3,6 +3,7 @@
   "slug": "colombia",
   "country_file": "countries/colombia.json",
   "official_regulatory_link": "https://www.crcom.gov.co/",
+  "gdp": 345632492851.448,
   "nemko": {
     "country": "COLOMBIA",
     "national_language": "Spanish",

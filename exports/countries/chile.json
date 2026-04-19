@@ -3,6 +3,7 @@
   "slug": "chile",
   "country_file": "countries/chile.json",
   "official_regulatory_link": "https://www.subtel.gob.cl/",
+  "gdp": 301226575540.242,
   "nemko": {
     "country": "CHILE",
     "national_language": "Spanish",

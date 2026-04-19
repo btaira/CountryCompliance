@@ -3,6 +3,7 @@
   "slug": "malaysia",
   "country_file": "countries/malaysia.json",
   "official_regulatory_link": "https://www.mcmc.gov.my/",
+  "gdp": 407830525989.553,
   "nemko": {
     "country": "MALAYSIA",
     "national_language": "Malay",

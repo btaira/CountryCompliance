@@ -3,6 +3,7 @@
   "slug": "thailand",
   "country_file": "countries/thailand.json",
   "official_regulatory_link": "https://www.nbtc.go.th/",
+  "gdp": 495644697587.661,
   "nemko": {
     "country": "THAILAND",
     "national_language": "Thai",

@@ -3,6 +3,7 @@
   "slug": "kazakhstan",
   "country_file": "countries/kazakhstan.json",
   "official_regulatory_link": "https://www.gov.kz/memleket/entities/mdai",
+  "gdp": 225496328925.494,
   "nemko": null,
   "workbook": {
     "summary": {

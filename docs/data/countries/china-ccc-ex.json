@@ -3,6 +3,7 @@
   "slug": "china-ccc-ex",
   "country_file": "countries/china-ccc-ex.json",
   "official_regulatory_link": "",
+  "gdp": null,
   "nemko": null,
   "workbook": {
     "summary": {

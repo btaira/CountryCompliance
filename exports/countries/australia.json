@@ -3,6 +3,7 @@
   "slug": "australia",
   "country_file": "countries/australia.json",
   "official_regulatory_link": "https://www.acma.gov.au/",
+  "gdp": 1695627535475.8,
   "nemko": {
     "country": "AUSTRALIA",
     "national_language": "no official, English",

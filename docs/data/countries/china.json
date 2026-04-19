@@ -3,6 +3,7 @@
   "slug": "china",
   "country_file": "countries/china.json",
   "official_regulatory_link": "http://www.cnca.gov.cn/",
+  "gdp": 18316765021690.2,
   "nemko": null,
   "workbook": {
     "summary": {

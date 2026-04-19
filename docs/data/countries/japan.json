@@ -3,6 +3,7 @@
   "slug": "japan",
   "country_file": "countries/japan.json",
   "official_regulatory_link": "https://www.tele.soumu.go.jp/",
+  "gdp": 4262463317796.53,
   "nemko": {
     "country": "JAPAN",
     "national_language": "Japanese",

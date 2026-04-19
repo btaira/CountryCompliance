@@ -3,6 +3,7 @@
   "slug": "ghana",
   "country_file": "countries/ghana.json",
   "official_regulatory_link": "https://nca.org.gh/",
+  "gdp": 73919003209.9866,
   "nemko": {
     "country": "GHANA",
     "national_language": "English",

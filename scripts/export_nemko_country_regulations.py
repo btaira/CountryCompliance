@@ -419,6 +419,7 @@ def build_unified_database(
     workbook_comments: list[dict[str, str]],
     handbook: dict[str, object],
     country_links: dict[str, str],
+    country_gdp: dict[str, float],
 ) -> dict[str, object]:
     nemko_by_country = {normalize_country_name(item["country"]): item for item in nemko_rows}
     workbook_by_country: dict[str, list[dict[str, str]]] = defaultdict(list)
@@ -473,6 +474,7 @@ def build_unified_database(
                 "slug": slugify(country),
                 "country_file": f"countries/{slugify(country)}.json",
                 "official_regulatory_link": country_links.get(country, ""),
+                "gdp": country_gdp.get(country),
                 "nemko": nemko_by_country.get(country),
                 "workbook": {
                     "summary": workbook_summary,
@@ -539,6 +541,9 @@ def main() -> None:
     country_links_path = ROOT_DIR / "scripts" / "country_links.json"
     country_links = json.loads(country_links_path.read_text(encoding="utf-8")) if country_links_path.exists() else {}
 
+    country_gdp_path = ROOT_DIR / "scripts" / "country_gdp.json"
+    country_gdp = json.loads(country_gdp_path.read_text(encoding="utf-8")) if country_gdp_path.exists() else {}
+
     nemko_rows = parse_nemko_country_cards(html)
     workbook_rows, workbook_comments = parse_workbook()
     handbook = parse_hardware_handbook()
@@ -548,6 +553,7 @@ def main() -> None:
         workbook_comments,
         handbook,
         country_links,
+        country_gdp,
     )
 
     if not nemko_rows:

@@ -3,6 +3,7 @@
   "slug": "taiwan",
   "country_file": "countries/taiwan.json",
   "official_regulatory_link": "https://www.ncc.gov.tw/",
+  "gdp": 18316765021690.2,
   "nemko": {
     "country": "TAIWAN",
     "national_language": "Mandarin",

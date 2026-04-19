@@ -3,6 +3,7 @@
   "slug": "hong-kong",
   "country_file": "countries/hong-kong.json",
   "official_regulatory_link": "https://www.ofca.gov.hk/",
+  "gdp": 358679533984.718,
   "nemko": {
     "country": "HONG KONG",
     "national_language": "English/Chinese",
