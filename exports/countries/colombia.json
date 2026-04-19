@@ -3,6 +3,7 @@
   "slug": "colombia",
   "country_file": "countries/colombia.json",
   "official_regulatory_link": "https://www.crcom.gov.co/",
+  "marks": [],
   "gdp": 345632492851.448,
   "gdp_per_capita": 6680.445068544819,
   "nemko": {

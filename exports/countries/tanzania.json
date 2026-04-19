@@ -3,6 +3,7 @@
   "slug": "tanzania",
   "country_file": "countries/tanzania.json",
   "official_regulatory_link": "https://www.tcra.go.tz/",
+  "marks": [],
   "gdp": 75749121842.9149,
   "gdp_per_capita": 1170.5608136558992,
   "nemko": {

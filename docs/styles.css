@@ -397,6 +397,23 @@ input:focus, select:focus {
   box-shadow: var(--shadow-sm);
 }
 
+.card-marks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.mark-badge {
+  height: 28px;
+  width: auto;
+  object-fit: contain;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 4px 6px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow-sm);
+}
+
 .chip-row {
   display: flex;
   flex-wrap: wrap;

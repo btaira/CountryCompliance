@@ -3,6 +3,7 @@
   "slug": "uganda",
   "country_file": "countries/uganda.json",
   "official_regulatory_link": "https://www.ucc.co.ug/",
+  "marks": [],
   "gdp": 45565333210.9108,
   "gdp_per_capita": 963.0673141171784,
   "nemko": {

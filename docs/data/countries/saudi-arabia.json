@@ -3,6 +3,7 @@
   "slug": "saudi-arabia",
   "country_file": "countries/saudi-arabia.json",
   "official_regulatory_link": "https://www.cst.gov.sa/",
+  "marks": [],
   "gdp": 1239075200000,
   "gdp_per_capita": 38510.22762110374,
   "nemko": {

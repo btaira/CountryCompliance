@@ -3,6 +3,9 @@
   "slug": "armenia",
   "country_file": "countries/armenia.json",
   "official_regulatory_link": "http://www.psrc.am/",
+  "marks": [
+    "ce"
+  ],
   "gdp": 19513506553.1251,
   "gdp_per_capita": 6571.974455450996,
   "nemko": null,

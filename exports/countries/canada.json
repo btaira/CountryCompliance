@@ -3,6 +3,11 @@
   "slug": "canada",
   "country_file": "countries/canada.json",
   "official_regulatory_link": "https://ised-isde.canada.ca/",
+  "marks": [
+    "ic",
+    "csa",
+    "ul"
+  ],
   "gdp": 2190411080134.32,
   "gdp_per_capita": 56256.80072640148,
   "nemko": {

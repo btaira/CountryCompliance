@@ -3,6 +3,7 @@
   "slug": "ghana",
   "country_file": "countries/ghana.json",
   "official_regulatory_link": "https://nca.org.gh/",
+  "marks": [],
   "gdp": 73919003209.9866,
   "gdp_per_capita": 2229.891226478029,
   "nemko": {

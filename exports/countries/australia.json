@@ -3,6 +3,9 @@
   "slug": "australia",
   "country_file": "countries/australia.json",
   "official_regulatory_link": "https://www.acma.gov.au/",
+  "marks": [
+    "rcm"
+  ],
   "gdp": 1695627535475.8,
   "gdp_per_capita": 65169.519111865644,
   "nemko": {

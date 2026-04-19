@@ -3,6 +3,7 @@
   "slug": "nigeria",
   "country_file": "countries/nigeria.json",
   "official_regulatory_link": "https://ncc.gov.ng/",
+  "marks": [],
   "gdp": 646950257577.814,
   "gdp_per_capita": 2899.160474703243,
   "nemko": {

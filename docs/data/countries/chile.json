@@ -3,6 +3,7 @@
   "slug": "chile",
   "country_file": "countries/chile.json",
   "official_regulatory_link": "https://www.subtel.gob.cl/",
+  "marks": [],
   "gdp": 301226575540.242,
   "gdp_per_capita": 15405.616577407314,
   "nemko": {

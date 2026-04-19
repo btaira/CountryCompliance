@@ -3,6 +3,7 @@
   "slug": "russian-federation",
   "country_file": "countries/russian-federation.json",
   "official_regulatory_link": "https://digital.gov.ru/",
+  "marks": [],
   "gdp": 2291612121334.64,
   "gdp_per_capita": 15887.831734016698,
   "nemko": null,

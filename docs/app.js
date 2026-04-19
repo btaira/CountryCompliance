@@ -129,12 +129,27 @@ function renderCards(countries) {
     const chips = node.querySelector(".chip-row");
     const link = node.querySelector(".card-action");
     const offLink = node.querySelector(".official-action");
+    const marksContainer = node.querySelector(".card-marks");
 
     title.textContent = country.country;
     kicker.textContent = country.nemko.country_css_class.replace(/-/g, " ");
     flag.src = country.nemko.flag_image_url || "";
     flag.alt = `${country.country} flag`;
     if (!country.nemko.flag_image_url) flag.style.visibility = "hidden";
+
+    if (country.marks && country.marks.length > 0) {
+      marksContainer.style.display = "flex";
+      country.marks.forEach(mark => {
+         const img = document.createElement("img");
+         img.className = "mark-badge";
+         img.src = `./assets/marks/${mark}.svg`;
+         img.title = mark.toUpperCase();
+         img.alt = mark + " mark";
+         marksContainer.appendChild(img);
+      });
+    } else {
+      marksContainer.style.display = "none";
+    }
 
     chips.append(
       createChip(`Approval ${labelForState(country.approvalState)}`, country.approvalState),

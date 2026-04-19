@@ -3,6 +3,10 @@
   "slug": "united-kingdom",
   "country_file": "countries/united-kingdom.json",
   "official_regulatory_link": "https://www.ofcom.org.uk/",
+  "marks": [
+    "ukca",
+    "ce"
+  ],
   "gdp": 3181244350465.41,
   "gdp_per_capita": 47057.0432291789,
   "nemko": {

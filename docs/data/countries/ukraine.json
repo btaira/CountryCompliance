@@ -3,6 +3,7 @@
   "slug": "ukraine",
   "country_file": "countries/ukraine.json",
   "official_regulatory_link": "https://nkrzi.gov.ua/",
+  "marks": [],
   "gdp": 161989520721.19,
   "gdp_per_capita": 3946.2701685402676,
   "nemko": {

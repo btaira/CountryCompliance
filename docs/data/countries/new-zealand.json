@@ -3,6 +3,9 @@
   "slug": "new-zealand",
   "country_file": "countries/new-zealand.json",
   "official_regulatory_link": "https://www.rsm.govt.nz/",
+  "marks": [
+    "rcm"
+  ],
   "gdp": 249509991440.438,
   "gdp_per_capita": 49099.70904233583,
   "nemko": {

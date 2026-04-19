@@ -3,6 +3,7 @@
   "slug": "usa",
   "country_file": "countries/usa.json",
   "official_regulatory_link": "https://www.fcc.gov/oet/ea",
+  "marks": [],
   "gdp": 25604848907611,
   "gdp_per_capita": 76657.24888444034,
   "nemko": {

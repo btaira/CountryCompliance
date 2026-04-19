@@ -3,6 +3,9 @@
   "slug": "india",
   "country_file": "countries/india.json",
   "official_regulatory_link": "https://www.bis.gov.in/",
+  "marks": [
+    "bis"
+  ],
   "gdp": 3346107287730.93,
   "gdp_per_capita": 2347.448294346234,
   "nemko": {

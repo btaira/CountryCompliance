@@ -3,6 +3,7 @@
   "slug": "turkey",
   "country_file": "countries/turkey.json",
   "official_regulatory_link": "https://www.btk.gov.tr/",
+  "marks": [],
   "gdp": 926097476913.818,
   "gdp_per_capita": 10897.839786136496,
   "nemko": {

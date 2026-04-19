@@ -3,6 +3,7 @@
   "slug": "malaysia",
   "country_file": "countries/malaysia.json",
   "official_regulatory_link": "https://www.mcmc.gov.my/",
+  "marks": [],
   "gdp": 407830525989.553,
   "gdp_per_capita": 11754.567833624758,
   "nemko": {

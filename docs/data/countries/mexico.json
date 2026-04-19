@@ -3,6 +3,9 @@
   "slug": "mexico",
   "country_file": "countries/mexico.json",
   "official_regulatory_link": "https://www.ift.org.mx/",
+  "marks": [
+    "nom"
+  ],
   "gdp": 1466934724293.06,
   "gdp_per_capita": 11405.794047375899,
   "nemko": {

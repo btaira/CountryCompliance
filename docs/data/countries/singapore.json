@@ -3,6 +3,7 @@
   "slug": "singapore",
   "country_file": "countries/singapore.json",
   "official_regulatory_link": "https://www.imda.gov.sg/",
+  "marks": [],
   "gdp": 509017841146.557,
   "gdp_per_capita": 90299.06946372695,
   "nemko": {

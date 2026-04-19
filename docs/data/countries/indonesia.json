@@ -3,6 +3,7 @@
   "slug": "indonesia",
   "country_file": "countries/indonesia.json",
   "official_regulatory_link": "https://www.postel.go.id/",
+  "marks": [],
   "gdp": 1319101183380.15,
   "gdp_per_capita": 4730.8348483610625,
   "nemko": {

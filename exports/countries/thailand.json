@@ -3,6 +3,7 @@
   "slug": "thailand",
   "country_file": "countries/thailand.json",
   "official_regulatory_link": "https://www.nbtc.go.th/",
+  "marks": [],
   "gdp": 495644697587.661,
   "gdp_per_capita": 6909.352818158275,
   "nemko": {

@@ -3,6 +3,9 @@
   "slug": "taiwan",
   "country_file": "countries/taiwan.json",
   "official_regulatory_link": "https://www.ncc.gov.tw/",
+  "marks": [
+    "bsmi"
+  ],
   "gdp": 762600000000,
   "gdp_per_capita": 31921.305985768104,
   "nemko": {
