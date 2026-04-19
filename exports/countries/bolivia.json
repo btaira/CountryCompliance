@@ -2,6 +2,7 @@
   "country": "Bolivia",
   "slug": "bolivia",
   "country_file": "countries/bolivia.json",
+  "official_regulatory_link": "https://www.att.gob.bo/",
   "nemko": {
     "country": "BOLIVIA",
     "national_language": "Spanish and 36 indigenous",

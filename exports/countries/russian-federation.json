@@ -2,6 +2,7 @@
   "country": "Russian Federation",
   "slug": "russian-federation",
   "country_file": "countries/russian-federation.json",
+  "official_regulatory_link": "https://digital.gov.ru/",
   "nemko": null,
   "workbook": {
     "summary": {

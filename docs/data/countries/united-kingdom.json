@@ -2,6 +2,7 @@
   "country": "United Kingdom",
   "slug": "united-kingdom",
   "country_file": "countries/united-kingdom.json",
+  "official_regulatory_link": "https://www.ofcom.org.uk/",
   "nemko": {
     "country": "UNITED KINGDOM",
     "national_language": "English",

@@ -2,6 +2,7 @@
   "country": "Europe",
   "slug": "europe",
   "country_file": "countries/europe.json",
+  "official_regulatory_link": "https://europa.eu/youreurope/business/product-requirements/labels-markings/ce-marking/index_en.htm",
   "nemko": null,
   "workbook": {
     "summary": {

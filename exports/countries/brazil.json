@@ -2,6 +2,7 @@
   "country": "Brazil",
   "slug": "brazil",
   "country_file": "countries/brazil.json",
+  "official_regulatory_link": "https://www.gov.br/anatel/",
   "nemko": {
     "country": "BRAZIL",
     "national_language": "Spanish",

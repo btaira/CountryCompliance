@@ -2,6 +2,7 @@
   "country": "Taiwan",
   "slug": "taiwan",
   "country_file": "countries/taiwan.json",
+  "official_regulatory_link": "https://www.ncc.gov.tw/",
   "nemko": {
     "country": "TAIWAN",
     "national_language": "Mandarin",

@@ -2,6 +2,7 @@
   "country": "Uzbekistan",
   "slug": "uzbekistan",
   "country_file": "countries/uzbekistan.json",
+  "official_regulatory_link": "https://mitc.uz/",
   "nemko": null,
   "workbook": {
     "summary": {

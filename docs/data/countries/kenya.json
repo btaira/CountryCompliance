@@ -2,6 +2,7 @@
   "country": "Kenya",
   "slug": "kenya",
   "country_file": "countries/kenya.json",
+  "official_regulatory_link": "https://www.ca.go.ke/",
   "nemko": {
     "country": "KENYA",
     "national_language": "Swahili/English",

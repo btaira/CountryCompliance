@@ -2,6 +2,7 @@
   "country": "Lebanon",
   "slug": "lebanon",
   "country_file": "countries/lebanon.json",
+  "official_regulatory_link": "https://tra.gov.lb/",
   "nemko": {
     "country": "LEBANON",
     "national_language": "Arabic",

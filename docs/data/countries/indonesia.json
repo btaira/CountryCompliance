@@ -2,6 +2,7 @@
   "country": "Indonesia",
   "slug": "indonesia",
   "country_file": "countries/indonesia.json",
+  "official_regulatory_link": "https://www.postel.go.id/",
   "nemko": {
     "country": "INDONESIA",
     "national_language": "Indonesian",

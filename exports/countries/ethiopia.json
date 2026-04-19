@@ -2,6 +2,7 @@
   "country": "Ethiopia",
   "slug": "ethiopia",
   "country_file": "countries/ethiopia.json",
+  "official_regulatory_link": "https://eca.et/",
   "nemko": {
     "country": "ETHIOPIA",
     "national_language": "Amharic",

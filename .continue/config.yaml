@@ -1,0 +1,28 @@
+# Continue local configuration for CountryCompliance workspace
+# https://docs.continue.dev/customization
+
+models:
+  - name: Gemma4
+    provider: ollama
+    model: Gemma4
+
+mcpServers:
+  # Filesystem MCP enables file system access within this repo and nearby repos.
+  - name: Filesystem MCP
+    command: npx.cmd
+    args:
+      - "-y"
+      - "@modelcontextprotocol/server-filesystem"
+      - "${workspaceFolder}"
+      - "C:\\Users\\btair\\OneDrive\\Documents\\GitHub"
+  
+  # Memory MCP for persistent context
+  - uses: anthropic/memory-mcp
+
+slashCommands:
+  - name: list
+    description: List files in a directory
+  - name: edit
+    description: Edit a file
+  - name: create
+    description: Create a new file

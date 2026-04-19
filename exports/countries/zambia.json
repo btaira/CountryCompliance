@@ -2,6 +2,7 @@
   "country": "Zambia",
   "slug": "zambia",
   "country_file": "countries/zambia.json",
+  "official_regulatory_link": "https://www.zicta.zm/",
   "nemko": {
     "country": "ZAMBIA",
     "national_language": "English",

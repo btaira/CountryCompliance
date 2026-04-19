@@ -2,6 +2,7 @@
   "country": "Venezuela",
   "slug": "venezuela",
   "country_file": "countries/venezuela.json",
+  "official_regulatory_link": "http://www.conatel.gob.ve/",
   "nemko": {
     "country": "VENEZUELA",
     "national_language": "Spanish",

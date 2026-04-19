@@ -2,6 +2,7 @@
   "country": "Qatar",
   "slug": "qatar",
   "country_file": "countries/qatar.json",
+  "official_regulatory_link": "https://www.cra.gov.qa/",
   "nemko": {
     "country": "QATAR",
     "national_language": "Arabic",

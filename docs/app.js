@@ -114,6 +114,7 @@ function renderCards(countries) {
     const flag = node.querySelector(".flag-image");
     const chips = node.querySelector(".chip-row");
     const link = node.querySelector(".card-action");
+    const offLink = node.querySelector(".official-action");
 
     title.textContent = country.country;
     kicker.textContent = country.nemko.country_css_class.replace(/-/g, " ");
@@ -132,6 +133,12 @@ function renderCards(countries) {
     }
 
     link.href = `./country.html?v=20260406c&country=${encodeURIComponent(country.slug)}`;
+
+    if (country.official_regulatory_link) {
+      offLink.href = country.official_regulatory_link;
+      offLink.style.display = 'inline-flex';
+    }
+
     fragment.append(node);
   }
 

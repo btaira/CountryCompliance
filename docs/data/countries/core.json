@@ -2,6 +2,7 @@
   "country": "CORE",
   "slug": "core",
   "country_file": "countries/core.json",
+  "official_regulatory_link": "",
   "nemko": null,
   "workbook": {
     "summary": {

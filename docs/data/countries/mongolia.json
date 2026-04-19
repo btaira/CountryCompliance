@@ -2,6 +2,7 @@
   "country": "Mongolia",
   "slug": "mongolia",
   "country_file": "countries/mongolia.json",
+  "official_regulatory_link": "https://crc.gov.mn/",
   "nemko": {
     "country": "MONGOLIA",
     "national_language": "Mongolian",

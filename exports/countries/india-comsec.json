@@ -2,6 +2,7 @@
   "country": "India /comsec",
   "slug": "india-comsec",
   "country_file": "countries/india-comsec.json",
+  "official_regulatory_link": "",
   "nemko": null,
   "workbook": {
     "summary": {

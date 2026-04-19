@@ -2,6 +2,7 @@
   "country": "Cyprus",
   "slug": "cyprus",
   "country_file": "countries/cyprus.json",
+  "official_regulatory_link": "https://ocecpr.ee.cy/",
   "nemko": null,
   "workbook": {
     "summary": {

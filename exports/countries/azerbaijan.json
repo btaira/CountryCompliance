@@ -2,6 +2,7 @@
   "country": "Azerbaijan",
   "slug": "azerbaijan",
   "country_file": "countries/azerbaijan.json",
+  "official_regulatory_link": "https://mincom.gov.az/",
   "nemko": null,
   "workbook": {
     "summary": {

@@ -2,6 +2,7 @@
   "country": "Argentina",
   "slug": "argentina",
   "country_file": "countries/argentina.json",
+  "official_regulatory_link": "https://www.enacom.gob.ar/",
   "nemko": {
     "country": "ARGENTINA",
     "national_language": "Spanish",

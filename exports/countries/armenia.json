@@ -2,6 +2,7 @@
   "country": "Armenia",
   "slug": "armenia",
   "country_file": "countries/armenia.json",
+  "official_regulatory_link": "http://www.psrc.am/",
   "nemko": null,
   "workbook": {
     "summary": {

@@ -2,6 +2,7 @@
   "country": "Jordan",
   "slug": "jordan",
   "country_file": "countries/jordan.json",
+  "official_regulatory_link": "https://trc.gov.jo/",
   "nemko": {
     "country": "JORDAN",
     "national_language": "Arabic",

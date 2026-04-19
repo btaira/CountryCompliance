@@ -2,6 +2,7 @@
   "country": "Russia",
   "slug": "russia",
   "country_file": "countries/russia.json",
+  "official_regulatory_link": "https://digital.gov.ru/",
   "nemko": {
     "country": "RUSSIA",
     "national_language": "Russian",

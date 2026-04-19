@@ -2,6 +2,7 @@
   "country": "Ghana",
   "slug": "ghana",
   "country_file": "countries/ghana.json",
+  "official_regulatory_link": "https://nca.org.gh/",
   "nemko": {
     "country": "GHANA",
     "national_language": "English",

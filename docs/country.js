@@ -168,6 +168,7 @@ async function init() {
         <p class="eyebrow">Requirement Detail</p>
         <h3>${country.country}</h3>
         <p class="lede">${emptyDisplay(nemko.regulatory_authority)}</p>
+        ${country.official_regulatory_link ? `<a href="${country.official_regulatory_link}" target="_blank" rel="noopener noreferrer" class="regulatory-link ghost-button" style="display: inline-flex; width: auto; margin-top: 1rem;">View Official Regulations</a>` : ''}
       </div>
       ${nemko.flag_image_url ? `<img class="flag-image" src="${nemko.flag_image_url}" alt="${country.country} flag">` : ""}`;
 

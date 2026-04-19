@@ -2,6 +2,7 @@
   "country": "China CCC Ex",
   "slug": "china-ccc-ex",
   "country_file": "countries/china-ccc-ex.json",
+  "official_regulatory_link": "",
   "nemko": null,
   "workbook": {
     "summary": {

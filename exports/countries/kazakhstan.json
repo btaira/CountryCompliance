@@ -2,6 +2,7 @@
   "country": "Kazakhstan",
   "slug": "kazakhstan",
   "country_file": "countries/kazakhstan.json",
+  "official_regulatory_link": "https://www.gov.kz/memleket/entities/mdai",
   "nemko": null,
   "workbook": {
     "summary": {

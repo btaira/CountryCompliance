@@ -2,6 +2,7 @@
   "country": "Philippines",
   "slug": "philippines",
   "country_file": "countries/philippines.json",
+  "official_regulatory_link": "https://ntc.gov.ph/",
   "nemko": {
     "country": "PHILIPPINES",
     "national_language": "Filipino/English",

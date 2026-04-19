@@ -2,6 +2,7 @@
   "country": "Korea",
   "slug": "korea",
   "country_file": "countries/korea.json",
+  "official_regulatory_link": "https://www.rra.go.kr/",
   "nemko": {
     "country": "KOREA",
     "national_language": "Korean",

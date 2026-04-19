@@ -2,6 +2,7 @@
   "country": "Costa Rica",
   "slug": "costa-rica",
   "country_file": "countries/costa-rica.json",
+  "official_regulatory_link": "https://sutel.go.cr/",
   "nemko": null,
   "workbook": {
     "summary": {

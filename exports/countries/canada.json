@@ -2,6 +2,7 @@
   "country": "Canada",
   "slug": "canada",
   "country_file": "countries/canada.json",
+  "official_regulatory_link": "https://ised-isde.canada.ca/",
   "nemko": {
     "country": "CANADA",
     "national_language": "English/French",

@@ -2,6 +2,7 @@
   "country": "Namibia",
   "slug": "namibia",
   "country_file": "countries/namibia.json",
+  "official_regulatory_link": "https://www.cran.na/",
   "nemko": {
     "country": "NAMIBIA",
     "national_language": "English",

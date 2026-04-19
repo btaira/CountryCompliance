@@ -2,6 +2,7 @@
   "country": "Thailand",
   "slug": "thailand",
   "country_file": "countries/thailand.json",
+  "official_regulatory_link": "https://www.nbtc.go.th/",
   "nemko": {
     "country": "THAILAND",
     "national_language": "Thai",

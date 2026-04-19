@@ -2,6 +2,7 @@
   "country": "Oman",
   "slug": "oman",
   "country_file": "countries/oman.json",
+  "official_regulatory_link": "https://tra.gov.om/",
   "nemko": null,
   "workbook": {
     "summary": {

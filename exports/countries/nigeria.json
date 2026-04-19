@@ -2,6 +2,7 @@
   "country": "Nigeria",
   "slug": "nigeria",
   "country_file": "countries/nigeria.json",
+  "official_regulatory_link": "https://ncc.gov.ng/",
   "nemko": {
     "country": "NIGERIA",
     "national_language": "English",

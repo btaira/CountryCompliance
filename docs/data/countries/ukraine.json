@@ -2,6 +2,7 @@
   "country": "Ukraine",
   "slug": "ukraine",
   "country_file": "countries/ukraine.json",
+  "official_regulatory_link": "https://nkrzi.gov.ua/",
   "nemko": {
     "country": "UKRAINE",
     "national_language": "Ukrainian",

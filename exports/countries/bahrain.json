@@ -2,6 +2,7 @@
   "country": "Bahrain",
   "slug": "bahrain",
   "country_file": "countries/bahrain.json",
+  "official_regulatory_link": "https://www.tra.org.bh/",
   "nemko": null,
   "workbook": {
     "summary": {

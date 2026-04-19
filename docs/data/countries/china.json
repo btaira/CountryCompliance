@@ -2,6 +2,7 @@
   "country": "China",
   "slug": "china",
   "country_file": "countries/china.json",
+  "official_regulatory_link": "http://www.cnca.gov.cn/",
   "nemko": null,
   "workbook": {
     "summary": {

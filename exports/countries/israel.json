@@ -2,6 +2,7 @@
   "country": "Israel",
   "slug": "israel",
   "country_file": "countries/israel.json",
+  "official_regulatory_link": "https://www.gov.il/en/departments/ministry_of_communications",
   "nemko": {
     "country": "ISRAEL",
     "national_language": "Hebrew",

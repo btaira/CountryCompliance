@@ -2,6 +2,7 @@
   "country": "Morocco",
   "slug": "morocco",
   "country_file": "countries/morocco.json",
+  "official_regulatory_link": "https://www.anrt.ma/",
   "nemko": {
     "country": "MOROCCO",
     "national_language": "Arabic/Berber",

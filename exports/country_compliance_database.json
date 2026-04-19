@@ -1,6 +1,6 @@
 {
   "source_url": "https://www.nemko.com/services/global-market-access/select-by-country",
-  "fetched_at_utc": "2026-04-06T21:43:10.838211+00:00",
+  "fetched_at_utc": "2026-04-19T15:51:08.248832+00:00",
   "country_count": 73,
   "sources": {
     "nemko_html": "nemko_select_by_country.html",
@@ -1337,6 +1337,7 @@
       "country": "Argentina",
       "slug": "argentina",
       "country_file": "countries/argentina.json",
+      "official_regulatory_link": "https://www.enacom.gob.ar/",
       "nemko": {
         "country": "ARGENTINA",
         "national_language": "Spanish",
@@ -1703,6 +1704,7 @@
       "country": "Armenia",
       "slug": "armenia",
       "country_file": "countries/armenia.json",
+      "official_regulatory_link": "http://www.psrc.am/",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -2132,6 +2134,7 @@
       "country": "Australia",
       "slug": "australia",
       "country_file": "countries/australia.json",
+      "official_regulatory_link": "https://www.acma.gov.au/",
       "nemko": {
         "country": "AUSTRALIA",
         "national_language": "no official, English",
@@ -2650,6 +2653,7 @@
       "country": "Azerbaijan",
       "slug": "azerbaijan",
       "country_file": "countries/azerbaijan.json",
+      "official_regulatory_link": "https://mincom.gov.az/",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -2905,6 +2909,7 @@
       "country": "Bahrain",
       "slug": "bahrain",
       "country_file": "countries/bahrain.json",
+      "official_regulatory_link": "https://www.tra.org.bh/",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -3158,6 +3163,7 @@
       "country": "Belarus",
       "slug": "belarus",
       "country_file": "countries/belarus.json",
+      "official_regulatory_link": "https://mpt.gov.by/",
       "nemko": {
         "country": "BELARUS",
         "national_language": "Belarusian/Russian",
@@ -3626,6 +3632,7 @@
       "country": "Bolivia",
       "slug": "bolivia",
       "country_file": "countries/bolivia.json",
+      "official_regulatory_link": "https://www.att.gob.bo/",
       "nemko": {
         "country": "BOLIVIA",
         "national_language": "Spanish and 36 indigenous",
@@ -3679,6 +3686,7 @@
       "country": "Botswana",
       "slug": "botswana",
       "country_file": "countries/botswana.json",
+      "official_regulatory_link": "https://www.bocra.org.bw/",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -3935,6 +3943,7 @@
       "country": "Brazil",
       "slug": "brazil",
       "country_file": "countries/brazil.json",
+      "official_regulatory_link": "https://www.gov.br/anatel/",
       "nemko": {
         "country": "BRAZIL",
         "national_language": "Spanish",
@@ -4462,6 +4471,7 @@
       "country": "CORE",
       "slug": "core",
       "country_file": "countries/core.json",
+      "official_regulatory_link": "",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -4510,6 +4520,7 @@
       "country": "Canada",
       "slug": "canada",
       "country_file": "countries/canada.json",
+      "official_regulatory_link": "https://ised-isde.canada.ca/",
       "nemko": {
         "country": "CANADA",
         "national_language": "English/French",
@@ -4584,6 +4595,7 @@
       "country": "Chile",
       "slug": "chile",
       "country_file": "countries/chile.json",
+      "official_regulatory_link": "https://www.subtel.gob.cl/",
       "nemko": {
         "country": "CHILE",
         "national_language": "Spanish",
@@ -4674,6 +4686,7 @@
       "country": "China",
       "slug": "china",
       "country_file": "countries/china.json",
+      "official_regulatory_link": "http://www.cnca.gov.cn/",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -5381,6 +5394,7 @@
       "country": "China CCC Ex",
       "slug": "china-ccc-ex",
       "country_file": "countries/china-ccc-ex.json",
+      "official_regulatory_link": "",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -5441,6 +5455,7 @@
       "country": "China Mainland",
       "slug": "china-mainland",
       "country_file": "countries/china-mainland.json",
+      "official_regulatory_link": "http://www.cnca.gov.cn/",
       "nemko": {
         "country": "CHINA MAINLAND",
         "national_language": "Mandarin",
@@ -5494,6 +5509,7 @@
       "country": "Colombia",
       "slug": "colombia",
       "country_file": "countries/colombia.json",
+      "official_regulatory_link": "https://www.crcom.gov.co/",
       "nemko": {
         "country": "COLOMBIA",
         "national_language": "Spanish",
@@ -5568,6 +5584,7 @@
       "country": "Costa Rica",
       "slug": "costa-rica",
       "country_file": "countries/costa-rica.json",
+      "official_regulatory_link": "https://sutel.go.cr/",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -5608,6 +5625,7 @@
       "country": "Cyprus",
       "slug": "cyprus",
       "country_file": "countries/cyprus.json",
+      "official_regulatory_link": "https://ocecpr.ee.cy/",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -5648,6 +5666,7 @@
       "country": "Dominican Republic",
       "slug": "dominican-republic",
       "country_file": "countries/dominican-republic.json",
+      "official_regulatory_link": "https://indotel.gob.do/",
       "nemko": {
         "country": "DOMINICAN REPUBLIC",
         "national_language": "Spanish",
@@ -5701,6 +5720,7 @@
       "country": "EU/EEA",
       "slug": "eu-eea",
       "country_file": "countries/eu-eea.json",
+      "official_regulatory_link": "https://europa.eu/youreurope/business/product-requirements/labels-markings/ce-marking/index_en.htm",
       "nemko": {
         "country": "EU/EEA",
         "national_language": "N/A",
@@ -5754,6 +5774,7 @@
       "country": "Ethiopia",
       "slug": "ethiopia",
       "country_file": "countries/ethiopia.json",
+      "official_regulatory_link": "https://eca.et/",
       "nemko": {
         "country": "ETHIOPIA",
         "national_language": "Amharic",
@@ -5807,6 +5828,7 @@
       "country": "Europe",
       "slug": "europe",
       "country_file": "countries/europe.json",
+      "official_regulatory_link": "https://europa.eu/youreurope/business/product-requirements/labels-markings/ce-marking/index_en.htm",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -6116,6 +6138,7 @@
       "country": "Europe (CE Countries)",
       "slug": "europe-ce-countries",
       "country_file": "countries/europe-ce-countries.json",
+      "official_regulatory_link": "https://europa.eu/youreurope/business/product-requirements/labels-markings/ce-marking/index_en.htm",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -6368,6 +6391,7 @@
       "country": "Ghana",
       "slug": "ghana",
       "country_file": "countries/ghana.json",
+      "official_regulatory_link": "https://nca.org.gh/",
       "nemko": {
         "country": "GHANA",
         "national_language": "English",
@@ -6657,6 +6681,7 @@
       "country": "Greece",
       "slug": "greece",
       "country_file": "countries/greece.json",
+      "official_regulatory_link": "https://www.eett.gr/",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -6697,6 +6722,7 @@
       "country": "Hong Kong",
       "slug": "hong-kong",
       "country_file": "countries/hong-kong.json",
+      "official_regulatory_link": "https://www.ofca.gov.hk/",
       "nemko": {
         "country": "HONG KONG",
         "national_language": "English/Chinese",
@@ -7043,6 +7069,7 @@
       "country": "India",
       "slug": "india",
       "country_file": "countries/india.json",
+      "official_regulatory_link": "https://www.bis.gov.in/",
       "nemko": {
         "country": "INDIA",
         "national_language": "Hindi",
@@ -7589,6 +7616,7 @@
       "country": "India /comsec",
       "slug": "india-comsec",
       "country_file": "countries/india-comsec.json",
+      "official_regulatory_link": "",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -7649,6 +7677,7 @@
       "country": "Indonesia",
       "slug": "indonesia",
       "country_file": "countries/indonesia.json",
+      "official_regulatory_link": "https://www.postel.go.id/",
       "nemko": {
         "country": "INDONESIA",
         "national_language": "Indonesian",
@@ -8161,6 +8190,7 @@
       "country": "Israel",
       "slug": "israel",
       "country_file": "countries/israel.json",
+      "official_regulatory_link": "https://www.gov.il/en/departments/ministry_of_communications",
       "nemko": {
         "country": "ISRAEL",
         "national_language": "Hebrew",
@@ -8451,6 +8481,7 @@
       "country": "Japan",
       "slug": "japan",
       "country_file": "countries/japan.json",
+      "official_regulatory_link": "https://www.tele.soumu.go.jp/",
       "nemko": {
         "country": "JAPAN",
         "national_language": "Japanese",
@@ -9184,6 +9215,7 @@
       "country": "Jordan",
       "slug": "jordan",
       "country_file": "countries/jordan.json",
+      "official_regulatory_link": "https://trc.gov.jo/",
       "nemko": {
         "country": "JORDAN",
         "national_language": "Arabic",
@@ -9237,6 +9269,7 @@
       "country": "Kazakhstan",
       "slug": "kazakhstan",
       "country_file": "countries/kazakhstan.json",
+      "official_regulatory_link": "https://www.gov.kz/memleket/entities/mdai",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -9666,6 +9699,7 @@
       "country": "Kenya",
       "slug": "kenya",
       "country_file": "countries/kenya.json",
+      "official_regulatory_link": "https://www.ca.go.ke/",
       "nemko": {
         "country": "KENYA",
         "national_language": "Swahili/English",
@@ -9719,6 +9753,7 @@
       "country": "Korea",
       "slug": "korea",
       "country_file": "countries/korea.json",
+      "official_regulatory_link": "https://www.rra.go.kr/",
       "nemko": {
         "country": "KOREA",
         "national_language": "Korean",
@@ -10069,6 +10104,7 @@
       "country": "Kyrgystan",
       "slug": "kyrgystan",
       "country_file": "countries/kyrgystan.json",
+      "official_regulatory_link": "",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -10278,6 +10314,7 @@
       "country": "Kyrgyzstan",
       "slug": "kyrgyzstan",
       "country_file": "countries/kyrgyzstan.json",
+      "official_regulatory_link": "https://ict.gov.kg/",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -10523,6 +10560,7 @@
       "country": "Lebanon",
       "slug": "lebanon",
       "country_file": "countries/lebanon.json",
+      "official_regulatory_link": "https://tra.gov.lb/",
       "nemko": {
         "country": "LEBANON",
         "national_language": "Arabic",
@@ -10576,6 +10614,7 @@
       "country": "Malaysia",
       "slug": "malaysia",
       "country_file": "countries/malaysia.json",
+      "official_regulatory_link": "https://www.mcmc.gov.my/",
       "nemko": {
         "country": "MALAYSIA",
         "national_language": "Malay",
@@ -10918,6 +10957,7 @@
       "country": "Mexico",
       "slug": "mexico",
       "country_file": "countries/mexico.json",
+      "official_regulatory_link": "https://www.ift.org.mx/",
       "nemko": {
         "country": "MEXICO",
         "national_language": "Spanish",
@@ -11337,6 +11377,7 @@
       "country": "Middle East Countries",
       "slug": "middle-east-countries",
       "country_file": "countries/middle-east-countries.json",
+      "official_regulatory_link": "",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -11397,6 +11438,7 @@
       "country": "Mongolia",
       "slug": "mongolia",
       "country_file": "countries/mongolia.json",
+      "official_regulatory_link": "https://crc.gov.mn/",
       "nemko": {
         "country": "MONGOLIA",
         "national_language": "Mongolian",
@@ -11500,6 +11542,7 @@
       "country": "Morocco",
       "slug": "morocco",
       "country_file": "countries/morocco.json",
+      "official_regulatory_link": "https://www.anrt.ma/",
       "nemko": {
         "country": "MOROCCO",
         "national_language": "Arabic/Berber",
@@ -11766,6 +11809,7 @@
       "country": "Namibia",
       "slug": "namibia",
       "country_file": "countries/namibia.json",
+      "official_regulatory_link": "https://www.cran.na/",
       "nemko": {
         "country": "NAMIBIA",
         "national_language": "English",
@@ -12056,6 +12100,7 @@
       "country": "New Zealand",
       "slug": "new-zealand",
       "country_file": "countries/new-zealand.json",
+      "official_regulatory_link": "https://www.rsm.govt.nz/",
       "nemko": {
         "country": "NEW ZEALAND",
         "national_language": "English/M?ori",
@@ -12576,6 +12621,7 @@
       "country": "Nigeria",
       "slug": "nigeria",
       "country_file": "countries/nigeria.json",
+      "official_regulatory_link": "https://ncc.gov.ng/",
       "nemko": {
         "country": "NIGERIA",
         "national_language": "English",
@@ -12866,6 +12912,7 @@
       "country": "OMAN",
       "slug": "oman",
       "country_file": "countries/oman.json",
+      "official_regulatory_link": "",
       "nemko": {
         "country": "OMAN",
         "national_language": "Arabic",
@@ -12919,6 +12966,7 @@
       "country": "Oman",
       "slug": "oman",
       "country_file": "countries/oman.json",
+      "official_regulatory_link": "https://tra.gov.om/",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -13172,6 +13220,7 @@
       "country": "Pakistan",
       "slug": "pakistan",
       "country_file": "countries/pakistan.json",
+      "official_regulatory_link": "https://www.pta.gov.pk/",
       "nemko": {
         "country": "PAKISTAN",
         "national_language": "Urdu/English",
@@ -13459,6 +13508,7 @@
       "country": "Philippines",
       "slug": "philippines",
       "country_file": "countries/philippines.json",
+      "official_regulatory_link": "https://ntc.gov.ph/",
       "nemko": {
         "country": "PHILIPPINES",
         "national_language": "Filipino/English",
@@ -13553,6 +13603,7 @@
       "country": "Qatar",
       "slug": "qatar",
       "country_file": "countries/qatar.json",
+      "official_regulatory_link": "https://www.cra.gov.qa/",
       "nemko": {
         "country": "QATAR",
         "national_language": "Arabic",
@@ -13606,6 +13657,7 @@
       "country": "Russia",
       "slug": "russia",
       "country_file": "countries/russia.json",
+      "official_regulatory_link": "https://digital.gov.ru/",
       "nemko": {
         "country": "RUSSIA",
         "national_language": "Russian",
@@ -13659,6 +13711,7 @@
       "country": "Russian Federation",
       "slug": "russian-federation",
       "country_file": "countries/russian-federation.json",
+      "official_regulatory_link": "https://digital.gov.ru/",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -14425,6 +14478,7 @@
       "country": "Saudi Arabia",
       "slug": "saudi-arabia",
       "country_file": "countries/saudi-arabia.json",
+      "official_regulatory_link": "https://www.cst.gov.sa/",
       "nemko": {
         "country": "SAUDI ARABIA",
         "national_language": "Arabic",
@@ -14712,6 +14766,7 @@
       "country": "Serbia",
       "slug": "serbia",
       "country_file": "countries/serbia.json",
+      "official_regulatory_link": "https://www.ratel.rs/",
       "nemko": {
         "country": "SERBIA",
         "national_language": "Serbian",
@@ -14765,6 +14820,7 @@
       "country": "Singapore",
       "slug": "singapore",
       "country_file": "countries/singapore.json",
+      "official_regulatory_link": "https://www.imda.gov.sg/",
       "nemko": {
         "country": "SINGAPORE",
         "national_language": "Malay/English",
@@ -15111,6 +15167,7 @@
       "country": "South Africa",
       "slug": "south-africa",
       "country_file": "countries/south-africa.json",
+      "official_regulatory_link": "https://www.icasa.org.za/",
       "nemko": {
         "country": "SOUTH AFRICA",
         "national_language": "Afrikaans/English/+",
@@ -15478,6 +15535,7 @@
       "country": "South Korea",
       "slug": "south-korea",
       "country_file": "countries/south-korea.json",
+      "official_regulatory_link": "https://www.rra.go.kr/",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -15756,6 +15814,7 @@
       "country": "Taiwan",
       "slug": "taiwan",
       "country_file": "countries/taiwan.json",
+      "official_regulatory_link": "https://www.ncc.gov.tw/",
       "nemko": {
         "country": "TAIWAN",
         "national_language": "Mandarin",
@@ -16178,6 +16237,7 @@
       "country": "Tanzania",
       "slug": "tanzania",
       "country_file": "countries/tanzania.json",
+      "official_regulatory_link": "https://www.tcra.go.tz/",
       "nemko": {
         "country": "TANZANIA",
         "national_language": "Swahili/English",
@@ -16231,6 +16291,7 @@
       "country": "Thailand",
       "slug": "thailand",
       "country_file": "countries/thailand.json",
+      "official_regulatory_link": "https://www.nbtc.go.th/",
       "nemko": {
         "country": "THAILAND",
         "national_language": "Thai",
@@ -16541,6 +16602,7 @@
       "country": "Turkey",
       "slug": "turkey",
       "country_file": "countries/turkey.json",
+      "official_regulatory_link": "https://www.btk.gov.tr/",
       "nemko": {
         "country": "TURKEY",
         "national_language": "Turkish",
@@ -16846,6 +16908,7 @@
       "country": "UAE",
       "slug": "uae",
       "country_file": "countries/uae.json",
+      "official_regulatory_link": "https://tdra.gov.ae/",
       "nemko": {
         "country": "UAE",
         "national_language": "Arabic",
@@ -16899,6 +16962,7 @@
       "country": "USA",
       "slug": "usa",
       "country_file": "countries/usa.json",
+      "official_regulatory_link": "https://www.fcc.gov/oet/ea",
       "nemko": {
         "country": "USA",
         "national_language": "English",
@@ -16973,6 +17037,7 @@
       "country": "USA/Canada",
       "slug": "usa-canada",
       "country_file": "countries/usa-canada.json",
+      "official_regulatory_link": "https://www.fcc.gov/oet/ea",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -17464,6 +17529,7 @@
       "country": "Uganda",
       "slug": "uganda",
       "country_file": "countries/uganda.json",
+      "official_regulatory_link": "https://www.ucc.co.ug/",
       "nemko": {
         "country": "UGANDA",
         "national_language": "Swahili/English",
@@ -17517,6 +17583,7 @@
       "country": "Ukraine",
       "slug": "ukraine",
       "country_file": "countries/ukraine.json",
+      "official_regulatory_link": "https://nkrzi.gov.ua/",
       "nemko": {
         "country": "UKRAINE",
         "national_language": "Ukrainian",
@@ -17823,6 +17890,7 @@
       "country": "United ARAB Emirates",
       "slug": "united-arab-emirates",
       "country_file": "countries/united-arab-emirates.json",
+      "official_regulatory_link": "",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -18076,6 +18144,7 @@
       "country": "United Kingdom",
       "slug": "united-kingdom",
       "country_file": "countries/united-kingdom.json",
+      "official_regulatory_link": "https://www.ofcom.org.uk/",
       "nemko": {
         "country": "UNITED KINGDOM",
         "national_language": "English",
@@ -18170,6 +18239,7 @@
       "country": "Uzbekistan",
       "slug": "uzbekistan",
       "country_file": "countries/uzbekistan.json",
+      "official_regulatory_link": "https://mitc.uz/",
       "nemko": null,
       "workbook": {
         "summary": {
@@ -18425,6 +18495,7 @@
       "country": "Venezuela",
       "slug": "venezuela",
       "country_file": "countries/venezuela.json",
+      "official_regulatory_link": "http://www.conatel.gob.ve/",
       "nemko": {
         "country": "VENEZUELA",
         "national_language": "Spanish",
@@ -18478,6 +18549,7 @@
       "country": "Vietnam",
       "slug": "vietnam",
       "country_file": "countries/vietnam.json",
+      "official_regulatory_link": "https://mic.gov.vn/",
       "nemko": {
         "country": "VIETNAM",
         "national_language": "Vietnamese",
@@ -18788,6 +18860,7 @@
       "country": "Zambia",
       "slug": "zambia",
       "country_file": "countries/zambia.json",
+      "official_regulatory_link": "https://www.zicta.zm/",
       "nemko": {
         "country": "ZAMBIA",
         "national_language": "English",

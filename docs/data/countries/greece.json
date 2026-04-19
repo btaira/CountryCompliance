@@ -2,6 +2,7 @@
   "country": "Greece",
   "slug": "greece",
   "country_file": "countries/greece.json",
+  "official_regulatory_link": "https://www.eett.gr/",
   "nemko": null,
   "workbook": {
     "summary": {

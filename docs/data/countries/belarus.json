@@ -2,6 +2,7 @@
   "country": "Belarus",
   "slug": "belarus",
   "country_file": "countries/belarus.json",
+  "official_regulatory_link": "https://mpt.gov.by/",
   "nemko": {
     "country": "BELARUS",
     "national_language": "Belarusian/Russian",

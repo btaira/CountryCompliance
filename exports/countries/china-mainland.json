@@ -2,6 +2,7 @@
   "country": "China Mainland",
   "slug": "china-mainland",
   "country_file": "countries/china-mainland.json",
+  "official_regulatory_link": "http://www.cnca.gov.cn/",
   "nemko": {
     "country": "CHINA MAINLAND",
     "national_language": "Mandarin",

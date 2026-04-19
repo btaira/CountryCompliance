@@ -2,6 +2,7 @@
   "country": "Tanzania",
   "slug": "tanzania",
   "country_file": "countries/tanzania.json",
+  "official_regulatory_link": "https://www.tcra.go.tz/",
   "nemko": {
     "country": "TANZANIA",
     "national_language": "Swahili/English",

@@ -2,6 +2,7 @@
   "country": "Dominican Republic",
   "slug": "dominican-republic",
   "country_file": "countries/dominican-republic.json",
+  "official_regulatory_link": "https://indotel.gob.do/",
   "nemko": {
     "country": "DOMINICAN REPUBLIC",
     "national_language": "Spanish",

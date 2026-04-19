@@ -2,6 +2,7 @@
   "country": "Serbia",
   "slug": "serbia",
   "country_file": "countries/serbia.json",
+  "official_regulatory_link": "https://www.ratel.rs/",
   "nemko": {
     "country": "SERBIA",
     "national_language": "Serbian",

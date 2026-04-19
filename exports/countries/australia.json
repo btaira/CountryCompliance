@@ -2,6 +2,7 @@
   "country": "Australia",
   "slug": "australia",
   "country_file": "countries/australia.json",
+  "official_regulatory_link": "https://www.acma.gov.au/",
   "nemko": {
     "country": "AUSTRALIA",
     "national_language": "no official, English",
