@@ -1,210 +1,208 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Country Compliance Atlas</title>
-    <meta
-      name="description"
-      content="Browse country-by-country market access requirements from the Nemko global market compliance guide."
-    >
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Outfit:wght@700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css">
-  </head>
-  <body>
-    <div class="page-shell">
-      <header class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow">Country Compliance Atlas</p>
-          <h1>Country regulations, organized into a fast GitHub Pages explorer.</h1>
-          <p class="lede">
-            Search countries, compare approval patterns, open detailed requirement views, and
-            download the compiled Country Compliance Requirements and Compliance Requirements for
-            Hardware files directly from this site.
-          </p>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Compliance Atlas</title>
+  <meta name="description" content="Top revenue countries market access requirements.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Outfit:wght@700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Market Access Intelligence</p>
+        <h1>Know before you go.</h1>
+        <p class="lede">
+          Understand regulatory requirements for your highest-revenue markets. Compare approval patterns, uncover hidden
+          compliance gaps, and discover the data you need — before they become launch blockers.
+        </p>
+      </div>
+      <div class="hero-stats" id="hero-stats">
+        <div class="stat-card">
+          <span class="stat-label">Countries</span>
+          <strong class="stat-value" id="stat-countries">0</strong>
         </div>
-        <div class="hero-stats" id="hero-stats">
-          <div class="stat-card">
-            <span class="stat-label">Countries</span>
-            <strong class="stat-value" id="stat-countries">0</strong>
-          </div>
-          <div class="stat-card">
-            <span class="stat-label">Authorities</span>
-            <strong class="stat-value" id="stat-authorities">0</strong>
-          </div>
-          <div class="stat-card">
-            <span class="stat-label">Last Refresh</span>
-            <strong class="stat-value stat-value-small" id="stat-refresh">Loading</strong>
-          </div>
+        <div class="stat-card">
+          <span class="stat-label">Authorities</span>
+          <strong class="stat-value" id="stat-authorities">0</strong>
         </div>
-      </header>
+        <div class="stat-card">
+          <span class="stat-label">Last Refresh</span>
+          <strong class="stat-value stat-value-small" id="stat-refresh">Loading</strong>
+        </div>
+      </div>
+    </header>
 
-      <main class="layout">
-        <aside class="control-panel">
-          <section class="panel-block">
-            <label class="field-label" for="search-input">Search</label>
-            <input id="search-input" type="search" placeholder="Country, authority, language, notes">
-          </section>
-
-          <section class="panel-block">
-            <label class="field-label" for="sort-select">Sort</label>
-            <select id="sort-select">
-              <option value="country">Country A-Z</option>
-              <option value="gdp">GDP</option>
-              <option value="gdp_per_capita">GDP per Capita</option>
-              <option value="population">Population</option>
-              <option value="authority">Authority</option>
-              <option value="emc">EMC Requirements</option>
-              <option value="safety">Safety Requirements</option>
-            </select>
-          </section>
-
-          <section class="panel-block">
-            <label class="field-label" for="filter-compliance">Telecom/Radio Approval</label>
-            <select id="filter-compliance">
-              <option value="">All</option>
-              <option value="yes">Requires approval</option>
-              <option value="no">No approval</option>
-              <option value="unknown">Unknown / mixed</option>
-            </select>
-          </section>
-
-          <section class="panel-block">
-            <label class="field-label" for="filter-local-rep">Local Representation</label>
-            <select id="filter-local-rep">
-              <option value="">All</option>
-              <option value="yes">Required</option>
-              <option value="no">Not required</option>
-              <option value="unknown">Unknown / mixed</option>
-            </select>
-          </section>
-
-          <section class="panel-block">
-            <label class="field-label" for="filter-energy">Energy Efficiency</label>
-            <select id="filter-energy">
-              <option value="">All</option>
-              <option value="yes">Has requirements</option>
-              <option value="no">No requirements</option>
-              <option value="unknown">Unknown / mixed</option>
-            </select>
-            </select>
-          </section>
-
-          <section class="panel-block">
-            <label class="field-label" for="filter-emc">EMC Requirements</label>
-            <select id="filter-emc">
-              <option value="">All</option>
-              <option value="yes">Required</option>
-              <option value="no">Not required / Voluntary</option>
-              <option value="unknown">Unknown / mixed</option>
-            </select>
-          </section>
-
-          <section class="panel-block">
-            <label class="field-label" for="filter-safety">Safety Requirements</label>
-            <select id="filter-safety">
-              <option value="">All</option>
-              <option value="yes">Required</option>
-              <option value="no">Not required / Voluntary</option>
-              <option value="unknown">Unknown / mixed</option>
-            </select>
-          </section>
-
-          <section class="panel-block">
-            <button id="clear-filters" class="ghost-button" type="button">Reset filters</button>
-          </section>
-
-          <section class="panel-block source-block">
-            <p id="result-count">Loading data...</p>
-            <a
-              id="source-link"
-              href="https://www.nemko.com/services/global-market-access/select-by-country"
-              target="_blank"
-              rel="noreferrer"
-            >Open source page</a>
-          </section>
-        </aside>
-
-        <section class="content-panel">
-          <section class="downloads-panel">
-            <div>
-              <p class="eyebrow">Downloads</p>
-              <h2>Compiled Deliverables</h2>
-              <p>
-                These source files are also normalized into the single country database that powers
-                the explorer below, so the site reflects the full project output in one place.
-              </p>
-            </div>
-            <div class="download-actions">
-              <a class="download-card" href="./downloads/Country%20Compliance%20Requirements.xlsx">
-                <strong>Country Compliance Requirements</strong>
-                <span>Excel workbook</span>
-              </a>
-              <a class="download-card" href="./downloads/Compliance%20Requirements%20for%20Hardware.docx">
-                <strong>Compliance Requirements for Hardware</strong>
-                <span>Word document</span>
-              </a>
-            </div>
-          </section>
-
-          <div class="toolbar">
-            <div class="toolbar-copy">
-              <h2>Country Directory</h2>
-              <p>Open any card for the full requirement set and linked certificate or mark assets.</p>
-            </div>
-          </div>
-
-          <div class="card-grid" id="card-grid"></div>
+    <main class="layout">
+      <aside class="control-panel">
+        <section class="panel-block">
+          <label class="field-label" for="search-input">Search</label>
+          <input id="search-input" type="search" placeholder="Country, authority, language, notes">
         </section>
-      </main>
-    </div>
 
-    <template id="country-card-template">
-      <article class="country-card">
-        <div class="card-header">
-          <div>
-            <p class="card-kicker"></p>
-            <h3 class="card-title"></h3>
-          </div>
-          <img class="flag-image" alt="">
-        </div>
-        <div class="chip-row"></div>
-        <dl class="card-metadata">
-          <div>
-            <dt>Language</dt>
-            <dd data-field="national_language"></dd>
-          </div>
-          <div>
-            <dt>Population</dt>
-            <dd data-field="population"></dd>
-          </div>
-          <div>
-            <dt>GDP</dt>
-            <dd class="gdp-value"></dd>
-          </div>
-          <div class="gdp-pc-row">
-            <dt>GDP per Capita</dt>
-            <dd class="gdp-pc-value"></dd>
-          </div>
-          <div>
-            <dt>Authority</dt>
-            <dd data-field="regulatory_authority"></dd>
-          </div>
-          <div>
-            <dt>Validity</dt>
-            <dd data-field="approval_validity"></dd>
-          </div>
-        </dl>
-        <div class="card-action-row">
-          <a class="card-action" href="#">Open country page</a>
-          <a class="official-action ghost-button" href="#" target="_blank" rel="noopener noreferrer" style="display:none">Official Page</a>
-        </div>
-      </article>
-    </template>
+        <section class="panel-block">
+          <label class="field-label" for="sort-select">Sort</label>
+          <select id="sort-select">
+            <option value="country">Country A-Z</option>
+            <option value="gdp">GDP</option>
+            <option value="gdp_per_capita">GDP per Capita</option>
+            <option value="population">Population</option>
+            <option value="authority">Authority</option>
+            <option value="emc">EMC Requirements</option>
+            <option value="safety">Safety Requirements</option>
+          </select>
+        </section>
 
-    <script src="./data/country_compliance_database.js?v=20260419f"></script>
-    <script src="./app.js?v=20260419f" defer></script>
-  </body>
+        <section class="panel-block">
+          <label class="field-label" for="filter-compliance">Telecom/Radio Approval</label>
+          <select id="filter-compliance">
+            <option value="">All</option>
+            <option value="yes">Requires approval</option>
+            <option value="no">No approval</option>
+            <option value="unknown">Unknown / mixed</option>
+          </select>
+        </section>
+
+        <section class="panel-block">
+          <label class="field-label" for="filter-local-rep">Local Representation</label>
+          <select id="filter-local-rep">
+            <option value="">All</option>
+            <option value="yes">Required</option>
+            <option value="no">Not required</option>
+            <option value="unknown">Unknown / mixed</option>
+          </select>
+        </section>
+
+        <section class="panel-block">
+          <label class="field-label" for="filter-energy">Energy Efficiency</label>
+          <select id="filter-energy">
+            <option value="">All</option>
+            <option value="yes">Has requirements</option>
+            <option value="no">No requirements</option>
+            <option value="unknown">Unknown / mixed</option>
+          </select>
+          </select>
+        </section>
+
+        <section class="panel-block">
+          <label class="field-label" for="filter-emc">EMC Requirements</label>
+          <select id="filter-emc">
+            <option value="">All</option>
+            <option value="yes">Required</option>
+            <option value="no">Not required / Voluntary</option>
+            <option value="unknown">Unknown / mixed</option>
+          </select>
+        </section>
+
+        <section class="panel-block">
+          <label class="field-label" for="filter-safety">Safety Requirements</label>
+          <select id="filter-safety">
+            <option value="">All</option>
+            <option value="yes">Required</option>
+            <option value="no">Not required / Voluntary</option>
+            <option value="unknown">Unknown / mixed</option>
+          </select>
+        </section>
+
+        <section class="panel-block">
+          <button id="clear-filters" class="ghost-button" type="button">Reset filters</button>
+        </section>
+
+        <section class="panel-block source-block">
+          <p id="result-count">Loading data...</p>
+          <a id="source-link" href="https://www.nemko.com/services/global-market-access/select-by-country"
+            target="_blank" rel="noreferrer">Open source page</a>
+        </section>
+      </aside>
+
+      <section class="content-panel">
+        <section class="downloads-panel">
+          <div>
+            <p class="eyebrow">Downloads</p>
+            <h2>Compiled Deliverables</h2>
+            <p>
+              These source files are also normalized into the single country database that powers
+              the explorer below, so the site reflects the full project output in one place.
+            </p>
+          </div>
+          <div class="download-actions">
+            <a class="download-card" href="./downloads/Country%20Compliance%20Requirements.xlsx">
+              <strong>Country Compliance Requirements</strong>
+              <span>Excel workbook</span>
+            </a>
+            <a class="download-card" href="./downloads/Compliance%20Requirements%20for%20Hardware.docx">
+              <strong>Compliance Requirements for Hardware</strong>
+              <span>Word document</span>
+            </a>
+          </div>
+        </section>
+
+        <div class="toolbar">
+          <div class="toolbar-copy">
+            <h2>Country Directory</h2>
+            <p>Open any card for the full requirement set and linked certificate or mark assets.</p>
+          </div>
+        </div>
+
+        <div class="card-grid" id="card-grid"></div>
+      </section>
+    </main>
+  </div>
+
+  <template id="country-card-template">
+    <article class="country-card">
+      <div class="card-header">
+        <div>
+          <p class="card-kicker"></p>
+          <h3 class="card-title"></h3>
+        </div>
+        <img class="flag-image" alt="">
+      </div>
+      <div class="chip-row"></div>
+      <dl class="card-metadata">
+        <div>
+          <dt>Language</dt>
+          <dd data-field="national_language"></dd>
+        </div>
+        <div>
+          <dt>Population</dt>
+          <dd data-field="population"></dd>
+        </div>
+        <div>
+          <dt>GDP</dt>
+          <dd class="gdp-value"></dd>
+        </div>
+        <div class="gdp-pc-row">
+          <dt>GDP per Capita</dt>
+          <dd class="gdp-pc-value"></dd>
+        </div>
+        <div>
+          <dt>Authority</dt>
+          <dd data-field="regulatory_authority"></dd>
+        </div>
+        <div>
+          <dt>Validity</dt>
+          <dd data-field="approval_validity"></dd>
+        </div>
+      </dl>
+      <div class="card-action-row">
+        <a class="card-action" href="#">Open country page</a>
+        <a class="official-action ghost-button" href="#" target="_blank" rel="noopener noreferrer"
+          style="display:none">Official Page</a>
+      </div>
+    </article>
+  </template>
+
+  <script src="./data/country_compliance_database.js?v=20260419f"></script>
+  <script src="./app.js?v=20260419f" defer></script>
+</body>
+
 </html>
