@@ -158,6 +158,21 @@ async function init() {
     title.textContent = country.country;
     subtitle.textContent = emptyDisplay(nemko.regulatory_authority);
     jsonLink.href = `./data/${country.country_file}`;
+
+    const marksContainer = document.getElementById("country-marks");
+    if (marksContainer && country.marks && country.marks.length > 0) {
+      marksContainer.style.display = "flex";
+      country.marks.forEach(mark => {
+         const img = document.createElement("img");
+         img.className = "mark-badge";
+         img.src = `./assets/marks/${mark}.svg`;
+         img.title = mark.toUpperCase();
+         img.alt = mark + " mark";
+         marksContainer.appendChild(img);
+      });
+    } else if (marksContainer) {
+      marksContainer.style.display = "none";
+    }
     statEntries.textContent = String(country.workbook.summary.entry_count);
     statUnits.textContent = String(country.hardware_handbook.approvals.length);
 
