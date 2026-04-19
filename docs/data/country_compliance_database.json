@@ -1,6 +1,6 @@
 {
   "source_url": "https://www.nemko.com/services/global-market-access/select-by-country",
-  "fetched_at_utc": "2026-04-19T22:31:16.030930+00:00",
+  "fetched_at_utc": "2026-04-19T22:37:10.279649+00:00",
   "country_count": 73,
   "sources": {
     "nemko_html": "country_requirements.html",
@@ -4558,7 +4558,6 @@
       "country_file": "countries/canada.json",
       "official_regulatory_link": "https://ised-isde.canada.ca/",
       "marks": [
-        "ic",
         "csa",
         "ul"
       ],
@@ -4733,9 +4732,7 @@
       "slug": "china",
       "country_file": "countries/china.json",
       "official_regulatory_link": "http://www.cnca.gov.cn/",
-      "marks": [
-        "ccc"
-      ],
+      "marks": [],
       "gdp": 18316765021690.2,
       "gdp_per_capita": 12970.605641432683,
       "nemko": null,
@@ -7164,9 +7161,7 @@
       "slug": "india",
       "country_file": "countries/india.json",
       "official_regulatory_link": "https://www.bis.gov.in/",
-      "marks": [
-        "bis"
-      ],
+      "marks": [],
       "gdp": 3346107287730.93,
       "gdp_per_capita": 2347.448294346234,
       "nemko": {
@@ -8590,10 +8585,7 @@
       "slug": "japan",
       "country_file": "countries/japan.json",
       "official_regulatory_link": "https://www.tele.soumu.go.jp/",
-      "marks": [
-        "giteki",
-        "pse"
-      ],
+      "marks": [],
       "gdp": 4262463317796.53,
       "gdp_per_capita": 34065.64389625265,
       "nemko": {
@@ -11096,9 +11088,7 @@
       "slug": "mexico",
       "country_file": "countries/mexico.json",
       "official_regulatory_link": "https://www.ift.org.mx/",
-      "marks": [
-        "nom"
-      ],
+      "marks": [],
       "gdp": 1466934724293.06,
       "gdp_per_capita": 11405.794047375899,
       "nemko": {
@@ -15732,9 +15722,7 @@
       "slug": "south-korea",
       "country_file": "countries/south-korea.json",
       "official_regulatory_link": "https://www.rra.go.kr/",
-      "marks": [
-        "kc"
-      ],
+      "marks": [],
       "gdp": 1799363116866.52,
       "gdp_per_capita": 34822.404840497096,
       "nemko": null,
@@ -16016,9 +16004,7 @@
       "slug": "taiwan",
       "country_file": "countries/taiwan.json",
       "official_regulatory_link": "https://www.ncc.gov.tw/",
-      "marks": [
-        "bsmi"
-      ],
+      "marks": [],
       "gdp": 762600000000,
       "gdp_per_capita": 31921.305985768104,
       "nemko": {
@@ -18379,7 +18365,6 @@
       "country_file": "countries/united-kingdom.json",
       "official_regulatory_link": "https://www.ofcom.org.uk/",
       "marks": [
-        "ukca",
         "ce"
       ],
       "gdp": 3181244350465.41,

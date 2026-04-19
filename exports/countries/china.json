@@ -3,9 +3,7 @@
   "slug": "china",
   "country_file": "countries/china.json",
   "official_regulatory_link": "http://www.cnca.gov.cn/",
-  "marks": [
-    "ccc"
-  ],
+  "marks": [],
   "gdp": 18316765021690.2,
   "gdp_per_capita": 12970.605641432683,
   "nemko": null,

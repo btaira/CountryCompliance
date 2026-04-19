@@ -4,7 +4,6 @@
   "country_file": "countries/canada.json",
   "official_regulatory_link": "https://ised-isde.canada.ca/",
   "marks": [
-    "ic",
     "csa",
     "ul"
   ],

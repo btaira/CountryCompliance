@@ -4,7 +4,6 @@
   "country_file": "countries/united-kingdom.json",
   "official_regulatory_link": "https://www.ofcom.org.uk/",
   "marks": [
-    "ukca",
     "ce"
   ],
   "gdp": 3181244350465.41,

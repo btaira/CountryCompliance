@@ -3,9 +3,7 @@
   "slug": "south-korea",
   "country_file": "countries/south-korea.json",
   "official_regulatory_link": "https://www.rra.go.kr/",
-  "marks": [
-    "kc"
-  ],
+  "marks": [],
   "gdp": 1799363116866.52,
   "gdp_per_capita": 34822.404840497096,
   "nemko": null,

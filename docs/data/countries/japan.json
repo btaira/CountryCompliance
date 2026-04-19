@@ -3,10 +3,7 @@
   "slug": "japan",
   "country_file": "countries/japan.json",
   "official_regulatory_link": "https://www.tele.soumu.go.jp/",
-  "marks": [
-    "giteki",
-    "pse"
-  ],
+  "marks": [],
   "gdp": 4262463317796.53,
   "gdp_per_capita": 34065.64389625265,
   "nemko": {
